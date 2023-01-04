@@ -18,6 +18,11 @@ This file contains styling customization for fonts and colors.
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --bg-dark-purple: #1f1b40;
+  --bg-lighter-purple: #2b2853;
+  --button-purple: #a733bb;
+  --button-purple-highlight: #d155e7;
+  --past-event-orange: #f28f48;
 }
 
 * {
@@ -85,7 +90,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .bg-purple {
-  background: #1f1b40;
+  background: var(--bg-dark-purple);
 }
 
 .box-shadow {
@@ -164,7 +169,7 @@ This file contains styling customization for fonts and colors.
 /* NAVIGATION BAR */
 
 .nav {
-  background-color: #1f1b40;
+  background-color: var(--bg-dark-purple);
   color: white;
   width: 100%;
   min-width: auto;
@@ -199,7 +204,7 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button {
-  background-color: #a733bb;
+  background-color: var(--button-purple);
   height: 70%;
   align-items: center;
   justify-content: center;
@@ -210,7 +215,7 @@ This file contains styling customization for fonts and colors.
 }
 
 #nav-register-button:hover {
-  background-color: #d155e7;
+  background-color: var(--button-purple-highlight);
 }
 
 #nav-register-button a {
@@ -234,7 +239,7 @@ This file contains styling customization for fonts and colors.
 
 .faq {
   align-items: center;
-  background-color: #1f1b40;
+  background-color: var(--bg-dark-purple);
 }
 
 .faq-accordion {
@@ -244,7 +249,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .faq-item {
-  background: #2b2853;
+  background: var(--bg-lighter-purple);
   margin-bottom: 15px;
   padding: 20px 25px;
   padding-left: 40px;
@@ -285,7 +290,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .past-event-image-title {
-  background-color: #f28f48;
+  background-color: var(--past-event-orange);
   color: white;
   font-weight: bold;
   width: 100%;
@@ -302,9 +307,9 @@ This file contains styling customization for fonts and colors.
   border-radius: 30px;
 }
 
-/* PROBLEM STATEMENT */
+/* PROBLEM STATEMENT AND REASONS */
 
-.problem-statement-cards {
+.problem-statement-cards, .reason-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
@@ -314,7 +319,7 @@ This file contains styling customization for fonts and colors.
 /* PROBLEM STATEMENT CARDS */
 
 .statement-card {
-  background-color: #2B2853;
+  background-color: var(--bg-lighter-purple);
   align-items: center;
   padding: 3rem 2rem;
   height: 100%;
@@ -369,7 +374,7 @@ This file contains styling customization for fonts and colors.
 /* STATEMENT COUNTDOWN */
 
 .countdown-timer-box {
-  background-color: #2B2853;
+  background-color: var(--bg-lighter-purple);
   width: 700px;
   align-items: center;
   padding: 4rem 5rem;
@@ -406,29 +411,29 @@ This file contains styling customization for fonts and colors.
 
 /* DISPLAY BUTTON */
 
-.display-button-undefined, .display-button-none {
+.display-button {
   margin: 3.5rem 0;
-  background-color: #a733bb;
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-  padding: 0rem 5rem;
+  background-color: var(--button-purple);
   border-radius: 45px;
   transition: 0.1s;
 }
 
+.display-button-undefined, .display-button-none {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: 0rem 5rem;
+}
+
 .display-button-left, .display-button-right {
-  margin: 3.5rem 0;
-  background-color: #a733bb;
   align-items: center;
   justify-content: center;
   display: inline-flex;
   padding: 0rem 4rem;
-  border-radius: 45px;
-  transition: 0.1s;
 }
+
 .display-button:hover {
-  background-color: #d155e7;
+  background-color: var(--button-purple-highlight);
 }
 
 .display-button a {

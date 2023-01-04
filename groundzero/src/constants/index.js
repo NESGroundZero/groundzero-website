@@ -69,6 +69,27 @@ export const timeline = [
   },
 ];
 
+export const reasons = [
+  {
+    id: 1,
+    img: sampleIcon,
+    title: "Reason #1",
+    description: "Lorem ipsum dolor sit amet",
+  },
+  {
+    id: 2,
+    img: sampleIcon,
+    title: "Reason #2",
+    description: "Lorem ipsum dolor sit amet",
+  },
+  {
+    id: 3,
+    img: sampleIcon,
+    title: "Reason #3",
+    description: "Lorem ipsum dolor sit amet",
+  }
+]
+
 export const problems = [
   {
     id: 1,

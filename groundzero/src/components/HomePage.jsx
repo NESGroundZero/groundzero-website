@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from "../style";
 import { groundzero, homebg } from '../assets';
-import { homePage } from '../constants'
 
 const HomePage = () => {
     return (

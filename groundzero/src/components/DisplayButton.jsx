@@ -7,10 +7,12 @@ const DisplayButton = (props) => {
   return (
     <>
       <Link to={props.link}>
-        <div className={"display-button-"+props.arrow}>
-          {generateLeftArrow(props.arrow)}
-          <div className={`${styles.heading5}`}>{props.text}</div>
-          {generateRightArrow(props.arrow)}
+        <div className={"display-button"}>
+          <div className={"display-button-" + props.arrow}>
+            {generateLeftArrow(props.arrow)}
+            <div className={`${styles.heading5}`}>{props.text}</div>
+            {generateRightArrow(props.arrow)}
+          </div>
         </div>
       </Link>
     </>
@@ -23,9 +25,9 @@ const generateLeftArrow = (arrow) => {
       <div className="display-button-left-arrow">
         <img src={rightArrow} />
       </div>
-    )
+    );
   }
-}
+};
 
 const generateRightArrow = (arrow) => {
   if (arrow == "right") {
@@ -33,8 +35,8 @@ const generateRightArrow = (arrow) => {
       <div className="display-button-right-arrow">
         <img src={rightArrow} />
       </div>
-    )
+    );
   }
-}
+};
 
 export default DisplayButton;

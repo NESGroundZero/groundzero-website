@@ -24,7 +24,7 @@ const generateCards = () => {
   for(let i = 0; i < 3; i++) {
     content.push(
       <div>
-        <StatementCard id={i} />
+        <StatementCard id={i} type="problem"/>
       </div>
     );
   }
