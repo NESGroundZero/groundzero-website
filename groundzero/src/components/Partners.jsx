@@ -1,9 +1,10 @@
 import React from 'react';
 import "../index.css";
-import { mapletree, metacamp, fomopay, skilledin, ncs,nuse} from '../assets';
+import { mapletree, metacamp, fomopay, skilledin, ncs,nuse, lumos, visionpal, broskin, bumpp, simplebooth, centrep, boulder, mobio, nussu, airalo, pdtsponsors, communitypartners} from '../assets';
 import NavigationBar from "./NavigationBar";
 import Footer2 from './Footer2';
 import MediaQuery from 'react-responsive';
+import FOMOPayDetails from './FomoPay';
 
 
 
@@ -90,10 +91,8 @@ Its initiatives and global connections support a range of entrepreneurial journe
                 <div className="sponsor-description">
                   <br></br>
                   <br></br>
-                    <h1>About FOMO Pay:</h1>
                     <p>
-                    Founded in 2015, FOMO Pay is a one-stop QR Code Payment Solution Provider in Singapore. FOMO Pay provides a wide range of services including QR Code Payment, E-Wallet Payment, and Cross-Border Payment. FOMO Pay has served over 10,000 merchants and is the first to provide WeChat Pay and Alipay in Singapore. FOMO Pay has also expanded its services to Malaysia, Indonesia, and Hong Kong.
-                    
+<FOMOPayDetails></FOMOPayDetails>           
                     </p>
                 </div>
                 </div>
@@ -106,6 +105,33 @@ Its initiatives and global connections support a range of entrepreneurial journe
               <div className='sponsor-logo-container-s'>
                 <img src={metacamp} className="sponsor-logo" />
                 <img src={skilledin} className="sponsor-logo-sg" />
+
+                </div>
+                </div>
+        </div>
+        <div className="sponsors-container">
+            <div className="sponsor-level-silver">Product Sponsors</div>
+            <div className="sponsor-content">
+              <div className='sponsor-logo-container-s'>
+                <img src={pdtsponsors} className="sponsorpdl-logo" />
+                {/* <img src={visionpal} className="sponsor-logo" />
+                <img src={broskin} className="sponsor-logo" /> */}
+
+    
+
+                </div>
+                </div>
+        </div>
+
+        <div className="sponsors-container">
+            <div className="sponsor-level-silver">Community Partners</div>
+            <div className="sponsor-content">
+              <div className='sponsor-logo-container-s'>
+                <img src={communitypartners} className="sponsorpdl-logo" />
+                {/* <img src={visionpal} className="sponsor-logo" />
+                <img src={broskin} className="sponsor-logo" /> */}
+
+    
 
                 </div>
                 </div>
@@ -188,10 +214,9 @@ Its initiatives and global connections support a range of entrepreneurial journe
                 <div className="sponsor-description">
                   <br></br>
                   <br></br>
-                    <h1>About FOMO Pay:</h1>
-                    <p>
-                    Founded in 2015, FOMO Pay is a one-stop QR Code Payment Solution Provider in Singapore. FOMO Pay provides a wide range of services including QR Code Payment, E-Wallet Payment, and Cross-Border Payment. FOMO Pay has served over 10,000 merchants and is the first to provide WeChat Pay and Alipay in Singapore. FOMO Pay has also expanded its services to Malaysia, Indonesia, and Hong Kong.
-                    
+<p>
+<FOMOPayDetails></FOMOPayDetails>           
+
                     </p>
                 </div>
                 </div>
@@ -206,6 +231,34 @@ Its initiatives and global connections support a range of entrepreneurial journe
                 <br></br>
                 <br></br>
                 <img src={skilledin} className="sponsor-logo-sg" />
+
+                </div>
+                </div>
+        </div>
+
+        <div className="sponsors-container">
+            <div className="sponsor-level-others">Product Sponsors</div>
+            <div className="sponsor1-content-mobile">
+              <div className='sponsor-logo-container-s'>
+                <img src={pdtsponsors} className="sponsorpd-logo" />
+                {/* <img src={visionpal} className="sponsor-logo" />
+                <img src={broskin} className="sponsor-logo" /> */}
+
+    
+
+                </div>
+                </div>
+        </div>
+
+        <div className="sponsors-container">
+            <div className="sponsor-level-others">Community Partners</div>
+            <div className="sponsor1-content-mobile">
+              <div className='sponsor-logo-container-s'>
+                <img src={communitypartners} className="sponsorpd-logo" />
+                {/* <img src={visionpal} className="sponsor-logo" />
+                <img src={broskin} className="sponsor-logo" /> */}
+
+    
 
                 </div>
                 </div>

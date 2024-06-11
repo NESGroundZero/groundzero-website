@@ -96,6 +96,19 @@ import tote from "./tote.png";
 import landyard from "./landyard.png";
 import ncs from "./ncs.png";
 import nuse from "./nuse.png";
+import lumos from "./lumos.png";
+import visionpal from "./visionpal.png";
+import broskin from "./broskin.png";
+import bumpp from "./bumpp.png";
+import centrep from "./centrep.png";
+import boulder from "./boulder.png";
+import mobio from "./mobio.png";
+import nussu from "./nussu.png";
+import airalo from "./airalo.png";
+import simplebooth from "./simplebooth.png";
+import pdtsponsors from "./pdtsponsors.png";
+import communitypartners from "./communitypartners.png";
+
 
 export {
   ajinkya_bhat,
@@ -189,5 +202,17 @@ export {
   landyard,
   tote,
   ncs,
-  nuse
+  nuse,
+  lumos,
+  visionpal,
+  broskin,
+  bumpp,
+  centrep,
+  boulder,
+  mobio,
+  nussu,
+  airalo,
+  simplebooth,
+  pdtsponsors,
+  communitypartners
 };

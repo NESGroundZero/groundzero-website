@@ -128,6 +128,13 @@ This file contains styling customization for fonts and colors.
   line-height: 1.6; /* Increases the line height for better readability */
 }
 
+.underline {
+  color: cyan; /* Sets the text color to cyan */
+  text-decoration: underline; /* Ensures the text is underlined */
+  background-color: transparent !important; /* Sets a transparent background */
+}
+
+
 .active {
   border-bottom: 2px solid #64f6ff; /* Underline color */
   color: #64f6ff; /* Text color */
@@ -317,6 +324,56 @@ This file contains styling customization for fonts and colors.
   align-items: center;
 }
 
+.sponsor1-content-mobile {
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjust the font size for the sponsor level headings */
+
+.sponsor-level-others {
+  background-color: rgba(243, 243, 243, 0.28); /* Semi-transparent white */
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #259dbe;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  margin: 0 auto; /* Centers the element */
+  max-width: 1000px;
+}
+
+/* Adjust the size of the sponsor images */
+.sponsorpd-logo {
+  width: 300px; /* Adjust this value to make the images bigger */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.sponsorpdl-logo {
+  width: 700px; /* Adjust based on your logo */
+  height: auto;
+  margin: 0 auto;
+  display: block; /* Ensure logo is treated as a block for centering */
+  margin-top: 60px;
+  margin-left: 170px;
+}
+
+/* Optional: Adjust the layout of the sponsor logo container */
+.sponsor-logo-container-s {
+  display: flex;
+  justify-content: space-around; /* Distribute logos evenly */
+  align-items: center; /* Align logos vertically */
+  flex-wrap: wrap; /* Allow wrapping of logos */
+}
+
+
+
+
+
+
 .sponsor-logo-mobile {
   width: 80%; /* Adjust as necessary */
   margin-bottom: 20px; /* Adds space between the logos */
@@ -377,6 +434,15 @@ This file contains styling customization for fonts and colors.
   width: 400px; /* Adjust based on your logo */
   height: auto;
   margin: 0 auto; /* Center the logo */
+  display: block; /* Ensure logo is treated as a block for centering */
+  margin-top: 60px;
+}
+
+.sponsorpd-logo {
+  width: 700px; /* Adjust based on your logo */
+  height: auto;
+  margin: 0 auto; /* Center the logo */
+  margin-right: 20px;
   display: block; /* Ensure logo is treated as a block for centering */
   margin-top: 60px;
 }
@@ -585,6 +651,9 @@ This file contains styling customization for fonts and colors.
     max-height: 350px;
   }
 }
+
+
+
 
 /* For navbar fixed position and link scroll test purposes  */
 /* .about,.signup,.timeline,.problems,.contact {
