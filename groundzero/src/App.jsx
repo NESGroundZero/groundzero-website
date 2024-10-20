@@ -22,6 +22,7 @@ import {
 } from "./components";
 import PrizeComponent from "./components/Prizes";
 import Timeline from "./Timeline";
+import MentorPage from "./MentorPage";
 
 /* Main entry point of the web application. */
 const App = () => {
@@ -54,7 +55,6 @@ const App = () => {
             <div id = "problem-statements">
               <About />
             </div>
-            <PastEvents/>
             <Phases />
             <Timeline/>
             <Eligibility />

@@ -67,6 +67,12 @@ import {
   pastEvent2,
   pastEvent3,
   pastEvent4,
+  pastEvent5,
+  pastEvent6,
+  pastEvent7,
+  pastEvent8,
+  pastEvent9,
+  pastEvent10,
   sampleIcon,
   sginnovate,
   startupBuddy,
@@ -545,13 +551,43 @@ export const pastEvents = [
   },
   {
     id: "pastEvent3",
-    title: "Ground Zero 2022",
+    title: "Ground Zero 2023",
     content: pastEvent3,
   },
   {
     id: "pastEvent4",
     title: "Ground Zero 2019",
     content: pastEvent4,
+  },
+  {
+    id: "pastEvent5",
+    title: "Ground Zero 2021",
+    content: pastEvent5,
+  },
+  {
+    id: "pastEvent6",
+    title: "Ground Zero 2023",
+    content: pastEvent6,
+  },
+  {
+    id: "pastEvent7",
+    title: "Ground Zero 2023",
+    content: pastEvent7,
+  },
+  {
+    id: "pastEvent8",
+    title: "Ground Zero 2019",
+    content: pastEvent8,
+  },
+  {
+    id: "pastEvent9",
+    title: "Ground Zero 2023",
+    content: pastEvent9,
+  },
+  {
+    id: "pastEvent10",
+    title: "Ground Zero 2023",
+    content: pastEvent10,
   },
 ];
 
@@ -597,6 +633,25 @@ export const workshops = [
     company: "Company 4",
     date: "2023-01-01T12:00:00",
     link: "",
+  },
+];
+
+export const someMentors = [
+  {
+    title: "Mr. Lawrence Wong",
+    subtitle: ["Prime Minister, Minister for Finance"],
+    info: ["We CARE"],
+    personalLink: "https://www.linkedin.com/in/ssam-ho/",
+    imgsrc: sam_ho,
+    description: ["-"],
+  },
+  {
+    title: "Steven Chua",
+    subtitle: ["Co-Founder"],
+    info: ["Inner Circle Network"],
+    personalLink: "https://www.linkedin.com/in/stevenchuajc/",
+    imgsrc: steven_chua,
+    description: ["-"],
   },
 ];
 
@@ -1007,16 +1062,15 @@ export const pastEventDescription = [
   {
     id: "para1",
     content:
-      "Ground Zero has been one of the largest student led Startathons in Singapore.",
+      "Ground Zero is the largest student led startathon in Singapore.",
   },
   {
     id: "para2",
     content:
-      "Despite the covid situation, we still managed to accumulate over 200 participants for GZ 2021. Subsequently, over 381 participants registered for the following year for GZ 2022.",
-  },
+      "Support us in providing essential resources, mentorship opportunities, and networking experiences for aspiring entrepreneurs. By partnering with us, you’ll gain visibility within a vibrant community of creators and visionaries while demonstrating your commitment to cultivating new ideas and businesses."  },
   {
     id: "para3",
     content:
-      "Ground Zero is filled with students from all faculties equipped with different skillsets sharing a common entrepreneurial spirit looking to make a difference. For GZ 2022, there were 31.2% from Computing, 24.1% from Business, 21.5% from Engineering and 7% from the Science faculty. Ground Zero has also been one of the NES events that has been able to have the most mentors for participants with over 50 speakers, mentors, and judges to guide our participants in various expertise areas.",
+      "Join us in shaping the future of entrepreneurship!"
   },
 ];

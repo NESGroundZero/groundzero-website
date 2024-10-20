@@ -348,7 +348,7 @@ This file contains styling customization for fonts and colors.
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  color: #259dbe;
+  color: #f7f9f9;
   margin-bottom: 40px;
   border-radius: 25px;
   margin: 0 auto; /* Centers the element */
@@ -373,22 +373,17 @@ This file contains styling customization for fonts and colors.
 /* Optional: Adjust the layout of the sponsor logo container */
 .sponsor-logo-container-s {
   display: flex;
-  justify-content: space-around; /* Distribute logos evenly */
+  justify-content: center;
+  /* justify-content: space-around; Distribute logos evenly */
   align-items: center; /* Align logos vertically */
   flex-wrap: wrap; /* Allow wrapping of logos */
 }
-
-
-
-
-
 
 .sponsor-logo-mobile {
   width: 80%; /* Adjust as necessary */
   margin-bottom: 20px; /* Adds space between the logos */
 }
 .sponsors-container {
-  background-color: #00132a; /* Light grey background */
   padding: 40px;
 }
 
@@ -472,7 +467,7 @@ This file contains styling customization for fonts and colors.
 }
 
 .sponsor-logo-container {
-  margin-bottom: 45px; /* Space between logo and text */
+  margin-bottom: 25px; /* Space between logo and text */
 }
 
 .sponsor-logo-container-s {
@@ -912,9 +907,9 @@ This file contains styling customization for fonts and colors.
 
 /* STATEMENT COUNTDOWN */
 .countdown-timer-box {
-  width: 85%;              /* Default width */
-  background: linear-gradient(to right, rgba(32, 27, 71, 1), rgb(82, 19, 100), rgb(26, 0, 98)); /* Gradient background */
-  padding: 2rem 2.5rem;    /* Default padding (py-8 px-10) */
+  width: 90%;              /* Default width */
+  background: linear-gradient(to right, rgba(32, 27, 71, 1), rgb(34, 82, 158), rgb(26, 0, 98)); /* Gradient background */
+  padding: 1rem 1.5rem;    /* Default padding (py-8 px-10) */
   justify-content: center;
   align-items: center;
   border-radius: 1.5rem;   /* Equivalent to rounded-3xl */
@@ -924,7 +919,7 @@ This file contains styling customization for fonts and colors.
 /* Larger screens (lg and above) */
 @media (min-width: 1024px) {
   .countdown-timer-box {
-    width: 700px;          /* Fixed width on large screens */
+    width: 800px;          /* Fixed width on large screens */
     padding: 2.5rem 5rem;  /* Larger padding (lg:py-10 lg:px-20) */
   }
 }

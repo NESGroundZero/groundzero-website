@@ -23,8 +23,9 @@ const PrizeBox = ({ place, amount, height }) => {
   
   // Assigning font sizes based on the place
   if (place === "1st") {
-    placeFontSize = "text-4xl"; 
     placeFontSize = "text-2xl"; 
+  } else if (place === "2nd") {
+    placeFontSize = "text-xl"; 
   } else if (place === "3rd") {
     placeFontSize = "text-xl"; 
   }

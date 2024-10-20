@@ -68,6 +68,12 @@ import pastEvent1 from "./pastEvent1.jpg";
 import pastEvent2 from "./pastEvent2.jpg";
 import pastEvent3 from "./pastEvent3.jpg";
 import pastEvent4 from "./pastEvent4.jpg";
+import pastEvent5 from "./pastEvent5.jpg";
+import pastEvent6 from "./pastEvent6.jpg";
+import pastEvent7 from "./pastEvent7.jpg";
+import pastEvent8 from "./pastEvent8.jpg";
+import pastEvent9 from "./pastEvent9.png";
+import pastEvent10 from "./pastEvent10.jpg";
 import rightArrow from "./right-arrow.png";
 import sampleIcon from "./sample-icon.png";
 import sginnovate from "./sginnovate.png";
@@ -109,6 +115,7 @@ import simplebooth from "./simplebooth.png";
 import pdtsponsors from "./pdtsponsors.png";
 import communitypartners from "./communitypartners.png";
 import homebackgroundastervoidvideo from "./homebackgroundasteroidvideo.mp4";
+import pastSponsors from "./pastSponsors.png";
 
 export {
   ajinkya_bhat,
@@ -174,6 +181,12 @@ export {
   pastEvent2,
   pastEvent3,
   pastEvent4,
+  pastEvent5,
+  pastEvent6,
+  pastEvent7,
+  pastEvent8,
+  pastEvent9,
+  pastEvent10,
   rightArrow,
   sampleIcon,
   sginnovate,
@@ -215,5 +228,6 @@ export {
   simplebooth,
   pdtsponsors,
   communitypartners,
-  homebackgroundastervoidvideo
+  homebackgroundastervoidvideo,
+  pastSponsors,
 };

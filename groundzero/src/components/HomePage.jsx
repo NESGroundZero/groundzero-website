@@ -70,9 +70,9 @@ const HomePage = () => {
                         text="Sign Up Now"
                     />
                     <div className={`text-white font-bold ${config.sloganFontSize} text-center mt-8`}>
-                        loading the future,
+                        Loaing From Zero,
                         <br />
-                        from the ground up.
+                        a Groundbreaking Tomorrow.
                         <br />
                     </div>
                     <CountdownTimer eventDate={ new Date(groundZeroStartDate).getTime() } eventName="Ground Zero 2025" />
@@ -92,7 +92,7 @@ const HomePage = () => {
             dateText: 'Coming May 2025',
             imageWidth: 'w-[450px]',
             imageHeight: 'h-[150px]',
-            sloganFontSize: 'text-4xl',
+            sloganFontSize: 'text-2xl',
         },
         {
             minWidth: 361,
@@ -100,14 +100,14 @@ const HomePage = () => {
             dateText: 'Coming May 2025',
             imageWidth: 'w-[380px]',
             imageHeight: 'h-[120px]',
-            sloganFontSize: 'text-4xl',
+            sloganFontSize: 'text-lg',
         },
         {
             maxWidth: 360,
             dateText: 'Coming May 2025',
             imageWidth: 'w-[310px]',
             imageHeight: 'h-[110px]',
-            sloganFontSize: 'text-2xl',
+            sloganFontSize: 'text-lg',
         },
     ];
 

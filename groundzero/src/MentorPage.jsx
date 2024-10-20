@@ -1,7 +1,7 @@
 import styles from "./style";
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-
+import { mentors } from './constants';
 import {
   NavigationBar,
   MentorGrid,
@@ -34,7 +34,7 @@ const MentorPage = () => {
                 Ground Zero Mentors
             </div>
             <div className="grid place-items-center">
-              <MentorGrid />
+              <MentorGrid list = { mentors } />
             </div>
           </div>
         </div>

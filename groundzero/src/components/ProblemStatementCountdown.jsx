@@ -56,28 +56,29 @@ const ProblemStatementCountdown = () => {
         {/* <div className="w-full text-center justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
           <h1 className={styles.heading2}>Countdown to the Start of Ground Zero</h1>
         </div> */}
+        <h2 className="text-5xl mb-20 z-10 relative font-light text-white">PROBLEM STATEMENTS</h2>
         <div className={`${styles.flexCenter} w-full text-white`}>
           <div className="countdown-timer-box">
             <div
-              className={`font-lexendDeca font-semibold md:text-[32px] text-[22px] text-white md:leading-[40px] md:mb-12 mb-4 mt-3 opacity-80`}
+              className={`font-lexendDeca font-semibold lg:text-[40px] md:text-[30px] text-[22px] text-white md:leading-[40px] md:mb-12 mb-4 mt-3 opacity-80`}
             >
-              Problem Statements will be released in
+              Statements will be released in
             </div>
             <div className="countdown-timer">
               <div className="countdown-timer-days">
-                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[60px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{days}</div>
+                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[20px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{days}</div>
                 <div className="font-poppins md:text-[23px] text-[3vw] text-white opacity-80 md:mb-0 mb-4">Days</div>
               </div>
               <div className="countdown-timer-days">
-                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[60px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{hours}</div>
+                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[20px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{hours}</div>
                 <div className="font-poppins md:text-[23px] text-[3vw] text-white opacity-80 md:mb-0 mb-4">Hours</div>
               </div>
               <div className="countdown-timer-days">
-                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[60px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{minutes}</div>
+                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[20px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{minutes}</div>
                 <div className="font-poppins md:text-[23px] text-[3vw] text-white opacity-80 md:mb-0 mb-4">Minutes</div>
               </div>
               <div className="countdown-timer-days">
-                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[60px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{seconds}</div>
+                <div className="font-lexendDeca font-semibold md:text-[70px] text-[8.5vw] text-white xs:leading-[40px] leading-[20px] md:mb-8 md:mt-0 mt-1 mb-2 opacity-80 transition transform hover:scale-105 hover:opacity-100">{seconds}</div>
                 <div className="font-poppins md:text-[23px] text-[3vw] text-white opacity-80 md:mb-0 mb-4">Seconds</div>
               </div>
             </div>

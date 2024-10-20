@@ -10,10 +10,7 @@ import EventSchedule from './components/EventSchedule'
 import Benefits from './components/Benefits'
 import FAQ from './components/Faq';
 import ContactUs from './components/ContactUsTemp'
-
-
-
-
+import PartnersBeforeEvent from './components/PartnersBeforeEvent'
 
 import StatementDetails from './components/problem-statement-components/StatementDetails'
 import './index.css'
@@ -69,7 +66,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/partners",
-    element: <Partners/>
+    element: <PartnersBeforeEvent/>
   }
 
 ])
