@@ -108,7 +108,7 @@ import airalo from "./airalo.png";
 import simplebooth from "./simplebooth.png";
 import pdtsponsors from "./pdtsponsors.png";
 import communitypartners from "./communitypartners.png";
-
+import homebackgroundastervoidvideo from "./homebackgroundasteroidvideo.mp4";
 
 export {
   ajinkya_bhat,
@@ -214,5 +214,6 @@ export {
   airalo,
   simplebooth,
   pdtsponsors,
-  communitypartners
+  communitypartners,
+  homebackgroundastervoidvideo
 };

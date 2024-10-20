@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <>
-      <div className="bg-purple w-full overflow-hidden">
+      <div className="bg-purple w-full overflow-hidden bg-black">
         <NavigationBar />
 
         <div className={`bg-primary ${styles.flexStart}`}>
@@ -50,13 +50,16 @@ const App = () => {
         </div>
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>    
-          <ProblemStatements />        
-            <About />
+          <div className={`${styles.boxWidth}`}>
+            <div id = "problem-statements">
+              <About />
+            </div>
+            <PastEvents/>
             <Phases />
             <Timeline/>
             <Eligibility />
             <PrizeComponent />
+            <ProblemStatementCountdown />          
             <Faq/>
             <Footer />
           </div>

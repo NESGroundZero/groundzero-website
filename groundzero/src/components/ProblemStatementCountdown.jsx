@@ -57,11 +57,11 @@ const ProblemStatementCountdown = () => {
           <h1 className={styles.heading2}>Countdown to the Start of Ground Zero</h1>
         </div> */}
         <div className={`${styles.flexCenter} w-full text-white`}>
-          <div className="lg:w-[700px] w-[85%] bg-[#2b2853] lg:py-16 lg:px-20 py-8 px-10 content-center rounded-3xl text-center">
+          <div className="countdown-timer-box">
             <div
               className={`font-lexendDeca font-semibold md:text-[32px] text-[22px] text-white md:leading-[40px] md:mb-12 mb-4 mt-3 opacity-80`}
             >
-              Ground Zero will be starting in
+              Problem Statements will be released in
             </div>
             <div className="countdown-timer">
               <div className="countdown-timer-days">

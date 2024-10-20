@@ -1,112 +1,125 @@
-import React from 'react'
+import React from 'react';
 import styles from "../style";
-import { groundzero, groundzeroHome, homepage } from '../assets';
-import { DisplayButton } from "./index";
+import { groundzeroHome, homebackgroundastervoidvideo } from '../assets';
+import { DisplayButton, CountdownTimer } from "./index";
 import MediaQuery from "react-responsive";
+import { groundZeroStartDate } from '../constants';
 
 const HomePage = () => {
+    // Scroll to the next section when the scroll-down div is clicked
+    const scrollToNextSection = () => {
+        const problemStatementsSection = document.getElementById('problem-statements'); // Target section
+        if (problemStatementsSection) {
+            problemStatementsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const renderContent = (config) => {
+        return (
+            <div className={`${styles.paddingY} ${styles.flexCenter} flex-col relative h-screen`}>
+                {/* Video Background */}
+                <div
+                    className="video-background-container"
+                    style={{
+                        width: '100vw',
+                        height: '100vh',
+                        position: 'absolute',
+                        overflow: 'hidden',
+                        zIndex: 0,
+                    }}
+                >
+                    <video
+                        src={homebackgroundastervoidvideo}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        className="video-background"
+                        style={{
+                            position: 'absolute',
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover',
+                            zIndex: 0,
+                        }}
+                    />
+                </div>
+
+                {/* Content Overlay */}
+                <div className="grid place-items-center text-white relative" style={{ zIndex: 1 }}>
+                    <br /><br />
+                    <div className="font-light text-2xl text-justify mt-16">
+                        {config.dateText}
+                    </div>
+                    <img
+                        src={groundzeroHome}
+                        className={`${config.imageWidth} ${config.imageHeight} mt-10`}
+                        alt="GroundZero Home"
+                    />
+                    <br/>
+                    <DisplayButton
+                        isExternal={false}
+                        link="/partners"
+                        text="Become a Sponsor"
+                        variant="primary"
+                    />
+                    <br/>
+                    <DisplayButton
+                        isExternal={true}
+                        link="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757"
+                        text="Sign Up Now"
+                    />
+                    <div className={`text-white font-bold ${config.sloganFontSize} text-center mt-8`}>
+                        loading the future,
+                        <br />
+                        from the ground up.
+                        <br />
+                    </div>
+                    <CountdownTimer eventDate={ new Date(groundZeroStartDate).getTime() } eventName="Ground Zero 2025" />
+                    <br />
+                    {/* Scroll Down Button */}
+                    <div className = "justify-center items center">
+                        <div className="scroll-down" onClick={scrollToNextSection}></div>
+                    </div>
+                </div>
+            </div>
+        );
+    };
+
+    const configurations = [
+        {
+            minWidth: 769,
+            dateText: 'Coming May 2025',
+            imageWidth: 'w-[450px]',
+            imageHeight: 'h-[150px]',
+            sloganFontSize: 'text-4xl',
+        },
+        {
+            minWidth: 361,
+            maxWidth: 768,
+            dateText: 'Coming May 2025',
+            imageWidth: 'w-[380px]',
+            imageHeight: 'h-[120px]',
+            sloganFontSize: 'text-4xl',
+        },
+        {
+            maxWidth: 360,
+            dateText: 'Coming May 2025',
+            imageWidth: 'w-[310px]',
+            imageHeight: 'h-[110px]',
+            sloganFontSize: 'text-2xl',
+        },
+    ];
+
     return (
         <div>
-            <MediaQuery minWidth={769}>
-        <div
-            className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
-        >x  
-            <div style={{
-                backgroundImage: `url(${homepage})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100vw',
-                height: '100vh'
-            }} >
-                <div className="grid place-items-center text-white">
-                    <br /><br />
-                    <br /><br />
-                    <div className="font-light text-3xl text-justify">
-                    May 11-17th 2024
-                    </div>
-                    <img src={groundzeroHome} className="w-[450px] h-[150px] mt-10"></img>
-                    <DisplayButton isExternal={true} link="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757" text="Sign Up Now" arrow="right" />
-                    <div className=" text-white font-bold text-4xl text-center">
-                    loading the future, 
-                    <br />
-                    from the ground up.
-                    <br />
-                    <br/>
-                    <div class="scroll-down"></div>
-            </div>
-            </div>
-            </div></div>
-</MediaQuery>
+            {configurations.map((config, index) => (
+                <MediaQuery key={index} minWidth={config.minWidth} maxWidth={config.maxWidth}>
+                    {renderContent(config)}
+                </MediaQuery>
+            ))}
+        </div>
+    );
+};
 
-<MediaQuery maxWidth={768} minWidth={361}>
-<div
-            className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
-        >x  
-            <div style={{
-                backgroundImage: `url(${homepage})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100vw',
-                height: '100vh'
-            }} >
-                <div className="grid place-items-center text-white">
-                    <br /><br />
-                    <br /><br />
-                    <div className="font-light text-3xl text-justify">
-                    May 11-17th 2024
-                    </div>
-                    <img src={groundzeroHome} className="w-[380px] h-[120px] mt-10"></img>
-                    <DisplayButton isExternal={true} link="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757" text="Sign Up Now" arrow="right" />
-                    <div className=" text-white font-bold text-4xl text-center">
-                    loading the future, 
-                    <br />
-                    from the ground up.
-                    <br />
-                    <br/>
-                    <div class="scroll-down"></div>
-            </div>
-            </div>
-            </div></div>
-
-</MediaQuery>
-
-<MediaQuery maxWidth={360}>
-<div
-            className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
-        >x  
-            <div style={{
-                backgroundImage: `url(${homepage})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                width: '100vw',
-                height: '100vh'
-            }} >
-                <div className="grid place-items-center text-white">
-                    <br /><br />
-                    <br /><br />
-                    <div className="font-light text-3xl text-justify">
-                    May 11-17th 2024
-                    </div>
-                    <img src={groundzeroHome} className="w-[310px] h-[110px] mt-10"></img>
-                    <DisplayButton isExternal={true} link="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757" text="Sign Up Now" arrow="right" />
-                    <div className=" text-white font-bold text-2xl text-center">
-                    loading the future, 
-                    <br />
-                    from the ground up.
-                    <br />
-                    <br/>
-                    <div class="scroll-down"></div>
-            </div>
-            </div>
-            </div></div>
-
-</MediaQuery>
-
-            </div>
-    )
-}
-
-export default HomePage
+export default HomePage;

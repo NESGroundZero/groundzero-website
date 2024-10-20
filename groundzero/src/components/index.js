@@ -25,6 +25,7 @@ import Teaser from "./Teaser";
 import Workshops from "./Workshops";
 import Eligibility from "./Eligibility";
 import Phases from "./Phases";
+import CountdownTimer from "./CountDown";
 
 export {
     About,
@@ -49,4 +50,5 @@ export {
     Teaser,
     Workshops,
     Eligibility,
+    CountdownTimer
 };

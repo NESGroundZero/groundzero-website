@@ -34,7 +34,7 @@ const PrizeBox = ({ place, amount, height }) => {
       className={`relative text-center p-4 w-64 ${height}`}
       style={{
         background:
-          "linear-gradient(to right, rgba(32,27,71,255), rgba(19,33,85,255), rgba(0,42,98,255))",
+          "linear-gradient(to right, rgba(32,27,71,255), rgba(70,50,90,255), rgba(0,42,98,255))",
         boxShadow:
           "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
       }}
@@ -44,7 +44,7 @@ const PrizeBox = ({ place, amount, height }) => {
           className={`mx-auto h-16 w-36 bg-blue-200 rounded-3xl text-sm font-light flex items-center justify-center shadow-lg ${placeFontSize}`}
           style={{
             background:
-              "linear-gradient(to right, rgba(92,136,250,255), rgba(67,73,248,255), rgba(97,76,244,255))",
+              "linear-gradient(to right, rgba(92,136,250,255), rgba(82,73,248,255), rgba(97,76,244,255))",
             boxShadow:
               "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
           }}

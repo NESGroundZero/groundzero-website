@@ -103,19 +103,19 @@ export const timeline = [
     id: "timeline-1",
     icon: groundzero,
     title: "Registration",
-    content: "January - March 2023",
+    content: "January - March 2025",
   },
   {
     id: "timeline-2",
     icon: groundzero,
     title: "Problem Statements Released",
-    content: "March 2023",
+    content: "March 2025",
   },
   {
     id: "timeline-3",
     icon: groundzero,
     title: "Pitch Day",
-    content: "April 2023",
+    content: "April 2025",
   },
 ];
 
@@ -917,8 +917,11 @@ export const mentors = [
   },
 ];
 
+// Date for Start of Ground Zero. Edit here to change
+export const groundZeroStartDate = "2025-05-01T00:09:00+08:00";
+
 // Date for Releasing Problem Statements. Edit here to change
-export const statementReleaseDate = "May 8, 2023 00:09:00 GMT+0800";
+export const statementReleaseDate = "May 8, 2025 00:09:00 GMT+0800";
 
 // Edit this to change the content of paras in About Page
 export const aboutUs = [

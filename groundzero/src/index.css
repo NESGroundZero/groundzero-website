@@ -17,6 +17,15 @@ This file contains styling customization for fonts and colors.
     #6d6d6d -78.47%,
     #11101d 91.61%
   );
+
+  --gz-color-1: #3a3a3b;
+  --gz-color-2: #49f4ff;
+  --gz-color-3: #005B8B;   /* A deep blue */
+  --gz-color-4: #0a1bff;   /* A vibrant blue */
+  --gz-color-5: #9074C3;   /* A purple tone */
+  --gz-color-6: #59D0C6;   /* A teal color */
+  --gz-color-7: #E6531C;   /* A strong orange */
+
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
   --bg-dark-purple: #1f1b40;
   --bg-lighter-purple: #2b2853;
@@ -902,14 +911,22 @@ This file contains styling customization for fonts and colors.
 }
 
 /* STATEMENT COUNTDOWN */
-
 .countdown-timer-box {
-  background-color: var(--bg-lighter-purple);
-  width: 700px;
+  width: 85%;              /* Default width */
+  background: linear-gradient(to right, rgba(32, 27, 71, 1), rgb(82, 19, 100), rgb(26, 0, 98)); /* Gradient background */
+  padding: 2rem 2.5rem;    /* Default padding (py-8 px-10) */
+  justify-content: center;
   align-items: center;
-  padding: 4rem 5rem;
-  text-align: center;
-  border-radius: 30px;
+  border-radius: 1.5rem;   /* Equivalent to rounded-3xl */
+  text-align: center;      /* Center text */
+}
+
+/* Larger screens (lg and above) */
+@media (min-width: 1024px) {
+  .countdown-timer-box {
+    width: 700px;          /* Fixed width on large screens */
+    padding: 2.5rem 5rem;  /* Larger padding (lg:py-10 lg:px-20) */
+  }
 }
 
 .countdown-timer {
@@ -941,37 +958,32 @@ This file contains styling customization for fonts and colors.
 
 /* DISPLAY BUTTON */
 
+/* DISPLAY BUTTON */
 .display-button {
-  margin: 3.5rem 0;
-  background-color: #00132a;
   border-radius: 45px;
   transition: 0.1s;
-  width: 260px;
+  width: 270px;
+}
+
+.display-button-primary {
+  background-color: #259fd3d5; 
+}
+
+.display-button-secondary {
+  background-color: #00132ac5; /* Default background (as in your original code) */
   border: 2px solid white;
 }
 
-.display-button-undefined,
-.display-button-none {
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-  padding: 10rem 20rem;
+.display-button-primary:hover {
+  background-color: #02a6ecd5;
 }
 
-.display-button-left,
-.display-button-right {
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-  padding: 0rem 6rem;
-}
-
-.display-button:hover {
-  background-color: #01234d;
+.display-button-secondary:hover {
+  background-color: #01234d; /* Darker blue on hover for both */
 }
 
 .display-button a {
-  color: white;
+  color: inherit;
   width: inherit;
   height: 90%;
   align-items: center;
@@ -1510,3 +1522,18 @@ li {
     }
   }
 }
+
+/* COUNTDOWN */
+/* Countdown Circles */
+.countdown-circle {
+  background-color: rgba(36, 168, 181, 0.5); 
+  color: rgb(245, 245, 245);
+  border-radius: 9999px;
+  font-size: 1.0rem; /* Equivalent to text-4xl */
+  font-weight: bold; /* Equivalent to font-bold */
+  width: 5rem; /* Equivalent to w-24 */
+  height: 5rem; /* Equivalent to h-24 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
