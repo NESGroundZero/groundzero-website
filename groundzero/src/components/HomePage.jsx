@@ -70,7 +70,7 @@ const HomePage = () => {
                         text="Sign Up Now"
                     />
                     <div className={`text-white font-bold ${config.sloganFontSize} text-center mt-8`}>
-                        Loaing From Zero,
+                        Loading From Zero,
                         <br />
                         a Groundbreaking Tomorrow.
                         <br />
