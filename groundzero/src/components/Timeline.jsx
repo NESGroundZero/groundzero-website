@@ -1,8 +1,8 @@
-import styles from "./style";
+import styles from "../style";
 import React, { useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
 
-import { NavigationBar } from "./components";
+import { NavigationBar } from ".";
 import MediaQuery from "react-responsive";
 
 /* Timeline page. */

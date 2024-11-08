@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { DisplayButton, NavigationBar } from "../index";
 import { useParams } from "react-router-dom";
-import { problems } from "../../constants/index";
-import styles from "../../style";
+import { problems } from "../../../constants";
+import styles from "../../../style";
+import DisplayButton from "../../DisplayButton";
+import NavigationBar from "../../NavigationBar";
 
 const StatementDetails = () => {
   const [data, setData] = useState({});

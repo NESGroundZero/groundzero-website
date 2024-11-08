@@ -14,13 +14,13 @@ import Footer from "./Footer";
 import MentorGrid from "./MentorGrid";
 import Mentors from "./Mentors";
 import NavigationBar from "./NavigationBar";
-import Partners from "./Partners";
+import Partners from "../pages/Partners";
 import PastEvents from "./PastEvents";
 import ProblemStatementCountdown from "./ProblemStatementCountdown";
 import ProblemStatements from "./ProblemStatements";
 import ReasonsToJoin from "./ReasonsToJoin";
 import SignUp from "./SignUp";
-import StatementDetails from "./problem-statement-components/StatementDetails"
+import StatementDetails from "./ProblemStatements/problem-statement-components/StatementDetails";
 import Teaser from "./Teaser";
 import Workshops from "./Workshops";
 import Eligibility from "./Eligibility";

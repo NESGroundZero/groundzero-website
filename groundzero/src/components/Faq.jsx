@@ -8,10 +8,8 @@ const Faq = () => {
   return (
     <div>
        <MediaQuery minWidth={769}>
-    <div 
-    id= "faq">
-      <div
-         >
+    <div id= "faq">
+      <div>
       <div className="bg-darkBlue w-full overflow-hidden min-h-screen">
       <h1 className="font-poppins text-white text-center text-5xl mt-10 mb-20 font-light">FAQ</h1>
       <div   style={{
@@ -20,7 +18,7 @@ const Faq = () => {
               justifyContent: 'center'
             }}>
         {questions.map((section, index) => (
-          <Accordion key={index} section={section} />
+          <Accordion key = {section.id} id ={section.id} section={section} />
         ))}
         </div>
       </div>
@@ -35,8 +33,8 @@ const Faq = () => {
       <div id = "faq" className="bg-darkBlue w-full min-h-screen">
       <h1 className="font-poppins text-white text-center text-5xl mt-10 mb-20 font-light">FAQ</h1>
 
-        {questions.map((section, index) => (
-          <Accordion key={index} section={section} />
+        {questions.map((section) => (
+          <Accordion key = {section.id} id ={section.id} section={section} />
         ))}
         </div>
     

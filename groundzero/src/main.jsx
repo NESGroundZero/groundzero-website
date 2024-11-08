@@ -1,18 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import MentorPage from './MentorPage'
+import MentorPage from './pages/MentorPage'
 import About from './components/About'
-import Timeline from './Timeline'
+import Timeline from './components/Timeline'
 import Prizes from './components/Prizes'
 import Eligibility from './components/Eligibility'
-import EventSchedule from './components/EventSchedule'
+import EventSchedule from './pages/EventSchedule'
 import Benefits from './components/Benefits'
 import FAQ from './components/Faq';
 import ContactUs from './components/ContactUsTemp'
-import PartnersBeforeEvent from './components/PartnersBeforeEvent'
+import PartnersBeforeEvent from './pages/PartnersBeforeEvent'
 
-import StatementDetails from './components/problem-statement-components/StatementDetails'
+import StatementDetails from './components/ProblemStatements/problem-statement-components/StatementDetails'
 import './index.css'
 
 import {

@@ -21,8 +21,8 @@ import {
   ContactUsTemp,
 } from "./components";
 import PrizeComponent from "./components/Prizes";
-import Timeline from "./Timeline";
-import MentorPage from "./MentorPage";
+import Timeline from "./components/Timeline";
+import MentorPage from "./pages/MentorPage";
 
 /* Main entry point of the web application. */
 const App = () => {
@@ -59,7 +59,8 @@ const App = () => {
             <Timeline/>
             <Eligibility />
             <PrizeComponent />
-            <ProblemStatementCountdown />          
+            <ProblemStatementCountdown /> 
+            {/* <ProblemStatements/>          */}
             <Faq/>
             <Footer />
           </div>

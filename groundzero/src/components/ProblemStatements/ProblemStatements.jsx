@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "../style";
+import styles from "../../style";
 import StatementCard from "./problem-statement-components/StatementCard";
-import { blob } from "../assets";
+import { blob } from "../../assets";
 import { useState, useEffect } from "react";
-import { problemStatements } from "../constants/index";
+import { problemStatements } from "../../constants/index";
 
 const ProblemStatements = () => {
   const [probState, setProbState] = useState([]);

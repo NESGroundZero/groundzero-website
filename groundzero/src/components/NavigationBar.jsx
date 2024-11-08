@@ -49,9 +49,9 @@ const NavigationBar = ({ className }) => {
             <li>
               <Link to="/#prizes"  onClick={toggleDropdown}>Prizes</Link>
             </li>
-            <li>
+            {/*<li>
               <Link to="/eventschedule"  onClick={toggleDropdown}>Event Schedule</Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link to="/benefits"  onClick={toggleDropdown}>Benefits</Link>
             </li> */}
@@ -112,9 +112,9 @@ const NavigationBar = ({ className }) => {
           </a>              
            </li>
 
-            <li>
+            {/* <li>
               <NavLink to="/eventschedule">Event Schedule</NavLink>
-            </li>
+            </li> */}
             {/* <li>
               <NavLink to="/benefits" >Benefits</NavLink>
             </li> */}
@@ -127,7 +127,7 @@ const NavigationBar = ({ className }) => {
           </li>
             <li>
               <a
-                href="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757"
+                href="https://www.instagram.com/nesgroundzero/?hl=es"
                 target="_blank"
               >
                 <div id="nav-register-button">Register</div>

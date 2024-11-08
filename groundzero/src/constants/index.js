@@ -385,59 +385,70 @@ export const companies = [
 
 export const questions = [
   {
+    id: "question-1",
     question: "How much does it cost to join Ground Zero?",
     answer:
       "Early Bird prices are $10 per person. (normal pricing $15) Follow our social media accounts for more promotions!",
   },
   {
+    id: "question-2",
     question: "How do I sign up for Ground Zero?",
     answer: "You can signup for Ground Zero through the Register button above!",
   },
   {
+    id: "question-3",
     question:
       "I want to participate in Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
     answer:
       "Fret not! You can sign up individually and we will try our best to assign you to a team.",
   },
   {
+    id: "question-4",
     question:
       "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
     answer:
       "All ideas presented must be related to one of the four industry focus areas listed in the above section. The Areas of Focus are Health and Wellness, Finance, E-commerce and Sustainability.",
   },
   {
+    id: "question-5",
     question: "What is included in the prize pool?",
     answer:
       "A grand prize of First Place $4,000 Second Place $3,000 Third place $2000 and more side prizes that adds up to a total of $1,000 up for you to grab! ",
   },
   {
+    id: "question-6",
     question:
       "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
     answer:
       "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
   },
   {
+    id: "question-7",
     question: "Who can participate in Ground Zero?",
     answer:
       "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
   },
   {
+    id: "question-8",
     question: "How many people can be on a team?",
     answer: "Each team can have 3 to 5 members.",
   },
   {
+    id: "question-9",
     question:
       "I’m a student that is from an institution overseas. Can I still join Ground Zero?",
     answer: "Yes! We’re open to students from any institution overseas.",
   },
 
   {
+    id: "question-10",
     question: "Must I attend all days of the event?",
     answer:
       "Ground Zero will consist of 3 physical days. Full attendance is recommended for the complete experience, but we acknowledge that team members may have external commitments. Therefore, at least 2 members of the team must be present throughout the event!",
   },
 
   {
+    id: "question-11",
     question: "Can I join virtually? ",
     answer: "No, Ground Zero is a physical event.",
   },
@@ -996,21 +1007,6 @@ export const aboutUs = [
       "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Industry 4.0, Sustainability, Healthcare, and Consumer-centric. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
   },
 ];
-
-// export const phases = [
-//   {
-//     id: "para1",
-//     content: "Ground Zero is the largest student-led startathon in Singapore that aims to bring together entrepreneurial-minded students from various backgrounds to come together and innovate by solving real world problem statements.",
-//   },
-//   {
-//     id: "para2",
-//     content: "Started in 2018, with the short amount of time since its founding, Ground Zero has reached over thousands of participants, developed an extensive network within Singapore’s startup community of Startup founders, CEOs, venture capitals, angel investors, and industry experts.",
-//   },
-//   {
-//     id: "para3",
-//     content: "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Industry 4.0, Sustainability, Healthcare, and Consumer-centric. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
-//   },
-// ];
 
 export const timelineSchedule = [
   {

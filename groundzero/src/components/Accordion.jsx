@@ -1,7 +1,7 @@
 import React from "react";
 import useOpenController from "./useOpenController.js";
 
-export const Accordion = ({ section, key }) => {
+export const Accordion = ({ section }) => {
   const { isOpen, toggle } = useOpenController(false);
   console.log(section);
   return (
@@ -25,7 +25,7 @@ export const ExpendableColumn = ({ question, isOpen, toggle }) => {
       <div className="column-text">{question}</div>
       <button className="expendable-button">
         <span
-          class="material-symbols-outlined"
+          className = "material-symbols-outlined"
           style={{
             transform: `rotate(${isOpen ? 180 : 0}deg)`,
             transition: "all 0.25s",

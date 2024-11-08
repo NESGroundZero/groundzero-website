@@ -20,7 +20,7 @@ const About = () => {
 
                 <div className="pb-10"></div>
                 {aboutUs.map((aboutUs) => (
-                  <div className="font-lighter font-inter md:text-2xl text-[16px] pb-9 text-justify">
+                  <div key={aboutUs.id} className="font-lighter font-inter md:text-2xl text-[16px] pb-9 text-justify">
                     <p>{aboutUs.content}</p>
                   </div>
                 ))}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { problems, reasons } from "../../constants/index";
+import { problems, reasons } from "../../../constants";
 import Modal from "./Modal";
 
 const StatementCard = (props) => {

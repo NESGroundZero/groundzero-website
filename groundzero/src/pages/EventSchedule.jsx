@@ -1,5 +1,5 @@
 import React from "react";
-import NavigationBar from "./NavigationBar";
+import NavigationBar from "../components/NavigationBar";
 import gz from "../assets/groundtime.png";
 import "../index.css";
 console.log(gz);

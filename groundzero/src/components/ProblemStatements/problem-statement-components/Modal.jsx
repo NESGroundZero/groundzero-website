@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { problems, reasons } from "../../constants/index";
+import { problems, reasons } from "../../../constants/index";
 import { IoClose } from "react-icons/io5";
 
 import MediaQuery from "react-responsive";

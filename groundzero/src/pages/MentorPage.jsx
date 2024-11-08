@@ -1,12 +1,12 @@
-import styles from "./style";
+import styles from "../style";
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { mentors } from './constants';
+import { mentors } from '../constants';
 import {
   NavigationBar,
   MentorGrid,
   Footer,
-} from "./components";
+} from "../components";
 
 /* Main entry point of the web application. */
 const MentorPage = () => {

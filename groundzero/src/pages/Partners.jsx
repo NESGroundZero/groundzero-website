@@ -1,10 +1,10 @@
 import React from 'react';
 import "../index.css";
 import { mapletree, metacamp, fomopay, skilledin, ncs, nuse, lumos, visionpal, broskin, bumpp, simplebooth, centrep, boulder, mobio, nussu, airalo, pdtsponsors, communitypartners } from '../assets';
-import NavigationBar from "./NavigationBar";
-import Footer2 from './Footer2';
+import NavigationBar from "../components/NavigationBar";
+import Footer2 from '../components/Footer2';
 import MediaQuery from 'react-responsive';
-import FOMOPayDetails from './FomoPay';
+import FOMOPayDetails from '../components/FomoPay';
 
 
 

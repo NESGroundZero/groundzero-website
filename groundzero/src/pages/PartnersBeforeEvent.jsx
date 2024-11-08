@@ -1,11 +1,11 @@
 import React from 'react';
 import "../index.css";
 import { pastSponsors } from '../assets';
-import NavigationBar from "./NavigationBar";
-import Footer2 from './Footer2';
+import NavigationBar from "../components/NavigationBar";
+import Footer2 from '../components/Footer2';
 import MediaQuery from 'react-responsive';
-import PastEvents from './PastEvents';
-import MentorGrid from './MentorGrid';
+import PastEvents from '../components/PastEvents';
+import MentorGrid from '../components/MentorGrid';
 import { mentors } from '../constants';
 
 function PartnersBeforeEvent() {
@@ -20,14 +20,6 @@ function PartnersBeforeEvent() {
               <img src={pastSponsors} className="mx-auto mt-10 max-w-[400px] md:max-w-[600px] lg:max-w-[700px] xl:max-w-[800px] h-auto" alt="Sponsor Logo" />
             </div>
           </div>
-
-          {/* <div className="sponsors-container">
-            <div className="sponsor-level-others">Past Guest of Honor</div>
-            <div className='sponsor-logo-container-s mx-auto'>
-              <img src={pastSponsors} className="mx-auto mt-10 max-w-[400px] md:max-w-[600px] lg:max-w-[700px] xl:max-w-[800px] h-auto" alt="Sponsor Logo" />
-            </div>
-          </div>
-          <MentorGrid list={ mentors }/> */}
       </div>
 
       <Footer2 />

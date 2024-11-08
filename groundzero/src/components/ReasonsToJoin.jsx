@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../style";
-import StatementCard from "./problem-statement-components/StatementCard";
+import StatementCard from './ProblemStatements/problem-statement-components/StatementCard';
 
 const ReasonsToJoin = () => {
   return (
