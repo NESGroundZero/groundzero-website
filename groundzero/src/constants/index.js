@@ -73,6 +73,7 @@ import {
   pastEvent8,
   pastEvent9,
   pastEvent10,
+  pastEvent11,
   sampleIcon,
   sginnovate,
   startupBuddy,
@@ -599,6 +600,11 @@ export const pastEvents = [
     id: "pastEvent10",
     title: "Ground Zero 2023",
     content: pastEvent10,
+  },
+  {
+    id: "pastEvent11",
+    title: "Ground Zero 2023",
+    content: pastEvent11,
   },
 ];
 

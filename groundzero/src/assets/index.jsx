@@ -64,16 +64,17 @@ import nes from "./nes.png";
 import network from "./network.png";
 import nusEnterprise from "./nusEnterprise.png";
 import nyc from "./nyc.png";
-import pastEvent2 from "./pastEvent2.jpg";
-import pastEvent1 from "./pastEvent1.jpg";
-import pastEvent3 from "./pastEvent3.jpg";
-import pastEvent4 from "./pastEvent4.jpg";
-import pastEvent5 from "./pastEvent5.jpg";
-import pastEvent6 from "./pastEvent6.jpg";
-import pastEvent7 from "./pastEvent7.jpg";
-import pastEvent8 from "./pastEvent8.jpg";
-import pastEvent9 from "./pastEvent9.png";
-import pastEvent10 from "./pastEvent10.jpg";
+import pastEvent1 from "./past_event_photos/pastEvent1.jpg";
+import pastEvent2 from "./past_event_photos/pastEvent2.jpg";
+import pastEvent3 from "./past_event_photos/pastEvent3.jpg";
+import pastEvent4 from "./past_event_photos/pastEvent4.jpg";
+import pastEvent5 from "./past_event_photos/pastEvent5.jpg";
+import pastEvent6 from "./past_event_photos/pastEvent6.jpg";
+import pastEvent7 from "./past_event_photos/pastEvent7.jpg";
+import pastEvent8 from "./past_event_photos/pastEvent8.jpeg";
+import pastEvent9 from "./past_event_photos/pastEvent9.jpg";
+import pastEvent10 from "./past_event_photos/pastEvent10.jpg";
+import pastEvent11 from "./past_event_photos/pastEvent11.jpg";
 import rightArrow from "./right-arrow.png";
 import sampleIcon from "./sample-icon.png";
 import sginnovate from "./sginnovate.png";
@@ -187,6 +188,7 @@ export {
   pastEvent8,
   pastEvent9,
   pastEvent10,
+  pastEvent11,
   rightArrow,
   sampleIcon,
   sginnovate,

@@ -66,8 +66,8 @@ const HomePage = () => {
                     <br/>
                     <DisplayButton
                         isExternal={true}
-                        link="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757"
-                        text="Sign Up Now"
+                        link="https://www.instagram.com/nesgroundzero"
+                        text="Find Out More"
                     />
                     <div className={`text-white font-bold ${config.sloganFontSize} text-center mt-8`}>
                         Loading From Zero,
@@ -95,18 +95,18 @@ const HomePage = () => {
             sloganFontSize: 'text-2xl',
         },
         {
-            minWidth: 361,
+            minWidth: 401,
             maxWidth: 768,
             dateText: 'Coming May 2025',
-            imageWidth: 'w-[380px]',
-            imageHeight: 'h-[120px]',
+            imageWidth: 'w-[370px]',
+            // imageHeight: 'h-[120px]',
             sloganFontSize: 'text-lg',
         },
         {
-            maxWidth: 360,
+            maxWidth: 400,
             dateText: 'Coming May 2025',
-            imageWidth: 'w-[310px]',
-            imageHeight: 'h-[110px]',
+            imageWidth: 'w-3/5',
+            // imageHeight: 'h-[110px]',
             sloganFontSize: 'text-lg',
         },
     ];

@@ -85,7 +85,7 @@ const NavigationBar = ({ className }) => {
         <nav className="nav" style={{ backgroundColor: "#00132A", marginLeft: "0px" }}>
 
           <Link to="/" className="flex items-centre justify-centre">
-            <img src={groundzero} className="h-[40px] object-contain" />
+            <img src={groundzero} className="h-[30px] w-[100px] object-contain" />
           </Link>
 
           <button>
