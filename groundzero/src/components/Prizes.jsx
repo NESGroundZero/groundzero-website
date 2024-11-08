@@ -1,5 +1,4 @@
 import React from "react";
-import NavigationBar from "./NavigationBar";
 import styles from "../style";
 import { prizes } from "../assets"; 
 import MediaQuery from "react-responsive";
@@ -65,7 +64,6 @@ const PrizeComponent = () => {
     <div>
     <MediaQuery minWidth={769}>
     <div className="bg-purple w-full overflow-hidden mt-20">
-      <NavigationBar />
       <div  id="prizes" className={`bg-primary ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth} ${styles.paddingY} flex-col relative`} id="about">
           <div className="grid place-items-center text-white xs:px-16 lg:px-40">

@@ -1,8 +1,6 @@
 import styles from "../style";
 import React, { useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
-
-import { NavigationBar } from ".";
 import MediaQuery from "react-responsive";
 
 /* Timeline page. */
@@ -20,7 +18,6 @@ const Timeline = () => {
       <div id= "timeline" 
       className="bg-darkBlue w-full overflow-hidden min-h-screen"
       >
-        <NavigationBar />
         <div className="pt-20 pb-10 px-4">
           <h1 className="font-poppins text-white text-center text-5xl mt-10 font-light">
             TIMELINE
@@ -101,7 +98,6 @@ const Timeline = () => {
             
         <MediaQuery maxWidth={767}>
       <div className="bg-darkBlue w-full overflow-hidden min-h-screen">
-        <NavigationBar />
         <div className="pt-20 pb-4 px-4"
         id = "timeline">
           <h1 className="font-poppins text-white text-center text-5xl mt-10 font-light">

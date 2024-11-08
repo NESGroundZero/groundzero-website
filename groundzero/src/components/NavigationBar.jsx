@@ -6,7 +6,6 @@ import MediaQuery from "react-responsive";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const NavigationBar = ({ className }) => {
-  
   const [isOpenDropdown, setIsOpenDropdown] = useState(false);
   const [activeAnchor, setActiveAnchor] = useState('');
   const location = useLocation();
@@ -23,204 +22,88 @@ const NavigationBar = ({ className }) => {
     setActiveAnchor(anchor);
   };
 
+  const navLinks = [
+    { href: "/#about", label: "About", anchor: "about" },
+    { href: "/#timeline", label: "Timeline", anchor: "timeline" },
+    { href: "/partners", label: "Sponsors", isNavLink: true },
+    { href: "/#eligibility", label: "Eligibility", anchor: "eligibility" },
+    { href: "/#prizes", label: "Prizes", anchor: "prizes" },
+    { href: "/#faq", label: "FAQ", anchor: "faq" },
+  ];
 
-
-  const Dropdown = () => {
-    return (
-      <div className="grid place-items-center">
-        <div
-          className={isOpenDropdown ? "dropdown_menu_open" : "dropdown_menu"}
-        >
-          <ul>
-            <li>
-              <Link to="/#about"  onClick={toggleDropdown}>About</Link>
-            </li>
-            <li>
-              <Link to="/#timeline"  onClick={toggleDropdown}>Timeline</Link>
-            </li>
-            <li>
-              <NavLink to="/partners" onClick={toggleDropdown}>Sponsors</NavLink>
-            </li>
-
-            <li>
-              <Link to="/#eligibility"  onClick={toggleDropdown}>Eligibility</Link>
-            </li>
-
-            <li>
-              <Link to="/#prizes"  onClick={toggleDropdown}>Prizes</Link>
-            </li>
-            {/*<li>
-              <Link to="/eventschedule"  onClick={toggleDropdown}>Event Schedule</Link>
-            </li> */}
-            {/* <li>
-              <Link to="/benefits"  onClick={toggleDropdown}>Benefits</Link>
-            </li> */}
-            <li>
-              <Link to="/#faq" onClick={toggleDropdown}>FAQ</Link>
-            </li>
-            <li>
-              <a
-                href="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757"
-                target="_blank"
-              >
-                <div id="nav-register-button" onClick={toggleDropdown}>Register</div>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    );
+  const externalLink = {
+    href: "https://www.instagram.com/nesgroundzero/?hl=es",
+    label: "Discover more",
   };
+
+  const renderNavLinks = (isDropdown = false) => (
+    <ul>
+      {navLinks.map(({ href, label, anchor, isNavLink }) => (
+        <li key={label}>
+          {isNavLink ? (
+            <NavLink to={href} onClick={isDropdown ? toggleDropdown : null}>{label}</NavLink>
+          ) : (
+            <a
+              href={href}
+              className={anchor && activeAnchor === anchor ? 'active' : ''}
+              onClick={() => {
+                if (anchor) handleAnchorClick(anchor);
+                if (isDropdown) toggleDropdown();
+              }}
+            >
+              {label}
+            </a>
+          )}
+        </li>
+      ))}
+      <li>
+        <a href={externalLink.href} target="_blank" rel="noopener noreferrer" className="whitespace-nowrap">
+          <div id="nav-register-button" onClick={isDropdown ? toggleDropdown : null}>{externalLink.label}</div>
+        </a>
+      </li>
+    </ul>
+  );
+
+  const renderNav = (minWidth, maxWidth, marginLeft) => (
+    <MediaQuery minWidth={minWidth} maxWidth={maxWidth}>
+      <nav className={`nav ${className}`} style={{ backgroundColor: "#00132A", marginLeft }}>
+        <Link to="/" className="flex items-centre justify-centre h-full">
+          <img src={groundzero} className="mt-[10px] h-[40px] object-contain" />
+        </Link>
+        {renderNavLinks()}
+      </nav>
+    </MediaQuery>
+  );
 
   return (
     <div>
-      <MediaQuery minWidth={768} >
-        <nav className={`nav ${className}`} style={{ backgroundColor: "#00132A" , marginLeft: "-70px"  }}>
-          <Link to="/">
-            <img src={groundzero} className="md:mt-[10px] h-[40px] object-contain" />
-          </Link>
-          <ul>
-            <li>
-          <a href="/#about"
-             className={activeAnchor === 'about' ? 'active' : ''}
-             onClick={() => handleAnchorClick('about')}>
-            About
-          </a>
-              </li>
-            <li>
-            <a href="/#timeline"
-             className={activeAnchor === 'timeline' ? 'active' : ''}
-             onClick={() => handleAnchorClick('timeline')}>
-            Timeline
-          </a>            
-          </li>
-          <li>
-              <NavLink to="/partners">Sponsors</NavLink>
-            </li>
-          <li>
-            <a href="/#eligibility"
-             className={activeAnchor === 'eligibility' ? 'active' : ''}
-             onClick={() => handleAnchorClick('eligibility')}>
-            Eligibility
-          </a>  
-         </li>
-            <li>
-            <a href="/#prizes"
-             className={activeAnchor === 'prizes' ? 'active' : ''}
-             onClick={() => handleAnchorClick('prizes')}>
-            Prizes
-          </a>              
-           </li>
+      {renderNav(768, 1699, "0px")}
+      {renderNav(1700, null, "0px")}
 
-            {/* <li>
-              <NavLink to="/eventschedule">Event Schedule</NavLink>
-            </li> */}
-            {/* <li>
-              <NavLink to="/benefits" >Benefits</NavLink>
-            </li> */}
-            <li>
-            <a href="/#faq"
-             className={activeAnchor === 'faq' ? 'active' : ''}
-             onClick={() => handleAnchorClick('faq')}>
-            FAQ
-          </a>             
-          </li>
-            <li>
-              <a
-                href="https://www.instagram.com/nesgroundzero/?hl=es"
-                target="_blank"
-              >
-                <div id="nav-register-button">Register</div>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </MediaQuery>
-
-
-
-      <MediaQuery minWidth={1700} >
-        <nav className={`nav ${className}`} style={{ backgroundColor: "#00132A" , marginLeft: "-300px"  }}>
-          <Link to="/">
-            <img src={groundzero} className="md:mt-[10px] h-[40px] object-contain" />
-          </Link>
-          <ul>
-            <li>
-          <a href="/#about"
-             className={activeAnchor === 'about' ? 'active' : ''}
-             onClick={() => handleAnchorClick('about')}>
-            About
-          </a>
-              </li>
-            <li>
-            <a href="/#timeline"
-             className={activeAnchor === 'timeline' ? 'active' : ''}
-             onClick={() => handleAnchorClick('timeline')}>
-            Timeline
-          </a>            
-          </li>
-
-          <li>
-              <NavLink to="/partners">Sponsors</NavLink>
-            </li>
-          <li>
-            <a href="/#eligibility"
-             className={activeAnchor === 'eligibility' ? 'active' : ''}
-             onClick={() => handleAnchorClick('eligibility')}>
-            Eligibility
-          </a>  
-         </li>
-            <li>
-            <a href="/#prizes"
-             className={activeAnchor === 'prizes' ? 'active' : ''}
-             onClick={() => handleAnchorClick('prizes')}>
-            Prizes
-          </a>              
-           </li>
-
-            <li>
-              <NavLink to="/eventschedule">Event Schedule</NavLink>
-            </li>
-            {/* <li>
-              <NavLink to="/benefits" >Benefits</NavLink>
-            </li> */}
-            <li>
-            <a href="/#faq"
-             className={activeAnchor === 'faq' ? 'active' : ''}
-             onClick={() => handleAnchorClick('faq')}>
-            FAQ
-          </a>             
-          </li>
-            <li>
-              <a
-                href="https://www.eventbrite.sg/e/ground-zero-2024-tickets-796070988757"
-                target="_blank"
-              >
-                <div id="nav-register-button">Register</div>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </MediaQuery>
-
+      {/* if the window is smaller than 768, then it will be in dropdown format */}
       <MediaQuery maxWidth={768}>
-        <nav className="nav" style={{ backgroundColor: "#00132A" , marginLeft: "-50px" }}>
-          <Link to="/">
-            { <img src={groundzero} className="h-[40px] w-[100px] object-contain" /> }
+        <nav className="nav" style={{ backgroundColor: "#00132A", marginLeft: "0px" }}>
+
+          <Link to="/" className="flex items-centre justify-centre">
+            <img src={groundzero} className="h-[40px] object-contain" />
           </Link>
+
           <button>
             {!isOpenDropdown ? (
-              <FaBars onClick={toggleDropdown} style={{fontSize:"23", opacity:"60%"}} />
+              <FaBars onClick={toggleDropdown} style={{ fontSize: "23", opacity: "60%" }} />
             ) : (
-              <FaTimes onClick={toggleDropdown} style={{fontSize:"23", opacity:"60%"}} />
+              <FaTimes onClick={toggleDropdown} style={{ fontSize: "23", opacity: "60%" }} />
             )}
           </button>
         </nav>
-
-        {isOpenDropdown ? <Dropdown /> : null}
+        {isOpenDropdown && (
+          <div className="grid place-items-center">
+            <div className={isOpenDropdown ? "dropdown_menu_open" : "dropdown_menu"}>
+              {renderNavLinks(true)}
+            </div>
+          </div>
+        )}
       </MediaQuery>
-
-
     </div>
   );
 };

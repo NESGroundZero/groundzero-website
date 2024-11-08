@@ -10,7 +10,6 @@ const About = () => {
   return (
     <div id= "about"
     className="bg-purple w-full overflow-hidden">
-      <NavigationBar />
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <div className={`${styles.paddingY} flex-col relative`} id="about">
