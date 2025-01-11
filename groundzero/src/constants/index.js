@@ -84,6 +84,9 @@ import {
   industryfour,
   mapletree_new,
   finance,
+  scape,
+  uob,
+  lumos, 
 } from "../assets";
 
 export const navLinks = [
@@ -527,28 +530,27 @@ export const workshopPartner = [
   },
 ];
 
-export const partners = [
-  {
-    id: "organizers",
-    title: "Organized By",
-    content: organizer,
-  },
-  {
-    id: "thePatron",
-    title: "Patron Sponsor",
-    content: thePatron,
-  },
-  // {
-  //   id: "diamondSponsor",
-  //   title: "Diamond Sponsor",
-  //   content: diamondSponsor,
-  // },
-  // {
-  //   id: "goldSponsor",
-  //   title: "Gold Sponsor",
-  //   content: goldSponsor,
-  // },
-];
+export const sponsorsData = {
+  diamond: [
+    { name: 'Diamond Corp', logo: uob, description: 'UOB is a leading bank in Asia with a global network of around 500 branches and offices across 19 countries and territories in Asia Pacific, Europe, and North America. We believe in balancing purpose and balance to help our people grow professionally and personally anchored on our people philosophy of care, growth and trust.' }
+  ],
+  // platinum: [
+  //   { name: 'Platinum A', logo: uob, description: 'UOB is a leading bank in Asia with a global network of around 500 branches and offices across 19 countries and territories in Asia Pacific, Europe, and North America. We believe in balancing purpose and balance to help our people grow professionally and personally anchored on our people philosophy of care, growth and trust.' },
+  //   { name: 'Platinum B', logo: uob, description: 'UOB is a leading bank in Asia with a global network of around 500 branches and offices across 19 countries and territories in Asia Pacific, Europe, and North America. We believe in balancing purpose and balance to help our people grow professionally and personally anchored on our people philosophy of care, growth and trust.' },
+  //   { name: 'Platinum C', logo: uob, description: 'UOB is a leading bank in Asia with a global network of around 500 branches and offices across 19 countries and territories in Asia Pacific, Europe, and North America. We believe in balancing purpose and balance to help our people grow professionally and personally anchored on our people philosophy of care, growth and trust.' }
+  // ],
+  gold: [
+    { name: 'Scape', logo: scape, description: '' },
+    // { name: 'Gold B', logo: uob, description: '' },
+    // { name: 'Gold C', logo: uob, description: '' },
+    // { name: 'Gold D', logo: uob, description: '' },
+    // { name: 'Gold E', logo: uob, description: '' },
+    // { name: 'Gold F', logo: uob, description: '' },
+  ],
+  communitypartners: [
+    { name: 'Lumos', logo: lumos, description: '' },
+  ]
+};
 
 export const pastEvents = [
   {
@@ -1069,10 +1071,10 @@ export const pastEventDescription = [
   {
     id: "para2",
     content:
-      "Support us in providing essential resources, mentorship opportunities, and networking experiences for aspiring entrepreneurs. By partnering with us, you’ll gain visibility within a vibrant community of creators and visionaries while demonstrating your commitment to cultivating new ideas and businesses."  },
+      "Support us in providing essential resources, mentorship opportunities, and networking experiences for aspiring entrepreneurs all around the world."  },
   {
     id: "para3",
     content:
-      "Join us in shaping the future of entrepreneurship!"
+      "Join Ground Zero 2025 today to ignite groundbreaking ideas and shape the future of entrepreneurship!"
   },
 ];

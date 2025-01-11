@@ -42,7 +42,6 @@ import viveka_kalidasan from "./mentor_pics/VivekaKalidasan.jpg";
 import wei_liang_lim from "./mentor_pics/WeiLiangLim.jpg";
 import wei_zhuang from "./mentor_pics/WeiZhuang(Lenard).jpg";
 import ye_sheng_tan from "./mentor_pics/YeShengTan.jpg";
-
 import accelerating from "./accelerating.png";
 import airbnb from "./airbnb.png";
 import aws from "./aws.png";
@@ -103,7 +102,6 @@ import tote from "./tote.png";
 import landyard from "./landyard.png";
 import ncs from "./ncs.png";
 import nuse from "./nuse.png";
-import lumos from "./lumos.png";
 import visionpal from "./visionpal.png";
 import broskin from "./broskin.png";
 import bumpp from "./bumpp.png";
@@ -115,8 +113,14 @@ import airalo from "./airalo.png";
 import simplebooth from "./simplebooth.png";
 import pdtsponsors from "./pdtsponsors.png";
 import communitypartners from "./communitypartners.png";
-import homebackgroundastervoidvideo from "./homebackgroundasteroidvideo.mp4";
+import homebackgroundastervoidvideoblue from "./homebackgroundasteroidvideoblue_compressed.mp4";
+import homebackgroundastervoidvideopurple from "./homebackgroundasteroidvideoblue.mp4";
+import homebackgroundearthvideo from "./homebackgroundearthvideo.mp4";
 import pastSponsors from "./pastSponsors.png";
+import homebackgroundasteroidhittingearthvideo from "./homebackgroundasteroidhittingearthvideo.mp4";
+import scape from "./sponsors/scape.jpg";
+import uob from "./sponsors/uob.jpg";
+import lumos from "./sponsors/lumos.jpg";
 
 export {
   ajinkya_bhat,
@@ -218,7 +222,6 @@ export {
   tote,
   ncs,
   nuse,
-  lumos,
   visionpal,
   broskin,
   bumpp,
@@ -230,6 +233,12 @@ export {
   simplebooth,
   pdtsponsors,
   communitypartners,
-  homebackgroundastervoidvideo,
+  homebackgroundastervoidvideoblue,
+  homebackgroundastervoidvideopurple,
+  homebackgroundearthvideo,
+  homebackgroundasteroidhittingearthvideo,
   pastSponsors,
+  scape,
+  uob,
+  lumos,
 };

@@ -6,8 +6,6 @@ import Footer2 from '../components/Footer2';
 import MediaQuery from 'react-responsive';
 import FOMOPayDetails from '../components/FomoPay';
 
-
-
 function Partners() {
   return (
     <div className="bg-darkBlue w-full overflow-hidden min-h-screen">

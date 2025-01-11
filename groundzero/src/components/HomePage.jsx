@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "../style";
-import { groundzeroHome, homebackgroundastervoidvideo } from '../assets';
+import { groundzeroHome, homebackgroundastervoidvideoblue } from '../assets';
 import { DisplayButton, CountdownTimer } from "./index";
 import MediaQuery from "react-responsive";
 import { groundZeroStartDate } from '../constants';
@@ -29,7 +29,7 @@ const HomePage = () => {
                     }}
                 >
                     <video
-                        src={homebackgroundastervoidvideo}
+                        src={homebackgroundastervoidvideoblue}
                         autoPlay
                         muted
                         loop

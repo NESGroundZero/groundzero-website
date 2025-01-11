@@ -27,23 +27,26 @@ const PastEvents = () => {
   const isSmallScreen = useMediaQuery({ maxWidth: 768 }); // Screens smaller than 768px
 
   // Adjust the number of slides per view based on screen size
-  const noSlidesPerView = isLargeScreen ? 4 : isSmallScreen ? 2 : 3;
+  const noSlidesPerView = isLargeScreen ? 5 : isSmallScreen ? 2 : 3;
 
   return  (
   <section>
     <div className={`${styles.paddingX} flex-col relative`} id="about">
-      <div className="grid place-items-center text-white xs:px-16 lg:px-40">
-        <div className="heading">
-          About Us
-          <div className="pb-10"></div>
+      <div className="grid place-items-center text-white xs:px-16 lg:px-80">
+        <div className="heading py-5">
+          About Us        
+        </div>
+
+          {/* <div className="pb-10"></div> */}
           {pastEventDescription.map((pastEvent) => (
-            <div className="font-light md:text-2xl text-[16px] pb-9 text-justify">
+            <div className="font-light lg:text-2xl md:text-xl text-[1rem] pb-4 text-centre">
               <p>{pastEvent.content}</p>
             </div>
           ))}
-        </div>
       </div>
     </div>
+
+    <div className = "lg:pb-20"></div>
     <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination, A11y, Autoplay, EffectCoverflow]}
@@ -56,7 +59,7 @@ const PastEvents = () => {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
       coverflowEffect={{
-        rotate: 30,
+        rotate: 10,
         stretch: 2,
         depth: 100,
         modifier: 1,
@@ -73,7 +76,6 @@ const PastEvents = () => {
           </div>
         </SwiperSlide>
       ))}
-      ...
     </Swiper>
   </section>
 );}
