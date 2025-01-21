@@ -63,12 +63,12 @@ const PrizeComponent = () => {
   return (
     <div>
     <MediaQuery minWidth={769}>
-    <div className="bg-purple w-full overflow-hidden mt-20">
+    <div className="bg-purple w-full overflow-hidden mt-40">
       <div  id="prizes" className={`bg-primary ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth} ${styles.paddingY} flex-col relative`} id="about">
           <div className="grid place-items-center text-white xs:px-16 lg:px-40">
             <div className="text-center text-white">
-              <h2 className="text-5xl mb-4 z-10 relative font-light">PRIZES</h2>
+              <h2 className={styles.heading7 + " relative"}>PRIZES</h2>
               <p className="text-2xl my-14">Prove your winning idea and compete for a prize pool of</p>
               <p className="text-5xl my-14"> $10,000</p>
               <div className="flex justify-center items-end mt-14">
@@ -87,8 +87,8 @@ const PrizeComponent = () => {
 
 
     <MediaQuery maxWidth={768}>
-    <div id="prizes" className="flex flex-col items-center justify-center bg-dark-blue text-white relative font-poppins font-thin font-light">
-    <h2 className="font-poppins font-thin text-5xl mb-10 z-10">PRIZES</h2>
+    <div id="prizes" className="flex flex-col items-center justify-center bg-dark-blue text-white relative font-poppins font-thin font-light ">
+    <h2 className={styles.heading7 + " mb-10 z-10"}>PRIZES</h2>
     <p className="text-xl text-center">Prove your winning idea and compete for a prize pool of</p>
     <p className="text-3xl my-14">$10,000</p>
     <div className="prizes-image-container">

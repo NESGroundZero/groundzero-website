@@ -1,7 +1,7 @@
 import React from "react";
 import MediaQuery from "react-responsive";
 import { useState } from "react";
-
+import styles from "../style";
 
 const Eligibility = () => {
 
@@ -23,7 +23,7 @@ const Eligibility = () => {
       <div
         className="flex flex-col items-center justify-center  bg-dark-blue text-white relative font-poppins font-thin"
       >
-        <h2 className="text-5xl mb-10 z-10 relative"  >ELIGIBILITY CRITERIA</h2>
+        <h2 className={styles.heading7 + " mb-14 relative"}>ELIGIBILITY CRITERIA</h2>
         <div className="before:absolute w-1/2 border-b-2 border-white transform -rotate-[135deg] translate-y-80 sm:translate-y-"></div>
 
         <div  
@@ -58,7 +58,7 @@ const Eligibility = () => {
        
         className="flex flex-col items-center justify-center bg-dark-blue text-white relative font-poppins font-thin"
       >
-        <h2 className="text-5xl mb-16 z-10 relative">ELIGIBILITY CRITERIA</h2>
+        <h2 className={styles.heading7 + " mb-14 relative"}>ELIGIBILITY CRITERIA</h2>
         <h2 className="text-xl  z-10 relative">You can sign up as an indiviual too!</h2>
 
         <div className="before:absolute w-3/4 border-b-2 border-white transform -rotate-[135deg] translate-y-20 sm:translate-y-35"></div>

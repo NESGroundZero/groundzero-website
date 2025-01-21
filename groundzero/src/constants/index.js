@@ -36,33 +36,21 @@ import {
   patrick_ng,
   phang_wei_jun,
   richard_ruddy,
-  sam_ho,
+  sam_ho, 
   steven_chua,
   suwira_teo,
   viveka_kalidasan,
   wei_liang_lim,
   wei_zhuang,
   ye_sheng_tan,
-  accelerating,
-  airbnb,
-  aws,
-  binance,
-  changeMakers,
-  coinbase,
-  eatLaunchpad,
-  dropbox,
   facebook,
   groundzero,
-  hsbc,
   ideate,
   instagram,
   linkedin,
-  mapletree,
   mentorship,
   nes,
   network,
-  nusEnterprise,
-  nyc,
   pastEvent1,
   pastEvent2,
   pastEvent3,
@@ -74,15 +62,9 @@ import {
   pastEvent9,
   pastEvent10,
   pastEvent11,
-  sampleIcon,
   sginnovate,
-  startupBuddy,
   twitter,
-  healthcare,
-  consumercentric,
   sustainability,
-  industryfour,
-  mapletree_new,
   finance,
   scape,
   uob,
@@ -198,7 +180,7 @@ export const problems = [
     title: "Health & Wellness",
     details1:
       "Given the limitless opportunity to improve healthcare, med-tech, fitness, mental wellness and the like. We look forward to solutions that are complemented with the advancements in AI, analytics, wearables and other technologies.",
-    img: healthcare,
+    img: sustainability,
     probstatements: [
       "1. How can generative AI be utilised to create healthcare solutions that are affordable, accessible, and catered to marginalised communities, and at the same time personalised to the needs and health conditions of individuals.",
       "2. How can technology be integrated seamlessly in our lives to provide personalised health insights and real-time feedback?",
@@ -210,7 +192,7 @@ export const problems = [
     title: "Finance",
     details1:
       "The scene of the finance industry has evolved beyond traditional banking as Singapore progresses to be a global financial hub. We look forward to creative solutions that redefine the future of the finance industry and global economic interactions, making a lasting impact on businesses and individuals alike.",
-    img: finance,
+    img: sustainability,
     probstatements: [
       "1. How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
       "2. How can financial literacy be democratised and allow people from all ages and financial backgrounds to grasp complex financial concepts?",
@@ -222,7 +204,7 @@ export const problems = [
     title: "E-Commerce",
     details1:
       "E-Commerce has come a long way and has become an integral part of our lives. We look forward to novel solutions that are relevant to the current day market, shaping the future of commerce, setting new benchmarks for shopping efficiency.",
-    img: consumercentric,
+    img: sustainability,
     probstatements: [
       "1. How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
       "2. Develop a solution for businesses to improve the cost, energy utilisation and/or speed of their Last Mile Delivery",
@@ -371,19 +353,19 @@ export const contacts = [
 export const companies = [
   {
     id: "companies-1",
-    logo: airbnb,
+    logo: uob,
   },
   {
     id: "companies-2",
-    logo: binance,
+    logo: uob,
   },
   {
     id: "companies-3",
-    logo: coinbase,
+    logo: uob,
   },
   {
     id: "companies-4",
-    logo: dropbox,
+    logo: uob,
   },
 ];
 
@@ -411,7 +393,7 @@ export const questions = [
     question:
       "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
     answer:
-      "All ideas presented must be related to one of the four industry focus areas listed in the above section. The Areas of Focus are Health and Wellness, Finance, E-commerce and Sustainability.",
+      "All ideas presented must be related to one of the four industry focus areas listed in the above section. The Areas of Focus are Data Tech, Finance, Health & Wellness, and Sustainability.",
   },
   {
     id: "question-5",
@@ -462,71 +444,6 @@ export const organizer = [
   {
     id: "nes",
     icon: nes,
-  },
-];
-
-// export const platinumSponsor = [
-//   {
-//     id: "platinumSponsor-1",
-//     icon: aws,
-//   },
-//   {
-//     id: "platinumSponsor-2",
-//     icon: eatLaunchpad,
-//   },
-// ];
-
-export const thePatron = [
-  {
-    id: "thePatron-1",
-    icon: mapletree_new,
-  },
-];
-
-export const diamondSponsor = [
-  {
-    id: "diamondSponsor-1",
-    icon: hsbc,
-  },
-];
-
-export const goldSponsor = [
-  {
-    id: "goldSponsor-1",
-    icon: sginnovate,
-  },
-];
-
-export const ecosystemPartner = [
-  {
-    id: "ecosystemPartner-1",
-    icon: nusEnterprise,
-  },
-  {
-    id: "ecosystemPartner-2",
-    icon: nyc,
-  },
-  {
-    id: "ecosystemPartner-3",
-    icon: changeMakers,
-  },
-];
-
-export const deepTechPartner = [
-  {
-    id: "deepTechPartner-1",
-    icon: sginnovate,
-  },
-];
-
-export const workshopPartner = [
-  {
-    id: "workshopPartner-1",
-    icon: accelerating,
-  },
-  {
-    id: "workshopPartner-2",
-    icon: startupBuddy,
   },
 ];
 
@@ -1012,7 +929,7 @@ export const aboutUs = [
   {
     id: "para3",
     content:
-      "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Industry 4.0, Sustainability, Healthcare, and Consumer-centric. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
+      "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Data Tech, Finance, Health & Wellness, and Sustainability. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
   },
 ];
 

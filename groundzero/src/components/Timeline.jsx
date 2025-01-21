@@ -6,9 +6,9 @@ import MediaQuery from "react-responsive";
 /* Timeline page. */
 const Timeline = () => {
   const events = [
-    { name: "Phase Zero", date: "15 MARCH - 5 APRIL" },
-    { name: "Ground Zero", date: "11 MAY - 17 MAY" },
-    { name: "Beyond Zero", date: "18 MAY & BEYOND..." },
+    { name: "Phase Zero", date: "14, 22, 29 MAR & 5 APR" },
+    { name: "Ground Zero", date: "13 MAY - 19 MAY" },
+    { name: "Beyond Zero", date: "19 MAY & BEYOND..." },
   ];
 
   return (
@@ -16,14 +16,15 @@ const Timeline = () => {
     <div>
       <MediaQuery minWidth={768}>
       <div id= "timeline" 
-      className="bg-darkBlue w-full overflow-hidden min-h-screen"
+      className="bg-darkBlue w-full overflow-hidden"
+      style={{ minHeight: `max(90vh, 38rem)` }}
       >
         <div className="pt-20 pb-10 px-4">
-          <h1 className="font-poppins text-white text-center text-5xl mt-10 font-light">
+          <h1 className="font-poppins text-white text-center text-5xl mt-20 font-light">
             TIMELINE
           </h1>
         </div>
-          <div className="relative w-full max-w-6xl mx-auto translate-y-40">
+          <div className="relative w-full max-w-6xl mx-auto translate-y-28">
             {/* Horizontal Line */}
             <div
               className="absolute w-full h-0.5 bg-white"

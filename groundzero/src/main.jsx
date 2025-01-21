@@ -7,10 +7,9 @@ import Timeline from './components/Timeline'
 import Prizes from './components/Prizes'
 import Eligibility from './components/Eligibility'
 import EventSchedule from './pages/EventSchedule'
-import Benefits from './components/Benefits'
 import FAQ from './components/Faq';
 import ContactUs from './components/ContactUsTemp'
-import PartnersBeforeEvent from './pages/PartnersBeforeEvent'
+import Partners from './pages/Partners'
 
 import StatementDetails from './components/ProblemStatements/problem-statement-components/StatementDetails'
 import './index.css'
@@ -20,7 +19,6 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
-import { Partners } from './components'
 
 const router = createBrowserRouter([
   {
@@ -53,10 +51,6 @@ const router = createBrowserRouter([
     element: <EventSchedule/>
   },
   {
-    path: "/benefits",
-    element: <Benefits/>
-  },
-  {
     path: "/faq",
     element: <FAQ/>
   }, 
@@ -66,8 +60,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/partners",
-    element: <PartnersBeforeEvent/>
-      // element: <Partners/>
+    element: <Partners/>
   }
 
 ])

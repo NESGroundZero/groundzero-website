@@ -15,10 +15,10 @@ import {
   Phases,
   Mentors,
   ContactUs,
+  AreaOfFocus,
   Faq,
   Footer,
   HomePage,
-  ContactUsTemp,
 } from "./components";
 import PrizeComponent from "./components/Prizes";
 import Timeline from "./components/Timeline";
@@ -56,10 +56,11 @@ const App = () => {
               <About />
             </div>
             <Phases />
+            <AreaOfFocus/>
+            <ProblemStatementCountdown /> 
             <Timeline/>
             <Eligibility />
             <PrizeComponent />
-            <ProblemStatementCountdown /> 
             {/* <ProblemStatements/>          */}
             <Faq/>
             <Footer />

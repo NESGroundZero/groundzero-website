@@ -27,6 +27,18 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
         spartan: ["League Spartan", "Inter"]
       },
+      perspective: {
+        '1000': '1000px',
+      },
+      rotate: {
+        'y-180': 'rotateY(180deg)',
+      },
+      transformStyle: {
+        'preserve-3d': 'preserve-3d',
+      },
+      backfaceVisibility: {
+        'hidden': 'hidden'
+      }
     },
     screens: {
       xs: "480px",

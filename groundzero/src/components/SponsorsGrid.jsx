@@ -33,14 +33,14 @@ function SponsorTier({ title, sponsors, flexClass, itemClass }) {
 
             {/* Description for small screens */}
             {sponsor.description && sponsor.description.trim() !== '' && (
-              <div className="text-md mt-4 text-white text-center p-4 bg-black/50 rounded sm:hidden">
+              <div className="text-md mt-4 text-white text-center py-4 sm:hidden" style = {{textAlign: 'justify'}}>
                 {sponsor.description}
               </div>
             )}
 
             {/* Description for large screens */}
             {sponsor.description && sponsor.description.trim() !== '' && (
-              <div className="text-lg hidden sm:block mt-4 text-white text-center p-4 bg-black/50 rounded">
+              <div className="text-lg hidden sm:block mt-4 text-white text-center py-4" style = {{textAlign: 'justify'}}>
                 {sponsor.description}
               </div>
             )}
@@ -57,8 +57,8 @@ export default function SponsorsGrid() {
       <SponsorTier
         title="Diamond"
         sponsors={sponsorsData.diamond}
-        flexClass="justify-between"
-        itemClass="w-full"
+        flexClass="justify-center"
+        itemClass="w-[80%]"
       />
       {/* <SponsorTier
         title="Platinum"
@@ -70,7 +70,7 @@ export default function SponsorsGrid() {
         title="Gold"
         sponsors={sponsorsData.gold}
         flexClass="justify-center"
-        itemClass="w-[30%] md:w-[30%]"
+        itemClass="w-[40%] md:w-[40%]"
       />
       <SponsorTier
         title="Community Partners"

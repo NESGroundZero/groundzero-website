@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "../style";
-import { groundzeroHome, homebackgroundastervoidvideoblue } from '../assets';
+import { groundzeroHome, homebackgroundearthvideo } from '../assets';
 import { DisplayButton, CountdownTimer } from "./index";
 import MediaQuery from "react-responsive";
 import { groundZeroStartDate } from '../constants';
@@ -29,7 +29,7 @@ const HomePage = () => {
                     }}
                 >
                     <video
-                        src={homebackgroundastervoidvideoblue}
+                        src={homebackgroundearthvideo}
                         autoPlay
                         muted
                         loop
@@ -43,6 +43,16 @@ const HomePage = () => {
                             zIndex: 0,
                         }}
                     />
+                    <div
+                        style={{
+                            position: 'absolute',
+                            width: '100%',
+                            height: '100%',
+                            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                            zIndex: 1,
+                        }}
+                    />
+
                 </div>
 
                 {/* Content Overlay */}
@@ -56,14 +66,14 @@ const HomePage = () => {
                         className={`${config.imageWidth} ${config.imageHeight} mt-10`}
                         alt="GroundZero Home"
                     />
-                    <br/>
+                    <br />
                     <DisplayButton
                         isExternal={false}
                         link="/partners"
                         text="Become a Sponsor"
                         variant="primary"
                     />
-                    <br/>
+                    <br />
                     <DisplayButton
                         isExternal={true}
                         link="https://www.instagram.com/nesgroundzero"
@@ -75,10 +85,10 @@ const HomePage = () => {
                         a Groundbreaking Tomorrow.
                         <br />
                     </div>
-                    <CountdownTimer eventDate={ new Date(groundZeroStartDate).getTime() } eventName="Ground Zero 2025" />
+                    <CountdownTimer eventDate={new Date(groundZeroStartDate).getTime()} eventName="Ground Zero 2025" />
                     <br />
                     {/* Scroll Down Button */}
-                    <div className = "justify-center items center">
+                    <div className="justify-center items center">
                         <div className="scroll-down" onClick={scrollToNextSection}></div>
                     </div>
                 </div>

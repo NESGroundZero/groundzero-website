@@ -56,7 +56,7 @@ const ProblemStatementCountdown = () => {
         {/* <div className="w-full text-center justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
           <h1 className={styles.heading2}>Countdown to the Start of Ground Zero</h1>
         </div> */}
-        <h2 className="text-5xl mb-20 z-10 relative font-light text-white">PROBLEM STATEMENTS</h2>
+        <h2 className={styles.heading7 + " py-20 mt-20 z-10 relative"}>PROBLEM STATEMENTS</h2>
         <div className={`${styles.flexCenter} w-full text-white`}>
           <div className="countdown-timer-box">
             <div
