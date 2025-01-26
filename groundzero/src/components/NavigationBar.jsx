@@ -14,6 +14,11 @@ const NavigationBar = ({ className }) => {
     // Reset active anchor based on URL hash
     const currentHash = location.hash.replace('#', '');
     setActiveAnchor(currentHash);
+
+    // Scroll to top if path is /partners
+    if (location.pathname === '/partners') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }    
   }, [location]); // Re-run effect when location changes
 
   const toggleDropdown = () => setIsOpenDropdown(!isOpenDropdown);

@@ -423,15 +423,13 @@ export const questions = [
     id: "question-9",
     question:
       "I’m a student that is from an institution overseas. Can I still join Ground Zero?",
-    answer: "Yes! We’re open to students from any institution overseas.",
+    answer: "Yes! However, we do not provide assitance (e.g. visa, accomodation) in getting to Singapore.",
   },
 
   {
     id: "question-10",
-    question: "Must I attend all days of the event?",
-    answer:
-      "Ground Zero will consist of 3 physical days. Full attendance is recommended for the complete experience, but we acknowledge that team members may have external commitments. Therefore, at least 2 members of the team must be present throughout the event!",
-  },
+    "question": "Must I attend all days of the event?",
+"answer": "Ground Zero will consist of multiple physical days. Attendance is compulsory on 13 May and 19 May which are the first and last day of Ground Zero. Other events, such as Phase Zero and mentor meet-ups on 15 May, are optional but encouraged for a fuller experience!"    },
 
   {
     id: "question-11",

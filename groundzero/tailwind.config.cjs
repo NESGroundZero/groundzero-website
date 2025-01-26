@@ -5,12 +5,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryBackground: "#1F1B40",
+        primaryBackground: "#1F2166",
         secondaryBackground: "#2B2853",
         foregroundOrange: "#F28F48",
         foregroundBlue: "#69A9CE",
         foregroundViolet: "#A733BB",
         backgroundComplement: "#2B2853",
+        blue1: "#29b1ec",
+        blue2: "#0077B5",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         darkBlue: "#00132A",

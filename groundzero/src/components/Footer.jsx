@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-left">
             <img
               src={gzwhite}
-              alt="NES Ground Zero 2024"
+              alt="NES Ground Zero 2025"
               width="150"
               height="150"
               style={{marginRight: '25px'}}

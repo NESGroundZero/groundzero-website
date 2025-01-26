@@ -19,10 +19,10 @@ import {
   Faq,
   Footer,
   HomePage,
+  NotificationBar
 } from "./components";
 import PrizeComponent from "./components/Prizes";
 import Timeline from "./components/Timeline";
-import MentorPage from "./pages/MentorPage";
 
 /* Main entry point of the web application. */
 const App = () => {
@@ -41,6 +41,7 @@ const App = () => {
 
   return (
     <>
+      <NotificationBar />
       <div className="bg-purple w-full overflow-hidden bg-black">
         <NavigationBar />
 

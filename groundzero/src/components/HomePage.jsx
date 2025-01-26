@@ -4,6 +4,7 @@ import { groundzeroHome, homebackgroundearthvideo } from '../assets';
 import { DisplayButton, CountdownTimer } from "./index";
 import MediaQuery from "react-responsive";
 import { groundZeroStartDate } from '../constants';
+import NotificationBar from './NotificationBar';
 
 const HomePage = () => {
     // Scroll to the next section when the scroll-down div is clicked
@@ -16,13 +17,12 @@ const HomePage = () => {
 
     const renderContent = (config) => {
         return (
-            <div className={`${styles.paddingY} ${styles.flexCenter} flex-col relative h-screen`}>
-                {/* Video Background */}
+            <div className={`${styles.paddingY} ${styles.flexCenter} flex-col relative min-h-screen`}>                {/* Video Background */}
                 <div
                     className="video-background-container"
                     style={{
                         width: '100vw',
-                        height: '100vh',
+                        height: 'max(100vh, 50rem)',
                         position: 'absolute',
                         overflow: 'hidden',
                         zIndex: 0,
@@ -40,6 +40,7 @@ const HomePage = () => {
                             width: '100%',
                             height: '100%',
                             objectFit: 'cover',
+                            objectPosition: '10% top',
                             zIndex: 0,
                         }}
                     />
@@ -58,12 +59,12 @@ const HomePage = () => {
                 {/* Content Overlay */}
                 <div className="grid place-items-center text-white relative" style={{ zIndex: 1 }}>
                     <br /><br />
-                    <div className="font-light text-2xl text-justify mt-16">
-                        {config.dateText}
+                    <div className="font-light text-xl text-justify mt-16">
+                        Sign up for May 2025
                     </div>
                     <img
                         src={groundzeroHome}
-                        className={`${config.imageWidth} ${config.imageHeight} mt-10`}
+                        className={`${config.imageWidth} ${config.imageHeight} mt-7`}
                         alt="GroundZero Home"
                     />
                     <br />
@@ -76,10 +77,10 @@ const HomePage = () => {
                     <br />
                     <DisplayButton
                         isExternal={true}
-                        link="https://www.instagram.com/nesgroundzero"
-                        text="Find Out More"
+                        link="https://www.eventbrite.sg/e/ground-zero-2025-tickets-1126561468679?aff=oddtdtcreator"
+                        text="Register Now"
                     />
-                    <div className={`text-white font-bold ${config.sloganFontSize} text-center mt-8`}>
+                    <div className={`text-white font-bold ${config.sloganFontSize} text-center pt-8 pb-3`}>
                         Loading From Zero,
                         <br />
                         a Groundbreaking Tomorrow.

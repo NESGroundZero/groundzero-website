@@ -22,7 +22,7 @@ const AreaOfFocusCard = ({ details, area, image }) => {
                                 {area}
                             </div>              
                             {image && <img src={image} alt={area} className="w-32 h-32 object-contain mb-4 mx-auto" />}
-                            <button className="px-6 py-2 mt-2 bg-white text-blue-600 rounded-full hover:bg-gray-100 transition-colors" onClick={handleFlip}>
+                            <button className="px-6 py-2 mt-2 bg-white text-blue2 rounded-full hover:bg-gray-100 transition-colors" onClick={handleFlip}>
                                 Learn More
                             </button>
                         </div>
@@ -32,12 +32,12 @@ const AreaOfFocusCard = ({ details, area, image }) => {
                 {/* Back */}
                 <div className="absolute inset-0 w-full h-full bg-white rounded-xl shadow-lg [backface-visibility:hidden] [transform:rotateY(180deg)]">
                     <div className="pt-4 text-center">
-                        <h4 className="text-2xl font-bold mt-4 text-blue-500">{area}</h4>
+                        <h4 className="text-2xl font-bold mt-4 text-blue2">{area}</h4>
                     </div>
                     <div className="px-6 py-4">
                         <ul className="space-y-1">
                             {details.map((detail, index) => (
-                                <li key={index} className="text-gray-800 font-poppins font-light text-base px-4" style={{ textAlign: 'justify'}}>
+                                <li key={index} className="text-darkBlue font-poppins font-light text-base px-4" style={{ textAlign: 'justify'}}>
                                     {detail}
                                 </li>
                             ))}

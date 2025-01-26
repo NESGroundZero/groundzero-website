@@ -28,6 +28,7 @@ import Phases from "./Phases";
 import CountdownTimer from "./CountDown";
 import Banner from "./Banner";
 import AreaOfFocus from "./AreaOfFocus";
+import NotificationBar from "./NotificationBar";
 
 export {
     About,
@@ -54,5 +55,6 @@ export {
     Eligibility,
     CountdownTimer,
     Banner,
-    AreaOfFocus
+    AreaOfFocus,
+    NotificationBar
 };

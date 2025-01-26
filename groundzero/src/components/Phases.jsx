@@ -6,8 +6,8 @@ import styles from "../style";
 
 const Phase = ({ image, description }) => {
   return (
-    <div className="flex flex-col items-center px-4 py-10 md:w-1/3 xs:px-16">
-      <img src={image} alt="Phase" className="mb-2 py-10" />
+    <div className={`flex flex-col items-center py-10 md:w-1/3 xs:px-16`}>
+      <img src={image} alt="Phase" className="mb-2 py-10 px-4" />
       <p className="text-gray-300 text-lg font-poppins">{description}</p>
     </div>
   );
@@ -30,7 +30,7 @@ const Phases = () => {
   ];
 
   return (
-    <div className="text-center py-12">
+    <div className={`${styles.paddingY} ${styles.paddingX} text-center py-12`}>
       <h2 className={styles.heading7 + " py-14 mt-15"}>PHASES</h2>
       <h2 className="text-white font-poppins font-lighter md:text-2xl text-xl xs:px-16 lg:px-40 z-10">Expanding our trajectory beyond the conventional Starthaton, we introduce our unique extensions to Ground Zero: Phase Zero and Beyond Zero. </h2>
       <div className="flex flex-wrap justify-center">

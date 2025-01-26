@@ -783,7 +783,6 @@ This file contains styling customization for fonts and colors.
   height: 50px;
   width: 30px;
   position: relative;
-  left: 50%;
   bottom: 10px;
   border-radius: 50px;
   cursor: pointer;
@@ -955,7 +954,13 @@ This file contains styling customization for fonts and colors.
 .display-button {
   border-radius: 45px;
   transition: 0.1s;
-  width: 270px;
+  width: 15.625rem;
+}
+
+@media (max-width: 640px) { /* Tailwind's xs breakpoint is 640px */
+  .display-button {
+    width: 13rem; /* Width for xs screens */
+  }
 }
 
 .display-button-primary {
@@ -985,18 +990,6 @@ This file contains styling customization for fonts and colors.
   padding-right: 1.5rem;
   border-radius: 50px;
   font-weight: 600;
-}
-
-.display-button-left-arrow img {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  height: 30px;
-  margin-right: 30px;
-}
-
-.display-button-right-arrow img {
-  height: 30px;
-  margin-left: 15px;
 }
 
 /* POPUP (MODAL) */
@@ -1524,8 +1517,8 @@ li {
   border-radius: 9999px;
   font-size: 1.0rem; /* Equivalent to text-4xl */
   font-weight: bold; /* Equivalent to font-bold */
-  width: 5rem; /* Equivalent to w-24 */
-  height: 5rem; /* Equivalent to h-24 */
+  width: 4.2rem; /* Equivalent to w-24 */
+  height: 4.2rem; /* Equivalent to h-24 */
   display: flex;
   align-items: center;
   justify-content: center;
