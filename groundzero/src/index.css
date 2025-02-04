@@ -1127,7 +1127,7 @@ This file contains styling customization for fonts and colors.
 
 .footer-buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
 }
 

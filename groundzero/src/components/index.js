@@ -19,7 +19,6 @@ import PastEvents from "./PastEvents";
 import ProblemStatementCountdown from "./ProblemStatementCountdown";
 import ProblemStatements from "./ProblemStatements";
 import ReasonsToJoin from "./ReasonsToJoin";
-import SignUp from "./SignUp";
 import StatementDetails from "./ProblemStatements/problem-statement-components/StatementDetails";
 import Teaser from "./Teaser";
 import Workshops from "./Workshops";
@@ -29,6 +28,7 @@ import CountdownTimer from "./CountDown";
 import Banner from "./Banner";
 import AreaOfFocus from "./AreaOfFocus";
 import NotificationBar from "./NotificationBar";
+import BokehBackground from "./Backgrounds/BokehBackground";
 
 export {
     About,
@@ -48,7 +48,6 @@ export {
     ProblemStatementCountdown,
     ProblemStatements,
     ReasonsToJoin,
-    SignUp,
     StatementDetails,
     Teaser,
     Workshops,
@@ -56,5 +55,6 @@ export {
     CountdownTimer,
     Banner,
     AreaOfFocus,
-    NotificationBar
+    NotificationBar,
+    BokehBackground,
 };

@@ -384,9 +384,9 @@ export const questions = [
   {
     id: "question-3",
     question:
-      "I want to participate in Ground Zero, but not enough peers to do it with. How can I find other like-minded individuals to form a team?",
+      "Can I sign up as an individual? How can I find other like-minded teammates for Ground Zero?",
     answer:
-      "Fret not! You can sign up individually and we will try our best to assign you to a team.",
+      "Once your individual signup is approved, you are allowed to form teams of 1 to 4 members",
   },
   {
     id: "question-4",
@@ -433,9 +433,15 @@ export const questions = [
 
   {
     id: "question-11",
+    question: "I have health conditions that require additional accommodations. Can I still join Ground Zero?",
+    answer: "Yes. When you fill out the sign-up form, please indicate that you require additional accommodations. Our team will reach out to discuss your needs and ensure we provide the appropriate support.",
+  },
+  {
+    id: "question-12",
     question: "Can I join virtually? ",
     answer: "No, Ground Zero is a physical event.",
   },
+
 ];
 
 export const organizer = [
@@ -910,7 +916,7 @@ export const mentors = [
 export const groundZeroStartDate = "2025-05-01T00:09:00+08:00";
 
 // Date for Releasing Problem Statements. Edit here to change
-export const statementReleaseDate = "May 8, 2025 00:09:00 GMT+0800";
+export const statementReleaseDate = "May 13, 2025 00:09:00 GMT+0800";
 
 // Edit this to change the content of paras in About Page
 export const aboutUs = [

@@ -61,10 +61,10 @@ const PrizeBox = ({ place, amount, height }) => {
 
 const PrizeComponent = () => {
   return (
-    <div>
+    <div id = "prizes">
     <MediaQuery minWidth={769}>
-    <div className="bg-purple w-full overflow-hidden mt-40">
-      <div  id="prizes" className={`bg-primary ${styles.flexCenter}`}>
+    <div className="bg-purple w-full overflow-hidden pt-40">
+      <div className={`bg-primary ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth} ${styles.paddingY} flex-col relative`} id="about">
           <div className="grid place-items-center text-white xs:px-16 lg:px-40">
             <div className="text-center text-white">

@@ -57,6 +57,11 @@ const ProblemStatementCountdown = () => {
           <h1 className={styles.heading2}>Countdown to the Start of Ground Zero</h1>
         </div> */}
         <h2 className={styles.heading7 + " py-20 mt-20 z-10 relative"}>PROBLEM STATEMENTS</h2>
+  
+        <h2 className="text-white font-poppins font-lighter text-center pb-20 md:text-2xl text-xl xs:px-16 lg:px-40 z-10">
+        Problem statements will be released on 13 May 2025 - the first day of Ground Zero.
+        </h2>
+
         <div className={`${styles.flexCenter} w-full text-white`}>
           <div className="countdown-timer-box">
             <div

@@ -42,7 +42,7 @@ const App = () => {
   return (
     <>
       <NotificationBar />
-      <div className="bg-purple w-full overflow-hidden bg-black">
+      <div className="bg-purple w-full">
         <NavigationBar />
 
         <div className={`bg-primary ${styles.flexStart}`}>

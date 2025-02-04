@@ -30,9 +30,9 @@ const NavigationBar = ({ className }) => {
   const navLinks = [
     { href: "/#about", label: "About", anchor: "about" },
     { href: "/#timeline", label: "Timeline", anchor: "timeline" },
-    { href: "/partners", label: "Sponsors", isNavLink: true },
     { href: "/#eligibility", label: "Eligibility", anchor: "eligibility" },
     { href: "/#prizes", label: "Prizes", anchor: "prizes" },
+    { href: "/partners", label: "Sponsors", isNavLink: true },
     { href: "/#faq", label: "FAQ", anchor: "faq" },
   ];
 

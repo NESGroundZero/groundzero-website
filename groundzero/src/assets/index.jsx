@@ -62,12 +62,15 @@ import pastEvent8 from "./past_event_photos/pastEvent8.jpeg";
 import pastEvent9 from "./past_event_photos/pastEvent9.jpg";
 import pastEvent10 from "./past_event_photos/pastEvent10.jpg";
 import pastEvent11 from "./past_event_photos/pastEvent11.jpg";
+import pastEvent12 from "./past_event_photos/pastEvent12.jpg";
+import pastEvent13 from "./past_event_photos/pastEvent13.jpg";
+import pastEvent14 from "./past_event_photos/pastEvent14.jpg";
 import rightArrow from "./right-arrow.png";
 import sampleIcon from "./sample-icon.png";
 import sginnovate from "./sginnovate.png";
 import twitter from "./twitter.svg";
 import homebg from "./homebg.png";
-import homepage from "./homepage.png";
+import homepage from "./background_photos/homepage.png";
 import groundzeroHome from "./groundzeroHome.png"
 import blob from "./blob.png";
 import ring from "./ring.png";
@@ -87,6 +90,10 @@ import health_and_wellness from "./area_of_focus/health_and_wellness.png";
 import data_tech from "./area_of_focus/data_tech.png"
 import sustainability from "./area_of_focus/sustainability.png";
 import finance from "./area_of_focus/finance.png";
+import bokeh1 from "./background_photos/bokeh1.svg";
+import bokeh2 from "./background_photos/bokeh2.svg";
+import bokeh3 from "./background_photos/bokeh3.svg";
+import waves1 from "./background_photos/waves1.svg";
 
 export {
   ajinkya_bhat,
@@ -147,6 +154,9 @@ export {
   pastEvent9,
   pastEvent10,
   pastEvent11,
+  pastEvent12,
+  pastEvent13,
+  pastEvent14,
   rightArrow,
   sampleIcon,
   sginnovate,
@@ -172,5 +182,9 @@ export {
   data_tech,
   finance,
   health_and_wellness,
-  sustainability
+  sustainability,
+  bokeh1,
+  bokeh2,
+  bokeh3,
+  waves1,
 };

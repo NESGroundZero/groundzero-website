@@ -40,23 +40,27 @@ const cardsData = [
 
 const AreaOfFocus = () => {
   return (
-    <div className = "py-12">
-    <h2 className={styles.heading7 + " py-14 mt-20"}>AREAS OF FOCUS</h2>
-    <h2 className="text-white font-poppins font-lighter text-center pb-20 md:text-2xl text-xl xs:px-16 lg:px-40 z-10">This year, Ground Zero 2025 spotlights four transformative focus areas shaping the future: Data Tech, Sustainability, Health & Wellness, and Finance.</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 xl:gap-16 gap-8 p-8 place-items-center">
-      {cardsData.map((card, index) => (
-        <AreaOfFocusCard
-          key={index}
-          title={card.title}
-          details={card.details}
-          area={card.area}
-          image={card.image}
-        />
-      ))}
-    </div>
-
+    <div className="px-30">
+      <h2 className={styles.heading7 + " py-14 mt-20"}>AREAS OF FOCUS</h2>
+      <h2 className="text-white font-poppins font-lighter text-center pb-20 md:text-2xl text-xl xs:px-16 lg:px-40 z-10">
+        This year, Ground Zero 2025 spotlights four transformative focus areas shaping the future: Data Tech, Sustainability, Health & Wellness, and Finance.
+      </h2>
+      <div className="max-w-[100%] md:max-w-[50rem] xl:max-w-[100%] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 xl:gap-8 gap-6 py-8 px-4 md:px-8 place-items-center">
+        {cardsData.map((card, index) => (
+            <AreaOfFocusCard
+              key={index}
+              title={card.title}
+              details={card.details}
+              area={card.area}
+              image={card.image}
+            />
+        ))}
+      </div>
+      </div>
     </div>
   );
 };
+
 
 export default AreaOfFocus;

@@ -17,7 +17,7 @@ const HomePage = () => {
 
     const renderContent = (config) => {
         return (
-            <div className={`${styles.paddingY} ${styles.flexCenter} flex-col relative min-h-screen`}>                {/* Video Background */}
+            <div className={`${styles.paddingY} ${styles.flexCenter} flex-col relative min-h-screen z-20`}>                {/* Video Background */}
                 <div
                     className="video-background-container"
                     style={{
@@ -60,7 +60,7 @@ const HomePage = () => {
                 <div className="grid place-items-center text-white relative" style={{ zIndex: 1 }}>
                     <br /><br />
                     <div className="font-light text-xl text-justify mt-16">
-                        Sign up for May 2025
+                        Sign up for May 2025 is open!
                     </div>
                     <img
                         src={groundzeroHome}
@@ -72,13 +72,13 @@ const HomePage = () => {
                         isExternal={false}
                         link="/partners"
                         text="Become a Sponsor"
-                        variant="primary"
                     />
                     <br />
                     <DisplayButton
                         isExternal={true}
                         link="https://www.eventbrite.sg/e/ground-zero-2025-tickets-1126561468679?aff=oddtdtcreator"
                         text="Register Now"
+                        variant="primary"
                     />
                     <div className={`text-white font-bold ${config.sloganFontSize} text-center pt-8 pb-3`}>
                         Loading From Zero,
