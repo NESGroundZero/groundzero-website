@@ -3,36 +3,44 @@ This file handles the importing and exporting of all components to make importin
 In the future, please always import and export your components here.
 */
 
-import About from "./About";
-import HomePage from "./HomePage";
-import ContactUs from "./ContactUs";
-import ContactUsTemp from "./ContactUsTemp"
-import DisplayButton from "./DisplayButton";
-import DisplayIcon from "./DisplayIcon";
-import Faq from "./Faq";
-import Footer from "./Footer";
-import MentorGrid from "./MentorGrid";
-import Mentors from "./Mentors";
-import NavigationBar from "./NavigationBar";
-import Partners from "../pages/Partners";
-import PastEvents from "./PastEvents";
-import ProblemStatementCountdown from "./ProblemStatementCountdown";
-import ProblemStatements from "./ProblemStatements";
-import ReasonsToJoin from "./ReasonsToJoin";
-import StatementDetails from "./ProblemStatements/problem-statement-components/StatementDetails";
-import Teaser from "./Teaser";
-import Workshops from "./Workshops";
-import Eligibility from "./Eligibility";
-import Phases from "./Phases";
-import CountdownTimer from "./CountDown";
-import Banner from "./Banner";
-import AreaOfFocus from "./AreaOfFocus";
-import NotificationBar from "./NotificationBar";
+import About from "./HomePageComponents/About";
+import HomePageVideo from "./HomePageComponents/HomePageVideo";
+import ContactUs from "./UnusedComponents/ContactUs";
+import ContactUsTemp from "./UnusedComponents/ContactUsTemp"
+import DisplayButton from "./Utility/DisplayButton";
+import DisplayIcon from "./UnusedComponents/DisplayIcon";
+import Faq from "./HomePageComponents/Faq";
+import Footer from "./Utility/Footer";
+import MentorGrid from "./StakeholdersPageComponents/MentorGridComponents.jsx/MentorGrid.jsx";
+import NavigationBar from "./Utility/NavigationBar";
+import StakeholdersPage from "../pages/StakeholdersPage";
+import PastEvents from "./SponsorsPageComponents/PastEvents";
+import ProblemStatementCountdown from "./HomePageComponents/ProblemStatementCountdown";
+import Workshops from "./StakeholdersPageComponents/WorkshopComponents.jsx/Workshops.jsx";
+import Eligibility from "./HomePageComponents/Eligibility";
+import Phases from "./HomePageComponents/Phases";
+import CountdownTimer from "./HomePageComponents/CountDown";
+import Banner from "./Utility/Banner";
+import AreaOfFocus from "./HomePageComponents/AreaOfFocus";
+import NotificationBar from "./Utility/NotificationBar";
 import BokehBackground from "./Backgrounds/BokehBackground";
+import BokehBackground2 from "./Backgrounds/BokehBackground2";
+import WavesBackground from "./Backgrounds/WavesBackground";
+import ScreenSizeIndicator from "./Utility/ScreenSizeIndicator";
+import SectionDivider from "./Utility/SectionDivider";
+import Timeline from "./HomePageComponents/Timeline";
+import SponsorsPage from "../pages/SponsorsPage.jsx";
+import EventSchedule from "./HomePageComponents/EventSchedule.jsx";
+import EventScheduleComponents from "./Utility/EventScheduleComponents";
+import Prizes from "./HomePageComponents/Prizes";
+import HomePage from "../pages/HomePage.jsx";
+import SponsorsTier from "./SponsorsPageComponents/SponsorsTier.jsx";
+import Panelists from "./StakeholdersPageComponents/PanelistsComponents.jsx/Panelists.jsx";
+import StakeholderBox from "./StakeholdersPageComponents/MentorGridComponents.jsx/MentorBox.jsx";
 
 export {
     About,
-    HomePage,
+    HomePageVideo,
     ContactUs,
     ContactUsTemp,
     DisplayButton,
@@ -40,16 +48,11 @@ export {
     Faq,
     Footer,
     MentorGrid, 
-    Mentors,
     NavigationBar,
-    Partners,
+    StakeholdersPage,
     Phases,
     PastEvents,
     ProblemStatementCountdown,
-    ProblemStatements,
-    ReasonsToJoin,
-    StatementDetails,
-    Teaser,
     Workshops,
     Eligibility,
     CountdownTimer,
@@ -57,4 +60,17 @@ export {
     AreaOfFocus,
     NotificationBar,
     BokehBackground,
+    BokehBackground2,
+    WavesBackground,
+    ScreenSizeIndicator,
+    SectionDivider,
+    Timeline,
+    SponsorsPage,
+    EventSchedule,
+    Prizes,
+    HomePage,
+    EventScheduleComponents,
+    SponsorsTier,
+    Panelists,
+    StakeholderBox,
 };

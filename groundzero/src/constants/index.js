@@ -4,53 +4,10 @@ In the future, please use this file as the only way to interact with editing tex
 */
 
 import {
-  ajinkya_bhat,
-  alvin_ng,
-  andrew_soh,
-  arin_alois_loy,
-  arjun_arora,
-  chandra_tjan,
-  chet_yong,
-  darrell_zhang,
-  daryl_lim,
-  dennis_poh,
-  dhawal_shah,
-  donna_daritan,
-  don_tsai,
-  douglas_peris,
-  elena_chow,
-  eric_lam,
-  evan_chow,
-  francis_lee,
-  freddie_luchterhand_dare,
-  james_conde,
-  jeffrey_chua,
-  jeremy_loh,
-  jonas_chen,
-  kenneth_lou,
-  lucas_yeo,
-  max_giammario,
-  melvin_ho,
-  mohan_belani,
-  palash_jain,
-  patrick_ng,
-  phang_wei_jun,
-  richard_ruddy,
-  sam_ho, 
-  steven_chua,
-  suwira_teo,
-  viveka_kalidasan,
-  wei_liang_lim,
-  wei_zhuang,
-  ye_sheng_tan,
-  facebook,
   groundzero,
-  ideate,
   instagram,
   linkedin,
-  mentorship,
   nes,
-  network,
   pastEvent1,
   pastEvent2,
   pastEvent3,
@@ -62,14 +19,46 @@ import {
   pastEvent9,
   pastEvent10,
   pastEvent11,
-  sginnovate,
   twitter,
   sustainability,
-  finance,
   scape,
   uob,
   lumos, 
+  auralo,
+  boulder_planet,
+  block_71,
+  embedded,
+  novotel,
+  imda,
+  mercure_stevens,
+  river_venture_studio,
+  alibaba_cloud,
+  nus_enterprise,
+  suntec_singapore,
+  david_z_wang,
+  dr_ferdin_joe,
+  jeffrey_chua,
+  viveka_kalisadan,
+  speaker_background_1,
+  speaker_background_2,
+  speaker_background_3,
+  speaker_background_4,
+  adrian_lee,
+  anli_geng,
+  edward_tay,
+  jon_ng,
+  kaylee_fung,
+  manish_patel,
+  matthias_ong,
+  richard_oh,
+  ruslan_enikeev,
+  russ_neu,
+  shaw_bee_chung,
+  vinod_vasnani, paul_kan, adam_chee, lim_wai_mun, natasha_syed, douglas_peris,
 } from "../assets";
+
+
+export { mentors } from "./data_and_automation_scripts/mentors.js";
 
 export const navLinks = [
   {
@@ -108,30 +97,6 @@ export const timeline = [
     icon: groundzero,
     title: "Pitch Day",
     content: "April 2025",
-  },
-];
-
-export const reasons = [
-  {
-    id: 1,
-    img: network,
-    title: "Network",
-    description:
-      "At Ground Zero, you will be surrounded by students from different schools, courses, majors, and backgrounds – all in it with a common interest in Entrepreneurship. You will meet and interact with fellow students, who may become potential collaborators or co-founders for your budding ideas. You will also be able to network with key industry experts, start-up founders, and investors – all of whom will make you richer in contacts.",
-  },
-  {
-    id: 2,
-    img: mentorship,
-    title: "Seek guidance through mentorship",
-    description:
-      "At Ground Zero, you can leverage the experience and network of industry experts, founders, and investors, who will provide invaluable mentoring. There will also be workshops where you will have the opportunity to learn from experts and hone your skills. A pool of experienced mentors will be waiting to share their knowledgeable experiences to spur you further in your entrepreneurship journey.",
-  },
-  {
-    id: 3,
-    img: ideate,
-    title: "Ideate, Pitch, and Win",
-    description:
-      "You will ideate and pitch a start-up to solve a problem statement within a week and stand a chance to win attractive prizes.",
   },
 ];
 
@@ -317,16 +282,11 @@ export const socialMedia = [
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
     icon: twitter,
     link: "https://www.twitter.com/",
   },
   {
-    id: "social-media-4",
+    id: "social-media-3",
     icon: linkedin,
     link: "https://www.linkedin.com/",
   },
@@ -350,91 +310,71 @@ export const contacts = [
   },
 ];
 
-export const companies = [
-  {
-    id: "companies-1",
-    logo: uob,
-  },
-  {
-    id: "companies-2",
-    logo: uob,
-  },
-  {
-    id: "companies-3",
-    logo: uob,
-  },
-  {
-    id: "companies-4",
-    logo: uob,
-  },
-];
-
 export const questions = [
   {
     id: "question-1",
     question: "How much does it cost to join Ground Zero?",
     answer:
-      "Early Bird prices are $10 per person. (normal pricing $15) Follow our social media accounts for more promotions!",
+  "Tickets are at $15 per person. If you are from our partnered school/club the tickets are $5 per person. If your club is not in partnership with us, do drop us an email and we will reach out to your club soon"
   },
   {
     id: "question-2",
     question: "How do I sign up for Ground Zero?",
-    answer: "You can signup for Ground Zero through the Register button above!",
+    answer: "You can sign up for Ground Zero through the Register button above!",
   },
   {
     id: "question-3",
     question:
       "Can I sign up as an individual? How can I find other like-minded teammates for Ground Zero?",
     answer:
-      "Once your individual signup is approved, you are allowed to form teams of 1 to 4 members",
+"If you don’t have a team yet, don’t worry! You can join our Phase Zero networking sessions to connect with like-minded entrepreneurs. If needed, we’ll also do our best to match you with a team."
   },
   {
     id: "question-4",
+    question: "How many people can be on a team?",
+    answer: "Each team should consist of 3 to 5 members.",
+  },
+  {
+    id: "question-5",
     question:
       "Does my startup idea have to be in line with a certain theme, or can it be anything I want?",
     answer:
       "All ideas presented must be related to one of the four industry focus areas listed in the above section. The Areas of Focus are Data Tech, Finance, Health & Wellness, and Sustainability.",
   },
   {
-    id: "question-5",
+    id: "question-6",
+    "question": "Must I attend all days of the event?",
+"answer": "Ground Zero will consist of multiple physical days. Attendance is compulsory on 13 May and 19 May which are the first and last day of Ground Zero. Other events, such as Phase Zero and mentor meet-ups on 15 May, are optional but encouraged for a fuller experience!"    },
+  {
+    id: "question-7",
     question: "What is included in the prize pool?",
     answer:
       "A grand prize of First Place $4,000 Second Place $3,000 Third place $2000 and more side prizes that adds up to a total of $1,000 up for you to grab! ",
   },
   {
-    id: "question-6",
+    id: "question-8",
     question:
       "Do I need to have experience in entrepreneurship or startups to join Ground Zero?",
     answer:
       "No experience is needed! We encourage all aspiring entrepreneurs from all tertiary institutions and faculties to join us at this event.",
   },
   {
-    id: "question-7",
+    id: "question-9",
     question: "Who can participate in Ground Zero?",
     answer:
       "Any student currently enrolled at a tertiary institution, be it part-time or full-time. Tertiary institutions include, but are not limited to ITEs, Polytechnics, Universities (both undergraduate and postgraduate). We also allow recent alumni of 5 years or less, but please limit the number of alumni to two at maximum.",
   },
   {
-    id: "question-8",
-    question: "How many people can be on a team?",
-    answer: "Each team can have 3 to 5 members.",
-  },
-  {
-    id: "question-9",
+    id: "question-10",
     question:
       "I’m a student that is from an institution overseas. Can I still join Ground Zero?",
-    answer: "Yes! However, we do not provide assitance (e.g. visa, accomodation) in getting to Singapore.",
+    answer: "Yes! You’re welcome to join, but you'll need to cover your own travel expenses, including visa and accommodation. We can help you find more affordable lodging through our hotel partnerships—just email us if you need assistance.",
   },
-
-  {
-    id: "question-10",
-    "question": "Must I attend all days of the event?",
-"answer": "Ground Zero will consist of multiple physical days. Attendance is compulsory on 13 May and 19 May which are the first and last day of Ground Zero. Other events, such as Phase Zero and mentor meet-ups on 15 May, are optional but encouraged for a fuller experience!"    },
-
   {
     id: "question-11",
-    question: "I have health conditions that require additional accommodations. Can I still join Ground Zero?",
-    answer: "Yes. When you fill out the sign-up form, please indicate that you require additional accommodations. Our team will reach out to discuss your needs and ensure we provide the appropriate support.",
+    question: "I have certain disabilities or conditions that require additional accommodations. Can I still join Ground Zero?",
+    answer: 
+    "Yes! Please do send us an email at nesgroundzero@gmail.com indicating that you will require additional accommodations. Our team will discuss with you on how we can provide the appropriate support.",
   },
   {
     id: "question-12",
@@ -462,6 +402,7 @@ export const sponsorsData = {
   // ],
   gold: [
     { name: 'Scape', logo: scape, description: '' },
+    { name: 'IMDA', logo: imda, description: '' },
     // { name: 'Gold B', logo: uob, description: '' },
     // { name: 'Gold C', logo: uob, description: '' },
     // { name: 'Gold D', logo: uob, description: '' },
@@ -470,8 +411,22 @@ export const sponsorsData = {
   ],
   communitypartners: [
     { name: 'Lumos', logo: lumos, description: '' },
-  ]
-};
+    { name: 'Novotel', logo: novotel, description: '' },
+    { name: 'Mercure', logo: mercure_stevens, description: '' },
+    { name: 'NUS Enterprise', logo: nus_enterprise, description: 'NUS Enterprise, the entrepreneurial arm of the National University of Singapore (NUS), plays a pivotal role in advancing innovation and entrepreneurship at NUS and beyond. It actively promotes entrepreneurship through the experiential entrepreneurial education, active industry partnerships, holistic entrepreneurship support and more.' },
+    { name: 'Boulder Planet', logo: boulder_planet, description: '' },
+    { name: 'Airalo', logo: auralo, description: '' },
+    { name: 'Alibaba Cloud', logo: alibaba_cloud, description: '' },
+    { name: 'River Venture Studio', logo: river_venture_studio, description: 'River Venture Studio is the world’s first and only Industry 5.0 venture studio—an incubator-accelerator supported by Enterprise Singapore, championing women and minority-led deeptech ventures. Built on the LetLab foundation, it drives innovation and sustainability at the intersection of advanced technology.' },
+  ],
+  beyondZeroPartners: [
+    { name: 'Block71', logo: block_71, description: 'Embedded LLM is a revolutionary AI solution that seamlessly integrates advanced language models into enterprise workflows. Designed for effortless deployment and high performance, Embedded LLM empowers businesses to transform data into actionable insights.' },
+    { name: 'Embedded LLM', logo: embedded, description: 'Embedded LLM provides a revolutionary AI solution that seamlessly integrates advanced language models into enterprise workflows. Designed for effortless deployment and high performance, Embedded LLM empowers businesses to transform data into actionable insights. With unparalleled security and open compatibility, it simplifies AI integration, driving innovation and efficiency across modern enterprises.' },
+  ],
+  mediaPartners: [
+    { name: 'Suntec', logo: suntec_singapore, description: '' },
+  ],
+  };
 
 export const pastEvents = [
   {
@@ -533,384 +488,250 @@ export const pastEvents = [
 
 export const workshops = [
   {
-    name: "Workshop 1",
-    by: "XXX",
-    company: "Company 1",
-    date: "2023-01-01T12:00:00",
-    link: "",
+    name: "Adopting AI & Web3 as a Founder",
+    by: "Dr. Ferdin Joe John Joseph",
+    photo: dr_ferdin_joe,
+    background: speaker_background_1,
+    company: "Alibaba Cloud",
+    location_of_workshop: "Alibaba Cloud",
+    date: "2025-03-14T15:00:00",
+    link: "https://www.linkedin.com/in/ferdinjoe/",
+    description: [
+      "Dr. Ferdin is a seasoned training advisor at Alibaba Cloud Singapore with over 13 years of experience in academia and corporate training.",
+      "Recognized as Alibaba Cloud’s Most Valuable Professional, he is an expert in AI, Cloud Computing, and emerging Web3 technologies."
+    ]
+    },
+  {
+    name: "Pitching",
+    by: "Dr. Viveka Kalisadan",
+    photo: viveka_kalisadan,
+    background: speaker_background_4,
+    company: "River Venture Studio",
+    location_of_workshop: "*SCAPE",
+    date: "2025-03-22T15:00:00",
+    link: "https://www.linkedin.com/in/vivekakalidasan",
+    description: [
+      "Dr. Viveka Kalidasan is a visionary innovator celebrated as one of MIT’s 35 Innovators Under 35, Singapore’s Top 100 Women in Technology, and an NUS Outstanding Young Alumni.", "As the Founder and CEO of River Venture Studio—the world’s first Industry 5.0 accelerator and startup studio backed by Enterprise Singapore—she spearheads initiatives that empower startups in robotics, automation, and digital transformation, all with a focus on sustainability and human-centric innovation.", "Dr. Viveka's deep expertise in medtech is showcased by her pioneering work in patient-centered deeptech medical devices. Her research on wireless sensing (WiSe) sutures, published in Nature Biomedical Engineering and featured on the October 2021 cover, was spotlighted in Nature’s news and views and has set a new standard in FemTech solutions.", "Her comprehensive approach to R&D, clinical, regulatory, and commercialization pathways drives groundbreaking advancements in the medtech space. Beyond River Venture Studio, Dr. Viveka founded The Edify Project, a venture-building platform based in Singapore, which supports startups, academia, and corporates in scaling across the APAC region.", "She also serves on the board of the Singapore South Asia Chamber of Commerce and Industries, where, as Chair of Partnerships, she fosters collaborations to advance cross-industry innovation and growth."
+    ]
+    },
+  {
+    name: "Ideation",
+    by: "Jeffrey Chua",
+    photo: jeffrey_chua,
+    background: speaker_background_2,
+    company: "Millenium Enterprise",
+    location_of_workshop: "*SCAPE",
+    date: "2025-03-29T15:00:00",
+    link: "https://www.linkedin.com/in/jeffrey-chua-b384a731/?originalSubdomain=sg",
+    description: [
+      "Jeffrey has more than 20 years of industrial experience and is the Co-founder and CEO of Millennium Enterprise. Before starting a company, he had 15 years of management experience in Accenture, IBM, Public Service Division, Monetary Authority of Singapore (MAS) and United Overseas Bank (UOB).",
+      "He led UOB Enterprise Data Governance Policy unit which governs and manages data risks for UOB regionally. He is a member of Singapore Institute of Directors (MSID).",
+      "A banking professional turned successful entrepreneur, Jeffrey started an e-commerce and product development company - Millennium Enterprise in 2016. In less than a year, Jeffrey grew the company from ground up to a highly profitable multi-million revenue business.",
+      "In 2022, he led his company to be recognized as one of Straits Times Singapore’s Fastest Growing Companies 2022 (Top 23) and one of the high growth APAC SMEs in Financial Times (FT.com) Asia Pacific Top High Growth companies, with a compound annual growth rate CAGR of more than 70%.",
+      "The company won Amazon’s Go Global Seller of the Year award in 2022. After which, the company’s e-commerce baby brand – NatureBond has been acquired through a multi-million deal in 2022.",
+      "Currently, he advises business owners and executives in Singapore and S.E Asia on expanding e-commerce businesses, business exits and mergers and acquisitions (M&A). Additionally, he serves as an affiliate faculty in SMU Academy of Singapore Management University.",
+      "Jeffrey graduated from INSEAD’s Advanced Management Program (AMP). He is an MBA scholar who graduated with an MBA from Singapore Management University. He graduated with a Bachelor of Engineering from NUS in 2005. He is an alumnus of NUS, SMU and INSEAD.",
+    ]
   },
   {
-    name: "Workshop 2",
-    by: "XXX",
-    company: "Company 1",
-    date: "2023-01-01T12:00:00",
-    link: "",
-  },
-  {
-    name: "Workshop 3",
-    by: "XXX",
-    company: "Company 2",
-    date: "2023-01-01T12:00:00",
-    link: "",
-  },
-  {
-    name: "Workshop 4",
-    by: "XXX",
-    company: "Company 2",
-    date: "2023-01-01T12:00:00",
-    link: "",
-  },
-  {
-    name: "What it means to incubate a Startup with AI technology",
-    by: "XXX",
-    company: "Company 3",
-    date: "2023-01-01T12:00:00",
-    link: "",
-  },
-  {
-    name: "Digital Marketing for Tech Startups",
-    by: "XXX",
-    company: "Company 4",
-    date: "2023-01-01T12:00:00",
-    link: "",
+    name: "Standing Out in a Saturated Market",
+    by: "David Z. Wang",
+    photo: david_z_wang,
+    background: speaker_background_3,
+    company: "Helicap",
+    location_of_workshop: "*SCAPE",
+    date: "2025-04-05T15:00:00",
+    link: "https://www.linkedin.com/in/dzwgroup/?originalSubdomain=sg",
+    description: [
+      "David, with a decade of experience at top investment banks like Morgan Stanley, Credit Suisse, and Nomura, left banking in 2016 and founded 33 Capital, an investment firm focused on FinTech and e-commerce startups in Southeast Asia.",
+      "He later co-founded Helicap, providing private investment opportunities for investors and partners, earning recognition as a Top FinTech Leader by the Singapore FinTech Association in 2019.",
+      "David graduated from NUS and has always been passionate about developing the potential of youths, spurring him to establish the 33 Capital Student Exchange Awards for NUS Business Students. Now, he's eager to inspire and share his expertise with students aspiring to enter similar fields.",
+    ]
   },
 ];
 
-export const someMentors = [
-  {
-    title: "Mr. Lawrence Wong",
-    subtitle: ["Prime Minister, Minister for Finance"],
-    info: ["We CARE"],
-    personalLink: "https://www.linkedin.com/in/ssam-ho/",
-    imgsrc: sam_ho,
-    description: ["-"],
-  },
-  {
-    title: "Steven Chua",
-    subtitle: ["Co-Founder"],
-    info: ["Inner Circle Network"],
-    personalLink: "https://www.linkedin.com/in/stevenchuajc/",
-    imgsrc: steven_chua,
-    description: ["-"],
-  },
-];
+export const panelists = {
+  "Data Tech": [
+    {
+      title: "Kaylee Fung",
+      AreaOfFocus: "Data Tech",
+      subtitle: ["Sales and Partnerships, APAC"],
+      company: ["VIDA Digital Identity"],
+      personalLink: "https://www.linkedin.com/in/kayleefung/",
+      imgsrc: kaylee_fung, // TODO: Replace with the actual image import or URL
+      description: [""]
+    },
+    {
+      title: "Edward Tay",
+      AreaOfFocus: "Data Tech",
+      subtitle: ["Professor"],
+      company: ["NUS"],
+      personalLink:
+        "https://www.linkedin.com/in/edwardtayweemeng/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      imgsrc: edward_tay, // TODO: Replace with the actual image import or URL
+      description: [""]
+    }
+  ],
+  "Finance": [
+    {
+      title: "Manish Patel",
+      AreaOfFocus: "Finance",
+      subtitle: ["MD, Head of APAC Global Corporate Sales"],
+      company: ["JP Morgan"],
+      personalLink:
+        "https://www.linkedin.com/in/manishpatel2001/?originalSubdomain=sg",
+      imgsrc: manish_patel, // TODO: Replace with the actual image import or URL
+      description: [""]
+    },
+    {
+      title: "Shaw Bee Chung",
+      AreaOfFocus: "Finance",
+      subtitle: ["Head of Reserve Client Segment, Private Bank"],
+      company: ["UOB"],
+      personalLink: "",
+      imgsrc: shaw_bee_chung, // TODO: Replace with the actual image import or URL
+      description: [""]
+    },
+    {
+      title: "Richard Oh",
+      AreaOfFocus: "Finance",
+      subtitle: ["Co-Founder, Strategy and Network Partnerships"],
+      company: ["Finmo"],
+      personalLink: "https://www.linkedin.com/in/ohrichard/",
+      imgsrc: richard_oh, // TODO: Replace with the actual image import or URL
+      description: [""]
+    }
+  ],
+  "Health & Wellness": [
+    {
+      title: "Jon Ng",
+      AreaOfFocus: "Health & Wellness",
+      subtitle: ["Product Owner & Lead Frontend Developer"],
+      company: ["Mobio Interactive"],
+      personalLink: "",
+      imgsrc: jon_ng, // TODO: Replace with the actual image import or URL
+      description: [""]
+    },
+    {
+      title: "Ruslan Enikeev",
+      AreaOfFocus: "Health & Wellness",
+      subtitle: ["CTO and Co-Founder"],
+      company: ["Oncoshot"],
+      personalLink: "https://www.linkedin.com/in/irriss/",
+      imgsrc: ruslan_enikeev, // TODO: Replace with the actual image import or URL
+      description: [""]
+    }
+  ],
+  "Sustainability": [
+    {
+      title: "Russ Neu",
+      AreaOfFocus: "Sustainability",
+      subtitle: ["Founder & CEO"],
+      company: ["Social Collider"],
+      personalLink: "https://www.linkedin.com/in/russneu/?originalSubdomain=sg",
+      imgsrc: russ_neu, // TODO: Replace with the actual image import or URL
+      description: [""]
+    },
+    {
+      title: "Adrian Lee",
+      AreaOfFocus: "Sustainability",
+      subtitle: ["Founder & Director of Ops"],
+      company: ["Kairos Coaching / Lendlease"],
+      personalLink: "https://www.linkedin.com/in/adrianleesingapore/",
+      imgsrc: adrian_lee, // TODO: Replace with the actual image import or URL
+      description: [""]
+    },
+    {
+      title: "Matthias Ong",
+      AreaOfFocus: "Sustainability",
+      subtitle: ["Vice President"],
+      company: ["City Development Boards"],
+      personalLink: "https://www.linkedin.com/in/matthiasongdw/",
+      imgsrc: matthias_ong, // TODO: Replace with the actual image import or URL
+      description: [""]
+    },
+    {
+      title: "Anli Geng",
+      AreaOfFocus: "Sustainability",
+      subtitle: ["Director and Cofounder"],
+      company: ["Mycosortia"],
+      personalLink: "https://www.linkedin.com/in/anli-geng-74b8a715/",
+      imgsrc: anli_geng, // TODO: Replace with the actual image import or URL
+      description: [""]
+    }
+  ]
+};
 
-export const mentors = [
-  {
-    title: "Sam Ho",
-    subtitle: ["Founder"],
-    info: ["We CARE"],
-    personalLink: "https://www.linkedin.com/in/ssam-ho/",
-    imgsrc: sam_ho,
-    description: ["-"],
-  },
-  {
-    title: "Steven Chua",
-    subtitle: ["Co-Founder"],
-    info: ["Inner Circle Network"],
-    personalLink: "https://www.linkedin.com/in/stevenchuajc/",
-    imgsrc: steven_chua,
-    description: ["-"],
-  },
-  {
-    title: "Andrew Soh",
-    subtitle: ["Founder & CEO"],
-    info: ["Fundigo"],
-    personalLink: "https://www.linkedin.com/in/andrew-soh-b81a2b206/",
-    imgsrc: andrew_soh,
-    description: ["-"],
-  },
-  {
-    title: "Richard Ruddy",
-    subtitle: ["President & Co-Founder"],
-    info: ["Nuguru"],
-    personalLink: "https://www.linkedin.com/in/richard-ruddy-b79a5122/",
-    imgsrc: richard_ruddy,
-    description: ["-"],
-  },
-  {
-    title: "Ye Sheng Tan",
-    subtitle: ["Startup Mentor"],
-    info: ["500 Global"],
-    personalLink: "https://www.linkedin.com/in/tanyesheng/",
-    imgsrc: ye_sheng_tan,
-    description: ["-"],
-  },
-  {
-    title: "Chet Yong",
-    subtitle: ["Expert Mentor"],
-    info: ["Innovators Commersialisation Program"],
-    personalLink: "https://www.linkedin.com/in/chetyong/",
-    imgsrc: chet_yong,
-    description: ["-"],
-  },
-  {
-    title: "Mohan Belani",
-    subtitle: ["Co-Founder & CEO"],
-    info: ["e27"],
-    personalLink: "https://www.linkedin.com/in/mohanbelani",
-    imgsrc: mohan_belani,
-    description: ["-"],
-  },
-  {
-    title: "Douglas Peris",
-    subtitle: ["Program Coach & Mentor"],
-    info: ["Hyper Accelerator"],
-    personalLink: "https://www.linkedin.com/in/douglasperis",
-    imgsrc: douglas_peris,
-    description: ["-"],
-  },
-  {
-    title: "Evan Chow",
-    subtitle: ["Co-Founder & CEO"],
-    info: ["Quest"],
-    personalLink: "https://www.linkedin.com/in/evan-chow/",
-    imgsrc: evan_chow,
-    description: ["-"],
-  },
-  {
-    title: "Chandra Tjan",
-    subtitle: ["Co-Founder & General Partner"],
-    info: ["Alpha JWC Ventures"],
-    personalLink: "https://linkedin.com/in/chandratjan",
-    imgsrc: chandra_tjan,
-    description: ["-"],
-  },
-  {
-    title: "Donna Daritan",
-    subtitle: ["Startup Mentor"],
-    info: ["Asia Insitute of Mentoring & Startupbootcamp FinTech"],
-    personalLink: "https://linkedin.com/in/donnadaritan",
-    imgsrc: donna_daritan,
-    description: ["-"],
-  },
-  {
-    title: "Dennis Poh",
-    subtitle: ["Founder & CEO"],
-    info: ["Legatcy"],
-    personalLink: "https://www.linkedin.com/in/dennis-poh-csa-cert-9693652a/",
-    imgsrc: dennis_poh,
-    description: ["-"],
-  },
-  {
-    title: "Patrick Ng",
-    subtitle: ["Founder"],
-    info: ["Spark Launchpad"],
-    personalLink: "https://www.linkedin.com/in/peisin/?originalSubdomain=sg",
-    imgsrc: patrick_ng,
-    description: ["-"],
-  },
-  {
-    title: "Arin Alois Loy",
-    subtitle: ["Startup and Industry Mentor"],
-    info: ["NTU"],
-    personalLink: "https://www.linkedin.com/in/arinalois/",
-    imgsrc: arin_alois_loy,
-    description: ["-"],
-  },
-  {
-    title: "Melvin Ho",
-    subtitle: ["CEO"],
-    info: ["Bizsquare Group"],
-    personalLink:
-      "https://www.linkedin.com/in/melvin-ho-45055554/?originalSubdomain=sg",
-    imgsrc: melvin_ho,
-    description: ["-"],
-  },
-  {
-    title: "Viveka Kalidasan",
-    subtitle: ["Co-Founder/CEO/Director"],
-    info: ["Edify"],
-    personalLink: "https://www.linkedin.com/in/vivekakalidasan/",
-    imgsrc: viveka_kalidasan,
-    description: ["-"],
-  },
-  {
-    title: "Kenneth Lou",
-    subtitle: ["Co-Founder"],
-    info: ["Seedly"],
-    personalLink: "https://www.linkedin.com/in/kenneth-lou/",
-    imgsrc: kenneth_lou,
-    description: ["-"],
-  },
-  {
-    title: "Jeremy Loh",
-    subtitle: ["Co-Founder & Partner"],
-    info: ["Genesis Alternative Ventures"],
-    personalLink: "https://www.linkedin.com/in/drmmhloh",
-    imgsrc: jeremy_loh,
-    description: ["-"],
-  },
-  {
-    title: "Max Giammario",
-    subtitle: ["CEO"],
-    info: ["MetaPals"],
-    personalLink: "https://www.linkedin.com/in/maxgiammario/",
-    imgsrc: max_giammario,
-    description: ["-"],
-  },
-  {
-    title: "Francis Lee",
-    subtitle: ["Co-Founder"],
-    info: ["Lalia"],
-    personalLink: "https://www.linkedin.com/in/fustilio/",
-    imgsrc: francis_lee,
-    description: ["-"],
-  },
-  {
-    title: "Ajinkya Bhat",
-    subtitle: ["Co-Founder & CEO"],
-    info: ["Seamless XR"],
-    personalLink: "https://www.linkedin.com/in/ajinkya-bhat23/",
-    imgsrc: ajinkya_bhat,
-    description: ["-"],
-  },
-  {
-    title: "Suwira Teo",
-    subtitle: ["Co-Founder"],
-    info: ["Aleph Technologies"],
-    personalLink: "https://www.linkedin.com/in/suwirateo/",
-    imgsrc: suwira_teo,
-    description: ["-"],
-  },
-  {
-    title: "Lucas Yeo",
-    subtitle: ["Co-Founder & CEO"],
-    info: ["Docuf.AI"],
-    personalLink: "https://www.linkedin.com/in/lucasyeo/",
-    imgsrc: lucas_yeo,
-    description: ["-"],
-  },
-  {
-    title: "Daryl Lim",
-    subtitle: ["Business Operations"],
-    info: ["Paladium"],
-    personalLink: "https://www.linkedin.com/in/daryllim95/",
-    imgsrc: daryl_lim,
-    description: ["-"],
-  },
-  {
-    title: "Wei Zhuang (Lenard)",
-    subtitle: ["Founder & CEO"],
-    info: ["Ailytics"],
-    personalLink: "https://www.linkedin.com/in/wei-zhuang-tan/",
-    imgsrc: wei_zhuang,
-    description: ["-"],
-  },
-  {
-    title: "Phang Wei Jun",
-    subtitle: ["Co-Founder"],
-    info: ["Lalia"],
-    personalLink: "https://www.linkedin.com/in/phang-wei-jun/",
-    imgsrc: phang_wei_jun,
-    description: ["-"],
-  },
-  {
-    title: "Elena Chow",
-    subtitle: ["Founder"],
-    info: ["ConnectOne"],
-    personalLink: "http://linkedin.com/in/elenachow",
-    imgsrc: elena_chow,
-    description: ["-"],
-  },
-  {
-    title: "Wei Liang Lim",
-    subtitle: ["Deputy CEO"],
-    info: ["Social Impact Catalyst"],
-    personalLink: "https://www.linkedin.com/in/weilianglim/",
-    imgsrc: wei_liang_lim,
-    description: ["-"],
-  },
-  {
-    title: "Palash Jain",
-    subtitle: ["Founder & CEO"],
-    info: ["Think Design Make"],
-    personalLink:
-      "https://www.linkedin.com/in/palashjain96/?originalSubdomain=sg",
-    imgsrc: palash_jain,
-    description: ["-"],
-  },
-  {
-    title: "Dhawal Shah",
-    subtitle: ["Limited Partner & Mentor"],
-    info: ["Accelerating Asia"],
-    personalLink: "https://www.linkedin.com/in/dhawaljshah",
-    imgsrc: dhawal_shah,
-    description: ["-"],
-  },
-  {
-    title: "Arjun Arora",
-    subtitle: ["Co-Founder & CEO"],
-    info: ["Betafi"],
-    personalLink: "https://www.linkedin.com/in/arjunarora108/",
-    imgsrc: arjun_arora,
-    description: ["-"],
-  },
-  {
-    title: "Jeffrey Chua",
-    subtitle: ["Co-Founder & Ex-CEO"],
-    info: ["Millennium Enterprise"],
-    personalLink: "https://www.linkedin.com/in/jeffreychuapl/",
-    imgsrc: jeffrey_chua,
-    description: ["-"],
-  },
-  {
-    title: "Darrell Zhang",
-    subtitle: ["Co-Founder"],
-    info: ["NextBlock"],
-    personalLink: "https://www.linkedin.com/in/darrellzhang",
-    imgsrc: darrell_zhang,
-    description: ["-"],
-  },
-  {
-    title: "Don Tsai",
-    subtitle: ["Chairman/Founder"],
-    info: ["First Wave"],
-    personalLink: "https://www.linkedin.com/in/dontsai",
-    imgsrc: don_tsai,
-    description: ["-"],
-  },
-  {
-    title: "Freddie Luchterhand-Dare",
-    subtitle: ["Vice President"],
-    info: ["Openspace Ventures"],
-    personalLink: "https://www.linkedin.com/in/frederickluchterhand/",
-    imgsrc: freddie_luchterhand_dare,
-    description: ["-"],
-  },
-  {
-    title: "Eric Lam",
-    subtitle: ["Venture Principal"],
-    info: ["Recast Ventures"],
-    personalLink: "https://www.linkedin.com/in/lam-eric/",
-    imgsrc: eric_lam,
-    description: ["-"],
-  },
-  {
-    title: "Jonas Chen",
-    subtitle: ["Co-Founder"],
-    info: ["Metacamp"],
-    personalLink: "https://www.linkedin.com/in/jonas-chen/",
-    imgsrc: jonas_chen,
-    description: ["-"],
-  },
-  {
-    title: "Alvin Ng",
-    subtitle: ["Venture Creation, Investment, and Acceleration"],
-    info: ["Farquhar Capital"],
-    personalLink: "https://www.linkedin.com/in/alvinjmng/",
-    imgsrc: alvin_ng,
-    description: ["-"],
-  },
-  {
-    title: "James Conde",
-    subtitle: ["Senior Associate, Investor Relations and Portfolio"],
-    info: ["Plug and Play Tech Center"],
-    personalLink: "https://www.linkedin.com/in/james-conde/",
-    imgsrc: james_conde,
-    description: ["-"],
-  },
-];
+export const judges = {
+  "Data Tech": [
+    {
+      imgsrc: edward_tay,
+      title: "Edward Tay",
+      AreaOfFocus: "Data Tech",
+      company: ["NUS"],
+      subtitle: ["Professor"],
+      personalLink:
+        "https://www.linkedin.com/in/edwardtayweemeng/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
+      imgsrc: vinod_vasnani,
+      title: "Vinod Vasnani",
+      AreaOfFocus: "Data Tech",
+      company: ["Qryptal"],
+      subtitle: ["Co-Founder, Adjunct Professor"],
+      personalLink: "https://www.linkedin.com/in/vinodvasnani/"
+    }
+  ],
+  "Finance": [
+    {
+      imgsrc: paul_kan,
+      title: "Paul Kan",
+      AreaOfFocus: "Finance",
+      company: ["UOB"],
+      subtitle: ["Country Head, Business Banking, Singapore"],
+      personalLink: "https://www.linkedin.com/in/paul-kan-ngee-fei/?originalSubdomain=sg"
+    }
+  ],
+  "Health & Wellness": [
+    {
+      imgsrc: adam_chee,
+      title: "Adam Chee",
+      AreaOfFocus: "Health & Wellness",
+      company: ["NUS"],
+      subtitle: ["Professor"],
+      personalLink: "https://www.linkedin.com/in/adamchee/?originalSubdomain=sg"
+    },
+    {
+      imgsrc: lim_wai_mun,
+      title: "Lim Wai Mun",
+      AreaOfFocus: "Health & Wellness",
+      company: ["Dr Anywhere"],
+      subtitle: ["Founder & CEO"],
+      personalLink: "https://www.linkedin.com/in/wai-mun-lim-141347163/"
+    }
+  ],
+  "Sustainability": [
+    {
+      imgsrc: natasha_syed,
+      title: "Natasha Syed",
+      AreaOfFocus: "Sustainability",
+      company: ["SkilledinGreen"],
+      subtitle: ["Founder"],
+      personalLink: "https://www.linkedin.com/in/natasha-syed?originalSubdomain=sg"
+    },
+    {
+      imgsrc: douglas_peris,
+      title: "Douglas Peris (Doug)",
+      AreaOfFocus: "Sustainability",
+      company: ["Founders Bridge"],
+      subtitle: [
+        "Founding Partner @ Founders Bridge, Executive Director @ B-Lab, Start-up founder mentor"
+      ],
+      personalLink: "https://www.linkedin.com/in/douglasperis/?originalSubdomain=sg"
+    }
+  ]
+};
+
 
 // Date for Start of Ground Zero. Edit here to change
 export const groundZeroStartDate = "2025-05-01T00:09:00+08:00";
@@ -923,63 +744,17 @@ export const aboutUs = [
   {
     id: "para1",
     content:
-      "Ground Zero is the largest student-led startathon in Singapore that aims to bring together entrepreneurial-minded students from various backgrounds to come together and innovate by solving real world problem statements.",
+      "Ground Zero is Singapore’s largest student-led startathon, uniting entrepreneurial-minded students from diverse backgrounds to innovate and solve real-world challenges.",
   },
   {
     id: "para2",
     content:
-      "Started in 2018, with the short amount of time since its founding, Ground Zero has reached over thousands of participants, developed an extensive network within Singapore’s startup community of Startup founders, CEOs, venture capitals, angel investors, and industry experts.",
+      "Since its inception in 2018, Ground Zero has attracted thousands of participants and built a robust network within Singapore’s startup ecosystem—including founders, CEOs, venture capitalists, angel investors, and industry experts.",
   },
   {
     id: "para3",
     content:
-      "Last year, Ground Zero successfully reached nearly 400 participants from diverse backgrounds such as polytechnics, junior colleges and universities all over Singapore and invited more than 40 mentors, alongside the new addition of 4 distinct Areas of Focus: Data Tech, Finance, Health & Wellness, and Sustainability. This year we are excited to bring back Ground Zero, setting up the perfect ground for aspiring entrepreneurs to jumpstart their exciting journey!",
-  },
-];
-
-export const timelineSchedule = [
-  {
-    title: ["Registration opens"],
-    date: "2023-03-31T12:00:00",
-  },
-  {
-    title: ["Registration closes"],
-    date: "2023-05-01T12:00:00",
-  },
-  {
-    title: [
-      "Opening Ceremony",
-      "Patron Sponsor Talk",
-      "Mentor Introduction",
-      "Panel Discussion",
-      "Workshops",
-    ],
-    date: "2023-05-08T12:00:00",
-  },
-  {
-    title: ["Mentorship Sessions", "Pitch Idea Validation"],
-    date: "2023-05-09T12:00:00",
-  },
-  {
-    title: ["Pitch Preparation"],
-    date: "2023-05-10T12:00:00",
-  },
-  {
-    title: ["Video Pitch Submission"],
-    date: "2023-05-11T12:00:00",
-  },
-  {
-    title: ["Announcement of Top 12 Finalists"],
-    date: "2023-05-12T12:00:00",
-  },
-  {
-    title: [
-      "Finals Judging",
-      "Award Ceremony",
-      "Closing Address",
-      "Networking Dinner",
-    ],
-    date: "2023-05-13T12:00:00",
+      "Last year, we brought together over 400 participants from polytechnics, junior colleges, and universities worldwide, and welcomed more than 40 mentors. This year, we're excited to return—with a fresh twist! Ground Zero now features four dynamic Areas of Focus: Data Tech, Finance, Health & Wellness, and Sustainability, creating the perfect launchpad for aspiring entrepreneurs to kickstart their journey.",
   },
 ];
 
@@ -999,3 +774,133 @@ export const pastEventDescription = [
       "Join Ground Zero 2025 today to ignite groundbreaking ideas and shape the future of entrepreneurship!"
   },
 ];
+
+export const WeekSchedule = [{
+  days: [
+    {
+      dayText: {
+        text: "Day 1",
+        date: new Date("2025-05-13"),
+        details: "Location: TBC"
+      },
+      scheduleData: [
+        { time: "9:30 - 9:45 AM", name: "Registration", details: "Participants will register upon arrival." },
+        { time: "9:55 - 11:00 AM", name: "Opening Ceremony", details: "A welcome briefing, a keynote opening speech, and a group photo session will take place." },
+        { time: "10:35 - 11:05 AM", name: "Sponsors Talk Session", details: "A presentation will be delivered by our sponsors, NUS Enterprise and Suntec, as part of the Ground Zero 2025 program." },
+        { time: "11:15 - 12:15 PM", name: "Panel Discussions 1 & 2", details: "Two concurrent panel discussions will be conducted in separate venues." },
+        { time: "12:15 PM", name: "Problem Statements Release", details: "The challenge problem statements will be released online and formally announced to all participants." },
+        { time: "12:15 - 1:15 PM", name: "Lunch Break", details: "Participants will enjoy a lunch break." },
+        { time: "1:15 - 2:15 PM", name: "Panel Discussions 3 & 4", details: "Two concurrent panel discussions will be held in separate venues." },
+        { time: "2:30 - 4:30 PM", name: "Mentor-Mentee Networking", details: "Participants will have the opportunity to connect with mentors for guidance during the ideation phase." }
+      ]
+    },
+  {
+      dayText: {
+        text: "Day 2",
+        date: new Date("2025-05-13"),
+        details: "No Program Flow"
+      },
+      scheduleData: [
+      ]
+    },
+    {
+      dayText: {
+        text: "Day 3",
+        date: new Date("2025-05-15"),
+        details: "Location: Mentor's office space"
+      },
+      scheduleData: [
+        { time: "All Day", name: "Mentorship Session 2", details: "Participants are encouraged to schedule mentorship sessions with their assigned mentors." }
+      ]
+    },
+    {
+      dayText: {
+        text: "Day 4",
+        date: new Date("2025-05-16"),
+        details: "Pitch Preparation & Submission"
+      },
+      scheduleData: [
+        { time: "All Day", name: "Pitch Preparation & Submission", details: "Participants will submit their 2-minute video pitch by the end of day for judging." }
+      ]
+    },
+    {
+      dayText: {
+        text: "Day 5",
+        date: new Date("2025-05-17"),
+        details: "‎"
+      },
+      scheduleData: [
+        { time: "TBD", name: "Semi-Finals Judging", details: "Judging for the semi-finals will take place, with 12 finalist teams advancing to the Grand Finals on Day 7." }
+      ]
+    },
+    {
+      dayText: {
+        text: "Day 6",
+        date: new Date("2025-05-18"),
+        details: "Finalist Results & Preparation"
+
+      },
+      scheduleData: [
+        { time: "All Day", name: "Finalist Preparation", details: "The 12 Finalists will be released to the participants. Teams will prepare and rehearse for the final rounds." }
+      ]
+    },
+    {
+      dayText: {
+        text: "Day 7",
+        date: new Date("2025-05-19"),
+        details: "Location: TBC"
+      },
+      scheduleData: [
+        { 
+          time: "1:30 - 1:45 PM", name: "Registration", details: "Participants will register upon arrival." 
+        },
+        { 
+          time: "1:45 - 1:55 PM", name: "Briefing", details: "A briefing will present an overview of the day's agenda and provide a formal introduction of the judging panel." 
+        },
+        { 
+          time: "1:55 - 2:05 PM", name: "Keynote Speaker", details: "A keynote speech will be delivered by our diamond sponsor, UOB." 
+        },
+        { 
+          time: "2:05 - 3:35 PM", 
+          name: "First Round Pitching", 
+          details: "Six teams will present their final pitch, with each team allocated 5 minutes for the presentation and 10 minutes for a Q&A session." 
+        },
+        { 
+          time: "3:00 - 6:30 PM", 
+          name: "Exhibition", 
+          details: "Ground Zero’s 12 finalists will have the option to set up a booth to showcase their ideas to the public, and networking activities will be held concurrently." 
+        },
+        { 
+          time: "3:45 - 4:00 PM", 
+          name: "Break", 
+          details: "A short break will be provided, during which refreshments will be available." 
+        },
+        { 
+          time: "4:00 - 5:30 PM", 
+          name: "Second Round Pitching", 
+          details: "The remaining six teams will present their final pitch, with each team receiving 5 minutes for the presentation and 10 minutes for a Q&A session." 
+        },
+        { 
+          time: "5:30 - 6:30 PM", 
+          name: "Open Mic Session", 
+          details: "Non-winning teams will have the opportunity to pitch to a venture capitalist, thereby securing funding for their ideas or competing for other prizes offered by Ground." 
+        },
+        { 
+          time: "5:40 - 6:40 PM", 
+          name: "Dinner", 
+          details: "Dinner will be served while judging deliberations take place." 
+        },
+        { 
+          time: "6:50 - 7:00 PM", 
+          name: "GOH’s Closing Speech", 
+          details: "Our Guest of Honor, Dr. Mohamad Maliki Osman, Second Minister for Education, will deliver the closing speech." 
+        },
+        { 
+          time: "7:00 - 7:30 PM", 
+          name: "Prize Presentation", 
+          details: "An award ceremony will feature the announcement of winners, a lucky draw, and acknowledgments for both judges and sponsors." 
+        }
+      ]
+    }
+  ]
+}];

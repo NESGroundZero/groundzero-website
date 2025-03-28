@@ -3,68 +3,51 @@ This file handles the importing and exporting of all images to make importing im
 In the future, please always import and export your images here.
 */
 
-import ajinkya_bhat from "./mentor_pics/AjinkyaBhat.jpg";
-import alvin_ng from "./mentor_pics/AlvinNg.png"
-import andrew_soh from "./mentor_pics/AndrewSoh.jpg";
-import arin_alois_loy from "./mentor_pics/ArinAloisLoy.jpg";
-import arjun_arora from "./mentor_pics/ArjunArora.jpg";
-import chandra_tjan from "./mentor_pics/ChandraTjan.jpg";
-import chet_yong from "./mentor_pics/ChetYong.jpg";
-import darrell_zhang from "./mentor_pics/DarrellZhang.jpg";
-import daryl_lim from "./mentor_pics/DarylLim.jpg";
-import dennis_poh from "./mentor_pics/DennisPoh.jpg";
-import dhawal_shah from "./mentor_pics/DhawalShah.jpg";
-import donna_daritan from "./mentor_pics/DonnaDaritan.jpg";
-import don_tsai from "./mentor_pics/DonTsai.jpg";
-import douglas_peris from "./mentor_pics/DouglasPeris.jpg";
-import elena_chow from "./mentor_pics/ElenaChow.jpg";
-import eric_lam from "./mentor_pics/EricLam.jpg";
-import evan_chow from "./mentor_pics/EvanChow.jpg";
-import francis_lee from "./mentor_pics/FrancisLee.jpg";
-import freddie_luchterhand_dare from "./mentor_pics/FreddieLuchterhand-Dare.jpg";
-import james_conde from "./mentor_pics/JamesConde.jpg"
-import jeffrey_chua from "./mentor_pics/JeffreyChua.jpg";
-import jeremy_loh from "./mentor_pics/JeremyLoh.jpg";
-import jonas_chen from "./mentor_pics/JonasChen.jpg";
-import kenneth_lou from "./mentor_pics/KennethLou.jpg";
-import lucas_yeo from "./mentor_pics/LucasYeo.jpg";
-import max_giammario from "./mentor_pics/MaxGimmario.jpg";
-import melvin_ho from "./mentor_pics/MelvinHo.jpg";
-import mohan_belani from "./mentor_pics/MohanBelani.jpg";
-import palash_jain from "./mentor_pics/PalashJain.jpg";
-import patrick_ng from "./mentor_pics/PatrickNg.jpg";
-import phang_wei_jun from "./mentor_pics/PhangWeiJun.jpg";
-import richard_ruddy from "./mentor_pics/RichardRuddy.jpg";
-import sam_ho from "./mentor_pics/SamHo.jpg";
-import steven_chua from "./mentor_pics/StevenChua.jpg";
-import suwira_teo from "./mentor_pics/SuwiraTeo.jpg";
-import viveka_kalidasan from "./mentor_pics/VivekaKalidasan.jpg";
-import wei_liang_lim from "./mentor_pics/WeiLiangLim.jpg";
-import wei_zhuang from "./mentor_pics/WeiZhuang(Lenard).jpg";
-import ye_sheng_tan from "./mentor_pics/YeShengTan.jpg";
-import facebook from "./facebook.svg";
+import albert_ng from "./mentor_pics/albert_ng.jpg";
+import amrith_dhananjayan from "./mentor_pics/amrith_dhananjayan.jpg";
+import ankit_maheshwari from "./mentor_pics/ankit_maheshwari.jpg";
+import chris_liao from "./mentor_pics/chris_liao.jpg";
+import damien_cheong from "./mentor_pics/damien_cheong.jpg";
+import darren_lee from "./mentor_pics/darren_lee.jpg";
+import emile_dumont from "./mentor_pics/emile_dumont.jpg";
+import gyorgy_lajtai from "./mentor_pics/gyorgy_lajtai.jpg";
+import homam_alghorani from "./mentor_pics/homam_alghorani.jpg";
+import jeffrey_yu from "./mentor_pics/jeffrey_yu.jpg";
+import jensen_lim from "./mentor_pics/jensen_lim.jpg";
+import jialu_zhong from "./mentor_pics/jialu_zhong.jpg";
+import junus_eu from "./mentor_pics/junus_eu.jpg";
+import lim_wei_liang from "./mentor_pics/lim_wei_liang.jpg";
+import marcus_wong from "./mentor_pics/marcus_wong.jpg";
+import monika_mehta from "./mentor_pics/monika_mehta.jpg";
+import nathaniel_yim from "./mentor_pics/nathaniel_yim.jpg";
+import pantha_roy from "./mentor_pics/pantha_roy.jpg";
+import patrick_hizon from "./mentor_pics/patrick_hizon.jpg";
+import pek_yun_ning from "./mentor_pics/pek_yun_ning.jpg";
+import rebecca_yip from "./mentor_pics/rebecca_yip.jpg";
+import sakura_seet from "./mentor_pics/sakura_seet.jpg";
+import somsubhra_ganchoudhuri from "./mentor_pics/somsubhra_ganchoudhuri.jpg";
+import steffan_fung from "./mentor_pics/steffan_fung.jpg";
+import tan_mei_ping from "./mentor_pics/tan_mei_ping.jpg";
+import thibaut_briere from "./mentor_pics/thibaut_briere.jpg";
 import groundzero from "./groundzero.png";
 import gzwhite from "./gzwhite.png";
-import ideate from "./ideate.png";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
-import mentorship from "./mentorship.png";
 import nes from "./nes.png";
-import network from "./network.png";
-import pastEvent1 from "./past_event_photos/pastEvent1.jpg";
-import pastEvent2 from "./past_event_photos/pastEvent2.jpg";
-import pastEvent3 from "./past_event_photos/pastEvent3.jpg";
-import pastEvent4 from "./past_event_photos/pastEvent4.jpg";
-import pastEvent5 from "./past_event_photos/pastEvent5.jpg";
-import pastEvent6 from "./past_event_photos/pastEvent6.jpg";
-import pastEvent7 from "./past_event_photos/pastEvent7.jpg";
-import pastEvent8 from "./past_event_photos/pastEvent8.jpeg";
-import pastEvent9 from "./past_event_photos/pastEvent9.jpg";
-import pastEvent10 from "./past_event_photos/pastEvent10.jpg";
-import pastEvent11 from "./past_event_photos/pastEvent11.jpg";
-import pastEvent12 from "./past_event_photos/pastEvent12.jpg";
-import pastEvent13 from "./past_event_photos/pastEvent13.jpg";
-import pastEvent14 from "./past_event_photos/pastEvent14.jpg";
+import pastEvent1 from "./past_event_photos/pastEvent1.webp";
+import pastEvent2 from "./past_event_photos/pastEvent2.webp";
+import pastEvent3 from "./past_event_photos/pastEvent3.webp";
+import pastEvent4 from "./past_event_photos/pastEvent4.webp";
+import pastEvent5 from "./past_event_photos/pastEvent5.webp";
+import pastEvent6 from "./past_event_photos/pastEvent6.webp";
+import pastEvent7 from "./past_event_photos/pastEvent7.webp";
+import pastEvent8 from "./past_event_photos/pastEvent8.webp";
+import pastEvent9 from "./past_event_photos/pastEvent9.webp";
+import pastEvent10 from "./past_event_photos/pastEvent10.webp";
+import pastEvent11 from "./past_event_photos/pastEvent11.webp";
+import pastEvent12 from "./past_event_photos/pastEvent12.webp";
+import pastEvent13 from "./past_event_photos/pastEvent13.webp";
+import pastEvent14 from "./past_event_photos/pastEvent14.webp";
 import rightArrow from "./right-arrow.png";
 import sampleIcon from "./sample-icon.png";
 import sginnovate from "./sginnovate.png";
@@ -72,77 +55,93 @@ import twitter from "./twitter.svg";
 import homebg from "./homebg.png";
 import homepage from "./background_photos/homepage.png";
 import groundzeroHome from "./groundzeroHome.png"
-import blob from "./blob.png";
+import blob from "./old_assets/blob.png";
 import ring from "./ring.png";
 import prizes from "./prizes.png";
-import circle from "./circle.gif";
-import bck from "./bck.png";
+import circle from "./old_assets/circle.gif";
+import bck from "./old_assets/bck.png";
 import teams from "./team.jpeg";
 import shirt from "./shirt.png";
 import tote from "./tote.png";
 import landyard from "./landyard.png";
 import homebackgroundearthvideo from "./background_videos/homebackgroundearthvideo.mp4";
+import homebackgroundearthvideo_poster from "./background_videos/homebackgroundearthvideo_poster.webp";
 import homebackgroundasteroidhittingearthvideo from "./background_videos/homebackgroundasteroidhittingearthvideo.mp4";
-import scape from "./sponsors/scape.jpg";
-import uob from "./sponsors/uob.jpg";
-import lumos from "./sponsors/lumos.jpg";
+import homebackgroundasteroidhittingearthvideo_poster from "./background_videos/homebackgroundasteroidhittingearthvideo_poster.webp";
+import scape from "./sponsors/scape.webp";
+import uob from "./sponsors/uob.webp";
+import lumos from "./sponsors/lumos.webp";
+import block_71 from "./sponsors/block_71.webp";
+import auralo from "./sponsors/auralo.webp";
+import boulder_planet from "./sponsors/boulder_planet.webp";
+import embedded from "./sponsors/embedded.webp";
+import novotel from "./sponsors/novotel.webp";
+import nus_enterprise from "./sponsors/nus_enterprise.webp";
+import suntec_singapore from "./sponsors/suntec_singapore.webp";
+import alibaba_cloud from "./sponsors/alibaba-cloud.webp";
+import imda from "./sponsors/imda.webp";
+import mercure_stevens from "./sponsors/mercure-stevens.webp";
+import river_venture_studio from "./sponsors/river-venture-studio.webp";
 import health_and_wellness from "./area_of_focus/health_and_wellness.png";
 import data_tech from "./area_of_focus/data_tech.png"
 import sustainability from "./area_of_focus/sustainability.png";
 import finance from "./area_of_focus/finance.png";
-import bokeh1 from "./background_photos/bokeh1.svg";
-import bokeh2 from "./background_photos/bokeh2.svg";
-import bokeh3 from "./background_photos/bokeh3.svg";
-import waves1 from "./background_photos/waves1.svg";
+import bokeh2 from "./background_photos/bokeh2.webp";
+import bokeh3 from "./background_photos/bokeh3.webp";
+import bokeh4 from "./background_photos/bokeh4.webp";
+import bokeh5 from "./background_photos/bokeh5.webp";
+import bokeh5b from "./background_photos/bokeh5b.webp";
+import bokeh6 from "./background_photos/bokeh6.png";
+import bubble1 from "./background_photos/bubble1.webp";
+import waves1 from "./background_photos/waves1.webp";
+import waves2 from "./background_photos/waves2.webp";
+import groundZeroImage from "./ground_zero_phases/groundZero.png";
+import phaseZeroImage from "./ground_zero_phases/phaseZero.png";
+import beyondZeroImage from "./ground_zero_phases/beyondZero.png";
+import david_z_wang from "./speakers_pics/david_z_wang.webp";
+import dr_ferdin_joe from "./speakers_pics/dr_ferdin_joe.webp";
+import jeffrey_chua from "./speakers_pics/jeffrey_chua.webp";
+import viveka_kalisadan from "./speakers_pics/viveka_kalisadan.webp";
+import speaker_background_1 from "./speakers_pics/speaker_backgrounds/1.webp";
+import speaker_background_2 from "./speakers_pics/speaker_backgrounds/2.webp"; 
+import speaker_background_3 from "./speakers_pics/speaker_backgrounds/3.webp";
+import speaker_background_4 from "./speakers_pics/speaker_backgrounds/4.webp";
+import adrian_lee from "./panelist_pics/adrian_lee.jpg";
+import anli_geng from "./panelist_pics/anli_geng.webp";
+import edward_tay from "./panelist_pics/edward_tay.jpg";
+import jon_ng from "./panelist_pics/jon_ng.webp";
+import kaylee_fung from "./panelist_pics/kaylee_fung.jpg";
+import manish_patel from "./panelist_pics/manish_patel.jpg";
+import matthias_ong from "./panelist_pics/matthias_ong.jpg";
+import richard_oh from "./panelist_pics/richard_oh.jpg";
+import ruslan_enikeev from "./panelist_pics/ruslan_enikeev.jpg";
+import russ_neu from "./panelist_pics/russ_neu.jpeg";
+import shaw_bee_chung from "./panelist_pics/shaw_bee_chung.jpg";
+import vinod_vasnani from "./judge_pics/vinod_vasnani.jpg";
+import paul_kan from "./judge_pics/paul_kan.jpg";
+import adam_chee from "./judge_pics/adam_chee.jpg";
+import lim_wai_mun from "./judge_pics/lim_wai_mun.jpg";
+import natasha_syed from "./judge_pics/natasha_syed.jpg";
+import douglas_peris from "./judge_pics/douglas_peris.jpg";
 
 export {
-  ajinkya_bhat,
-  alvin_ng,
-  andrew_soh,
-  arin_alois_loy,
-  arjun_arora,
-  chandra_tjan,
-  chet_yong,
-  darrell_zhang,
-  daryl_lim,
-  dennis_poh,
-  dhawal_shah,
-  donna_daritan,
-  don_tsai,
-  douglas_peris,
-  elena_chow,
-  eric_lam,
-  evan_chow,
-  francis_lee,
-  freddie_luchterhand_dare,
-  james_conde,
+  david_z_wang,
+  dr_ferdin_joe,
   jeffrey_chua,
-  jeremy_loh,
-  jonas_chen,
-  kenneth_lou,
-  lucas_yeo,
-  max_giammario,
-  melvin_ho,
-  mohan_belani,
-  palash_jain,
-  patrick_ng,
-  phang_wei_jun,
-  richard_ruddy,
-  sam_ho, 
-  steven_chua,
-  suwira_teo,
-  viveka_kalidasan,
-  wei_liang_lim,
-  wei_zhuang,
-  ye_sheng_tan, 
-  facebook,
+  viveka_kalisadan,
+  auralo,
+  boulder_planet,
+  block_71,
+  embedded,
+  novotel,
+  nus_enterprise,
+  suntec_singapore,
+  albert_ng, amrith_dhananjayan, ankit_maheshwari, chris_liao, damien_cheong, darren_lee, emile_dumont, gyorgy_lajtai, homam_alghorani, jeffrey_yu, jensen_lim, jialu_zhong, jon_ng, junus_eu, lim_wei_liang, marcus_wong, monika_mehta, nathaniel_yim, pantha_roy, patrick_hizon, pek_yun_ning, rebecca_yip, sakura_seet, somsubhra_ganchoudhuri, steffan_fung, tan_mei_ping, thibaut_briere,
+  vinod_vasnani, paul_kan, adam_chee, lim_wai_mun, natasha_syed, douglas_peris,
   groundzero,
-  ideate,
   instagram,
   linkedin,
-  mentorship,
   nes,
-  network,
   pastEvent1,
   pastEvent2,
   pastEvent3,
@@ -175,16 +174,44 @@ export {
   landyard,
   tote,
   homebackgroundearthvideo,
+  homebackgroundearthvideo_poster,
   homebackgroundasteroidhittingearthvideo,
+  homebackgroundasteroidhittingearthvideo_poster,
   scape,
   uob,
+  alibaba_cloud,
+  imda,
+  mercure_stevens,
+  river_venture_studio,
   lumos,
   data_tech,
   finance,
   health_and_wellness,
   sustainability,
-  bokeh1,
   bokeh2,
   bokeh3,
+  bokeh4,
+  bokeh5,
+  bokeh5b,
+  bokeh6,
+  bubble1,
   waves1,
+  waves2,
+  groundZeroImage,
+  phaseZeroImage,
+  beyondZeroImage,
+  speaker_background_1,
+  speaker_background_2,
+  speaker_background_3,
+  speaker_background_4,
+  adrian_lee,
+  anli_geng,
+  edward_tay,
+  kaylee_fung,
+  manish_patel,
+  matthias_ong,
+  richard_oh,
+  ruslan_enikeev,
+  russ_neu,
+  shaw_bee_chung,
 };

@@ -27,7 +27,8 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         lexendDeca: ["Lexend Deca", "Plus Jakarta Sans"],
         inter: ["Inter", "sans-serif"],
-        spartan: ["League Spartan", "Inter"]
+        spartan: ["League Spartan", "Inter"],
+        blanka: ["Blanka", "sans-serif"],
       },
       perspective: {
         '1000': '1000px',

@@ -21,9 +21,10 @@ const styles = {
 
   
     paddingX: "sm:px-16 px-6",
-    paddingY: "sm:py-16 py-6",
-    padding: "sm:px-16 px-6 sm:py-12 py-4",
-  
+    paddingY: "py-16 sm:py-20 lg:py-20 md:py-32 xl:py-36", // This is used for the padding of the sections - use THIS
+    paddingY2: "py-16 sm:py-20 lg:py-20 md:py-24 xl:py-24", // This is used for the padding of the top-most section of the page
+
+    paddingY_start_of_page: "py-20 lg:py-10",
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
   };

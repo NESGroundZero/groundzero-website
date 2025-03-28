@@ -382,7 +382,7 @@ This file contains styling customization for fonts and colors.
   margin-bottom: 20px; /* Adds space between the logos */
 }
 .sponsors-container {
-  padding: 40px;
+  padding-left: 40px;
 }
 
 .sponsor-level {
@@ -1116,7 +1116,6 @@ This file contains styling customization for fonts and colors.
   background-image: linear-gradient(to right, #0a1cfe, #00527d, #db4200);
   margin-left: -20%;
   margin-right: -20%;
-  margin-top: 100px;
 }
 
 .footer-content {
@@ -1437,7 +1436,6 @@ li {
     background-color: var(--bg-lighter-purple);
     margin-left: -20%;
     margin-right: -20%;
-    margin-top: 100px;
   }
 
   .footer-content {
@@ -1484,7 +1482,7 @@ li {
 
   @media (max-width: 1024px) {
     #prizes {
-      scroll-margin-top: 140px; /* Use the height of your fixed header */
+      scroll-margin-top: 0px; /* Use the height of your fixed header */
     }
   }
 
@@ -1492,6 +1490,9 @@ li {
     width: 100%; /* Use a percentage of the parent container */
     max-width: 500px; /* Maximum size of the container */
     margin: auto; /* Center the container */
+    display: flex;
+    align-items: center;
+    justify-self: center;
   }
 
   .prizes-image {

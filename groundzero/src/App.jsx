@@ -1,30 +1,10 @@
+import { Routes, Route } from "react-router-dom";
 import styles from "./style";
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { NavigationBar, NotificationBar, SponsorsPage, HomePage, StakeholdersPage } from "./components";
+import './fonts.css';
 
-import {
-  NavigationBar,
-  About,
-  PastEvents,
-  ReasonsToJoin,
-  ProblemStatementCountdown,
-  ProblemStatements,
-  Workshops,
-  Eligibility,
-  Partners,
-  Phases,
-  Mentors,
-  ContactUs,
-  AreaOfFocus,
-  Faq,
-  Footer,
-  HomePage,
-  NotificationBar
-} from "./components";
-import PrizeComponent from "./components/Prizes";
-import Timeline from "./components/Timeline";
-
-/* Main entry point of the web application. */
 const App = () => {
   const location = useLocation();
 
@@ -44,29 +24,11 @@ const App = () => {
       <NotificationBar />
       <div className="bg-purple w-full">
         <NavigationBar />
-
-        <div className={`bg-primary ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            <HomePage />
-          </div>
-        </div>
-
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            <div id = "problem-statements">
-              <About />
-            </div>
-            <Phases />
-            <AreaOfFocus/>
-            <ProblemStatementCountdown /> 
-            <Timeline/>
-            <Eligibility />
-            <PrizeComponent />
-            {/* <ProblemStatements/>          */}
-            <Faq/>
-            <Footer />
-          </div>
-        </div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/stakeholders" element={<StakeholdersPage />} />
+          <Route path="/sponsors" element={<SponsorsPage />} />
+        </Routes>
       </div>
     </>
   );

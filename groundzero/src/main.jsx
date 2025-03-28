@@ -1,17 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import MentorPage from './pages/MentorPage'
-import About from './components/About'
-import Timeline from './components/Timeline'
-import Prizes from './components/Prizes'
-import Eligibility from './components/Eligibility'
-import EventSchedule from './pages/EventSchedule'
-import FAQ from './components/Faq';
-import ContactUs from './components/ContactUsTemp'
-import Partners from './pages/Partners'
-
-import StatementDetails from './components/ProblemStatements/problem-statement-components/StatementDetails'
+import { Eligibility, StakeholdersPage, About, Timeline, Prizes, EventSchedule, ContactUs, SponsorsPage, Faq } from './components'
 import './index.css'
 
 import {
@@ -26,17 +16,16 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/problems/:id",
-    element: <StatementDetails />,
-  },
-  {
-    path: "/mentors",
-    element: <MentorPage />,
+    path: "/stakeholders",
+    element: <StakeholdersPage />,
   },
   {
     path: "/aboutus",
     element: <About />,
-
+  },
+  {
+    path: "/eligibility",
+    element: <Eligibility />,
   },
   {
     path:"/timeline",
@@ -52,15 +41,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/faq",
-    element: <FAQ/>
+    element: <Faq/>
   }, 
   {
     path: "/contactus",
     element: <ContactUs/>
   },
   {
-    path: "/partners",
-    element: <Partners/>
+    path: "/sponsors",
+    element: <SponsorsPage/>
   }
 
 ])
