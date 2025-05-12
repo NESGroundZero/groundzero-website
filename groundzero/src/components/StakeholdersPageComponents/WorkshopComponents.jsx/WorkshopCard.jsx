@@ -17,7 +17,7 @@ const WorkshopCard = ({ workshop }) => {
 
   return (
     <div
-      className="max-w-[32rem] relative group rounded-xl overflow-hidden shadow-lg transform transition-all duration-300 hover:shadow-xl"
+      className="max-w-[32rem] md:min-w-[24rem] relative group rounded-xl overflow-hidden shadow-lg transform transition-all duration-300 hover:shadow-xl"
     >
       <div id="card-overview" className= "relative" style={{
         backgroundImage: `url(${workshop.background})`,

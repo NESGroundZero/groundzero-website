@@ -11,6 +11,7 @@ import {
   Footer,
   EventSchedule,
   HomePageVideo,
+  ScreenSizeIndicator,
 } from "../components";
 import PrizeComponent from "../components/HomePageComponents/Prizes";
 
@@ -22,6 +23,7 @@ const HomePage = () => {
           <HomePageVideo />
         </div>
       </div>
+      {/* <ScreenSizeIndicator/> */}
 
       <div className={`bg-primary overflow-hidden ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>

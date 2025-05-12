@@ -1,6 +1,39 @@
-import { albert_ng, amrith_dhananjayan, ankit_maheshwari, chris_liao, damien_cheong, darren_lee, emile_dumont, gyorgy_lajtai, homam_alghorani, jeffrey_yu, jensen_lim, jialu_zhong, jon_ng, junus_eu, lim_wei_liang, marcus_wong, monika_mehta, nathaniel_yim, pantha_roy, patrick_hizon, pek_yun_ning, rebecca_yip, sakura_seet, somsubhra_ganchoudhuri, steffan_fung, tan_mei_ping, thibaut_briere } from "../../assets";
+import {   janus_eu,
+  unknown,
+  dorothy_seet,
+ greg_lewis, joep_uijttewaal, eric, meghna_saxena, deeshana_basnayake, albert_ng, amrith_dhananjayan, ankit_maheshwari, chris_liao, damien_cheong, darren_lee, emile_dumont, gyorgy_lajtai, homam_alghorani, jeffrey_yu, jensen_lim, jialu_zhong, jon_ng, junus_eu, lim_wei_liang, marcus_wong, monika_mehta, nathaniel_yim, pantha_roy, patrick_hizon, pek_yun_ning, rebecca_yip, sakura_seet, somsubhra_ganchoudhuri, steffan_fung, tan_mei_ping, thibaut_briere, droston_tang } from "../../assets";
 
 export const mentors = [
+    {
+    "title": "Janus Eu",
+    "AreaOfFocus": "Health & Wellness",
+    "subtitle": [
+      "Co-founder"
+    ],
+    "company": [
+      "Glorious"
+    ],
+    "personalLink": "https://www.linkedin.com/in/junuseu/?originalSubdomain=sg",
+    "imgsrc": janus_eu,
+    "description": [
+      ""
+    ]
+  },
+  {
+    "title": "Dorothy Seet",
+    "AreaOfFocus": "Sustainability",
+    "subtitle": [
+      "General Manager"
+    ],
+    "company": [
+      "Beijing Smart Garments"
+    ],
+    "personalLink": "https://www.linkedin.com/in/dorothy-seet-344b461b6/?originalSubdomain=sg",
+    "imgsrc": dorothy_seet,
+    "description": [
+      ""
+    ]
+  },
   {
     "title": "Pantha Roy",
     "AreaOfFocus": "Data Tech",
@@ -116,7 +149,7 @@ export const mentors = [
       "UOB"
     ],
     "personalLink": "",
-    "imgsrc": jeffrey_yu,
+    "imgsrc": unknown,
     "description": [
       ""
     ]
@@ -332,6 +365,21 @@ export const mentors = [
     ]
   },
   {
+    "title": "Droston Tang",
+    "AreaOfFocus": "Sustainability",
+    "subtitle": [
+      "Regional Advisor, Market Dev SEA"
+    ],
+    "company": [
+      "ESGTree"
+    ],
+    "personalLink": "",
+    "imgsrc": droston_tang,
+    "description": [
+      ""
+    ]
+  },
+  {
     "title": "Homam Alghorani",
     "AreaOfFocus": "Sustainability",
     "subtitle": [
@@ -391,19 +439,94 @@ export const mentors = [
       ""
     ]
   },
+  // {
+  //   "title": "Nathaniel Yim",
+  //   "AreaOfFocus": "General",
+  //   "subtitle": [
+  //     "Founder"
+  //   ],
+  //   "company": [
+  //     "Nila Studios"
+  //   ],
+  //   "personalLink": "https://www.linkedin.com/in/nathaniel-yim/",
+  //   "imgsrc": nathaniel_yim,
+  //   "description": [
+  //     ""
+  //   ]
+  // },
   {
-    "title": "Nathaniel Yim",
-    "AreaOfFocus": "General",
+    "title": "Joep Uijttewaal",
+    "AreaOfFocus": "Finance",
+    "subtitle": [
+      "Founder & CEO"
+    ],
+    "company": [
+      "Eastbound Equity"
+    ],
+    "personalLink": "https://www.linkedin.com/in/joep-uijttewaal-0879a6a4/",
+    "imgsrc": joep_uijttewaal,
+    "description": [
+      ""
+    ]
+  },
+  {
+    "title": "Eric Solberg",
+    "AreaOfFocus": "Finance",
     "subtitle": [
       "Founder"
     ],
     "company": [
-      "Nila Studios"
+      "EXS Capital"
     ],
-    "personalLink": "https://www.linkedin.com/in/nathaniel-yim/",
-    "imgsrc": nathaniel_yim,
+    "personalLink": "https://www.linkedin.com/in/eric-solberg-exs",
+    "imgsrc": eric,
     "description": [
       ""
     ]
-  }
+  },
+  {
+    "title": "Meghna Saxena",
+    "AreaOfFocus": "Health & Wellness",
+    "subtitle": [
+      "Founder"
+    ],
+    "company": [
+      "Akeera"
+    ],
+    "personalLink": "https://www.linkedin.com/in/meghname",
+    "imgsrc": meghna_saxena,
+    "description": [
+      ""
+    ]
+  },
+  {
+    "title": "Deeshana Basnayake",
+    "AreaOfFocus": "Sustainability",
+    "subtitle": [
+      "Founder"
+    ],
+    "company": [
+      "Luhn AI"
+    ],
+    "personalLink": "https://www.linkedin.com/in/deeshana-basnayake/",
+    "imgsrc": deeshana_basnayake,
+    "description": [
+      ""
+    ]
+  },
+  {
+    "title": "Gregg Lewis",
+    "AreaOfFocus": "Data Tech",
+    "subtitle": [
+      "Founder & MD"
+    ],
+    "company": [
+      "Wush"
+    ],
+    "personalLink": "https://www.linkedin.com/in/gr3gg/",
+    "imgsrc": greg_lewis,
+    "description": [
+      ""
+    ]
+  },
 ];

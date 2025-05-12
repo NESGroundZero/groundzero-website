@@ -20,7 +20,6 @@ import {
   pastEvent10,
   pastEvent11,
   twitter,
-  sustainability,
   scape,
   uob,
   lumos, 
@@ -43,18 +42,25 @@ import {
   speaker_background_2,
   speaker_background_3,
   speaker_background_4,
-  adrian_lee,
-  anli_geng,
-  edward_tay,
-  jon_ng,
-  kaylee_fung,
-  manish_patel,
-  matthias_ong,
-  richard_oh,
-  ruslan_enikeev,
-  russ_neu,
-  shaw_bee_chung,
-  vinod_vasnani, paul_kan, adam_chee, lim_wai_mun, natasha_syed, douglas_peris,
+  adrian_lee, anli_geng, edward_tay, jon_ng, kaylee_fung, manish_patel, matthias_ong, richard_oh, ruslan_enikeev, russ_neu, shaw_bee_chung, vinod_vasnani, paul_kan, adam_chee, lim_wai_mun, natasha_syed, douglas_peris,
+  phase_zero_1, phase_zero_2, phase_zero_3, phase_zero_4, phase_zero_5, phase_zero_6, phase_zero_7, phase_zero_8, phase_zero_9, phase_zero_10, phase_zero_11, phase_zero_12, phase_zero_13, phase_zero_14,
+  exs_capital,
+  eric,
+  steve_ng,
+  kelvin_liew, meghna_saxena, deeshana_basnayake, greg_lewis,
+  ntu_i_e,
+  antler,
+  data_tech,
+  sustainability,
+  finance,
+  health_and_wellness,
+  ncs,
+  letao,
+  jian_dan,
+  nanyang_xpress,
+  mobio,
+  aaron_hallmark,
+  chris_liao,
 } from "../assets";
 
 
@@ -100,56 +106,17 @@ export const timeline = [
   },
 ];
 
-export const problemStatements = [
-  {
-    id: 1,
-    title: "Health & Wellness",
-    details: [
-      "1. How can generative AI be utilised to create healthcare solutions that are affordable, accessible, and catered to marginalised communities, and at the same time personalised to the needs and health conditions of individuals.",
-      "2. How can technology be integrated seamlessly in our lives to provide personalised health insights and real-time feedback?",
-      "3. How can we develop robust standards for protecting personal health data across digital health ecosystems, ensuring compliance with regulations, and at the same time enhancing transparency, accountability, and user control over their health data, empowering individuals to make informed decisions about how their data is collected, used, and shared.",
-    ],
-  },
-  {
-    id: 2,
-    title: "Sustainability",
-    details: [
-      "1. How can generative AI help predict and manage natural resource usage, promoting environmental conservation efforts?",
-      "2. How can we make sustainability upskilling more relevant and up to date, given the dynamic and fast changing nature of the landscape?",
-      "3. Develop a solution to effectively encourage a more sustainable lifestyle among youths today. ",
-    ],
-  },
-  {
-    id: 3,
-    title: " E-commerce",
-    details: [
-      "1. How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
-      "2. Develop a solution for businesses to improve the cost, energy utilisation and/or speed of their Last Mile Delivery",
-      "3. Develop a solution to improve overall customer experience and foster a safe and trustworthy environment to tackle and prevent fraudulent transactions of an Online Marketplace. ",
-    ],
-  },
-  {
-    id: 4,
-    title: "Finance",
-    details: [
-      "1. How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
-      "2. How can financial literacy be democratised and allow people from all ages and financial backgrounds to grasp complex financial concepts?",
-      "3. Develop a solution to streamline and create a seamless transaction/payment process for users/businesses.",
-    ],
-  },
-];
-
 export const problems = [
   {
     id: 1,
-    title: "Health & Wellness",
+    title: "Data Tech",
     details1:
       "Given the limitless opportunity to improve healthcare, med-tech, fitness, mental wellness and the like. We look forward to solutions that are complemented with the advancements in AI, analytics, wearables and other technologies.",
-    img: sustainability,
+    img: data_tech,
     probstatements: [
-      "1. How can generative AI be utilised to create healthcare solutions that are affordable, accessible, and catered to marginalised communities, and at the same time personalised to the needs and health conditions of individuals.",
-      "2. How can technology be integrated seamlessly in our lives to provide personalised health insights and real-time feedback?",
-      "3. How can we develop robust standards for protecting personal health data across digital health ecosystems, ensuring compliance with regulations, and at the same time enhancing transparency, accountability, and user control over their health data, empowering individuals to make informed decisions about how their data is collected, used, and shared.",
+      "1. How can we reduce algorithmic bias and improve the transparency of AI models to ensure fair and ethical decision-making in areas like hiring, lending, and law enforcement?",
+      "2. How can AI-driven data analytics and generative AI help detect misinformation, prevent deep fakes, and maintain digital content integrity while balancing freedom of speech?",
+      "3. How can generative AI simplify data visualization and interpretation, making complex datasets more accessible for non-technical users and businesses?"
     ],
   },
   {
@@ -157,35 +124,35 @@ export const problems = [
     title: "Finance",
     details1:
       "The scene of the finance industry has evolved beyond traditional banking as Singapore progresses to be a global financial hub. We look forward to creative solutions that redefine the future of the finance industry and global economic interactions, making a lasting impact on businesses and individuals alike.",
-    img: sustainability,
+    img: finance,
     probstatements: [
-      "1. How can generative AI be used to create inclusive financial products and services for communities with limited access to traditional banking systems?",
-      "2. How can financial literacy be democratised and allow people from all ages and financial backgrounds to grasp complex financial concepts?",
-      "3. Develop a solution to streamline and create a seamless transaction/payment process for users/businesses.",
+      "1. How can AI-driven financial tools provide personalized investment strategies and financial education for individuals with limited financial knowledge, helping them make informed decisions?",
+      "2. How can fintech innovations improve financial accessibility for underbanked communities, enhancing credit access, reducing transaction costs, and making banking services more inclusive?",
+      "3. How can AI and blockchain be leveraged to enhance the security and transparency of digital payment systems, preventing fraud and protecting users from cyber threats?",
     ],
   },
   {
     id: 3,
-    title: "E-Commerce",
-    details1:
-      "E-Commerce has come a long way and has become an integral part of our lives. We look forward to novel solutions that are relevant to the current day market, shaping the future of commerce, setting new benchmarks for shopping efficiency.",
-    img: sustainability,
-    probstatements: [
-      "1. How can generative AI be used to create a more inclusive online shopping experience for customers with vision impairments or other challenges?",
-      "2. Develop a solution for businesses to improve the cost, energy utilisation and/or speed of their Last Mile Delivery",
-      "3. Develop a solution to improve overall customer experience and foster a safe and trustworthy environment to tackle and prevent fraudulent transactions of an Online Marketplace. ",
-    ],
-  },
-  {
-    id: 4,
     title: "Sustainability",
     details1:
       "Sustainability is a global movement that cannot be ignored. It isn’t just a choice. It is a responsibility to shape the future for our planet. We look forward to solutions that address the challenges of this niche market, changing the lifestyle of today’s environment and paving the way for a more sustainable future. ",
     img: sustainability,
     probstatements: [
-      "1. How can generative AI help predict and manage natural resource usage, promoting environmental conservation efforts?",
-      "2. How can we make sustainability upskilling more relevant and up to date, given the dynamic and fast changing nature of the landscape?",
-      "3. Develop a solution to effectively encourage a more sustainable lifestyle among youths today. ",
+      "1. What innovative strategies can be developed to promote the circular economy by optimizing waste reduction, recycling, and resource reuse?",
+      "2. How can we develop scalable and cost-effective solutions to expand access to renewable energy sources, such as solar, wind, or bioenergy, in remote and developing areas?",
+      "3. How might we design sustainable alternatives to traditional plastic packaging, creating cost-effective, biodegradable, or reusable solutions for industries like food, retail, and e-commerce?",
+    ],
+  },
+    {
+    id: 4,
+    title: "Health & Wellness",
+    details1:
+      "E-Commerce has come a long way and has become an integral part of our lives. We look forward to novel solutions that are relevant to the current day market, shaping the future of commerce, setting new benchmarks for shopping efficiency.",
+    img: health_and_wellness,
+    probstatements: [
+      "1. How can AI-powered diagnostics and telemedicine be improved to provide more accurate, accessible early disease detection and healthcare services, especially in remote areas?",
+      "2. What innovative solutions can be designed to motivate people to start and sustain their fitness journeys, making exercise more engaging and accessible?",
+      "3. How can we develop digital wellness platforms and technologies to address mental health challenges, reduce stress, and promote work-life balance?",
     ],
   },
 ];
@@ -393,16 +360,15 @@ export const organizer = [
 
 export const sponsorsData = {
   diamond: [
-    { name: 'Diamond Corp', logo: uob, description: 'UOB is a leading bank in Asia with a global network of around 500 branches and offices across 19 countries and territories in Asia Pacific, Europe, and North America. We believe in balancing purpose and balance to help our people grow professionally and personally anchored on our people philosophy of care, growth and trust.' }
+    { name: 'UOB', logo: uob, description: 'UOB is a leading bank in Asia with a global network of around 500 branches and offices across 19 countries and territories in Asia Pacific, Europe, and North America. We believe in balancing purpose and balance to help our people grow professionally and personally anchored on our people philosophy of care, growth and trust.' },
+    { name: 'BLOCK71', logo: block_71, description: 'BLOCK71, an initiative by NUS Enterprise, is a global network of entrepreneurial hubs across 11 cities in 6 countries. Since 2011, BLOCK71 has been a catalyst for innovation, helping startups scale from pre-seed to Series A and beyond through tailored programs, global market access, and industry partnerships.' },
   ],
-  // platinum: [
-  //   { name: 'Platinum A', logo: uob, description: 'UOB is a leading bank in Asia with a global network of around 500 branches and offices across 19 countries and territories in Asia Pacific, Europe, and North America. We believe in balancing purpose and balance to help our people grow professionally and personally anchored on our people philosophy of care, growth and trust.' },
-  //   { name: 'Platinum B', logo: uob, description: 'UOB is a leading bank in Asia with a global network of around 500 branches and offices across 19 countries and territories in Asia Pacific, Europe, and North America. We believe in balancing purpose and balance to help our people grow professionally and personally anchored on our people philosophy of care, growth and trust.' },
-  //   { name: 'Platinum C', logo: uob, description: 'UOB is a leading bank in Asia with a global network of around 500 branches and offices across 19 countries and territories in Asia Pacific, Europe, and North America. We believe in balancing purpose and balance to help our people grow professionally and personally anchored on our people philosophy of care, growth and trust.' }
-  // ],
+  platinum: [
+    { name: 'EXS Capital', logo: exs_capital, description: 'EXS is a leading independent investment firm that sponsors private equity investments into real estate businesses, partnering with expert management teams, with the goal of building high-valuation market leaders' },
+    { name: 'IMDA', logo: imda, description: 'The Infocomm Media Development Authority (IMDA) is a statutory board under the Singapore Ministry of Digital Development and Information. IMDA leads Singapore\'s digitalisation journey by developing a vibrant digital economy and an inclusive digital society.' },
+  ],
   gold: [
     { name: 'Scape', logo: scape, description: '' },
-    { name: 'IMDA', logo: imda, description: '' },
     // { name: 'Gold B', logo: uob, description: '' },
     // { name: 'Gold C', logo: uob, description: '' },
     // { name: 'Gold D', logo: uob, description: '' },
@@ -413,15 +379,21 @@ export const sponsorsData = {
     { name: 'Lumos', logo: lumos, description: '' },
     { name: 'Novotel', logo: novotel, description: '' },
     { name: 'Mercure', logo: mercure_stevens, description: '' },
-    { name: 'NUS Enterprise', logo: nus_enterprise, description: 'NUS Enterprise, the entrepreneurial arm of the National University of Singapore (NUS), plays a pivotal role in advancing innovation and entrepreneurship at NUS and beyond. It actively promotes entrepreneurship through the experiential entrepreneurial education, active industry partnerships, holistic entrepreneurship support and more.' },
     { name: 'Boulder Planet', logo: boulder_planet, description: '' },
     { name: 'Airalo', logo: auralo, description: '' },
     { name: 'Alibaba Cloud', logo: alibaba_cloud, description: '' },
-    { name: 'River Venture Studio', logo: river_venture_studio, description: 'River Venture Studio is the world’s first and only Industry 5.0 venture studio—an incubator-accelerator supported by Enterprise Singapore, championing women and minority-led deeptech ventures. Built on the LetLab foundation, it drives innovation and sustainability at the intersection of advanced technology.' },
+    { name: 'NCS', logo: ncs, description: '' },
+    { name: 'Letao', logo: letao, description: '' },
+    { name: 'Jian Dan', logo: jian_dan, description: '' },
+    { name: 'Nanyang Xpress', logo: nanyang_xpress, description: '' },
+    { name: 'Mobio', logo: mobio, description: '' },    
   ],
   beyondZeroPartners: [
-    { name: 'Block71', logo: block_71, description: 'Embedded LLM is a revolutionary AI solution that seamlessly integrates advanced language models into enterprise workflows. Designed for effortless deployment and high performance, Embedded LLM empowers businesses to transform data into actionable insights.' },
+    { name: 'BLOCK71', logo: block_71, description: ''},
     { name: 'Embedded LLM', logo: embedded, description: 'Embedded LLM provides a revolutionary AI solution that seamlessly integrates advanced language models into enterprise workflows. Designed for effortless deployment and high performance, Embedded LLM empowers businesses to transform data into actionable insights. With unparalleled security and open compatibility, it simplifies AI integration, driving innovation and efficiency across modern enterprises.' },
+    { name: 'River Venture Studio', logo: river_venture_studio, description: 'River Venture Studio is the world’s first and only Industry 5.0 venture studio—an incubator-accelerator supported by Enterprise Singapore, championing women and minority-led deeptech ventures. Built on the LetLab foundation, it drives innovation and sustainability at the intersection of advanced technology.' },
+    // { name: 'NTU Innovation & Entrepreneurship Office', logo: ntu_i_e, description: '' },
+    { name: 'Antler', logo: antler, description: '' },
   ],
   mediaPartners: [
     { name: 'Suntec', logo: suntec_singapore, description: '' },
@@ -570,6 +542,26 @@ export const panelists = {
         "https://www.linkedin.com/in/edwardtayweemeng/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       imgsrc: edward_tay, // TODO: Replace with the actual image import or URL
       description: [""]
+    },
+    {
+      title: "Steve Ng",
+      AreaOfFocus: "Data Tech",
+      subtitle: ["Co-Founder & CTO"],
+      company: ["SporeX.Ai"],
+      personalLink:
+        "https://www.linkedin.com/in/steveng/",
+      imgsrc: steve_ng, // TODO: Replace with the actual image import or URL
+      description: [""]
+    },
+    {
+      title: "Aaron Hallmark",
+      AreaOfFocus: "Data Tech",
+      subtitle: ["Founder & CEO"],
+      company: ["FAIT"],
+      personalLink:
+        "https://www.linkedin.com/in/aaronhallmark/?originalSubdomain=sg",
+      imgsrc: aaron_hallmark, // TODO: Replace with the actual image import or URL
+      description: [""]
     }
   ],
   "Finance": [
@@ -600,7 +592,17 @@ export const panelists = {
       personalLink: "https://www.linkedin.com/in/ohrichard/",
       imgsrc: richard_oh, // TODO: Replace with the actual image import or URL
       description: [""]
+    },
+    {
+      title: "Eric Solberg",
+      AreaOfFocus: "Finance",
+      subtitle: ["Founder"],
+      company: ["EXS Capital"],
+      personalLink: "https://www.linkedin.com/in/eric-solberg-exs/",
+      imgsrc: eric, // TODO: Replace with the actual image import or URL
+      description: ["Eric Solberg is the Founder, Chairman and CEO of EXS Capital.  Prior to EXS, Eric was Partner and Head of Japan for CVCI Asia, Citigroup’s global private equity group, where he led investments including Shui On Land and Asia Broadcast Satellite.  Before that, Eric founded the Strategic Capital Group, a leading venture capital advisor turned e-commerce incubator. In the early nineties, Eric rose from Associate to Managing Director at Peregrine Capital, Hong Kong then served as Head of Investment Banking, India"]
     }
+
   ],
   "Health & Wellness": [
     {
@@ -620,7 +622,17 @@ export const panelists = {
       personalLink: "https://www.linkedin.com/in/irriss/",
       imgsrc: ruslan_enikeev, // TODO: Replace with the actual image import or URL
       description: [""]
+    },
+    {
+      title: "Meghna Saxena",
+      AreaOfFocus: "Health & Wellness",
+      subtitle: ["Founder"],
+      company: ["Akira"],
+      personalLink: "https://www.linkedin.com/in/meghname/?originalSubdomain=sg",
+      imgsrc: meghna_saxena, // TODO: Replace with the actual image import or URL
+      description: [""]
     }
+
   ],
   "Sustainability": [
     {
@@ -662,82 +674,90 @@ export const panelists = {
   ]
 };
 
-export const judges = {
-  "Data Tech": [
-    {
-      imgsrc: edward_tay,
-      title: "Edward Tay",
-      AreaOfFocus: "Data Tech",
-      company: ["NUS"],
-      subtitle: ["Professor"],
-      personalLink:
-        "https://www.linkedin.com/in/edwardtayweemeng/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-    },
-    {
-      imgsrc: vinod_vasnani,
-      title: "Vinod Vasnani",
-      AreaOfFocus: "Data Tech",
-      company: ["Qryptal"],
-      subtitle: ["Co-Founder, Adjunct Professor"],
-      personalLink: "https://www.linkedin.com/in/vinodvasnani/"
-    }
-  ],
-  "Finance": [
-    {
-      imgsrc: paul_kan,
-      title: "Paul Kan",
-      AreaOfFocus: "Finance",
-      company: ["UOB"],
-      subtitle: ["Country Head, Business Banking, Singapore"],
-      personalLink: "https://www.linkedin.com/in/paul-kan-ngee-fei/?originalSubdomain=sg"
-    }
-  ],
-  "Health & Wellness": [
-    {
-      imgsrc: adam_chee,
-      title: "Adam Chee",
-      AreaOfFocus: "Health & Wellness",
-      company: ["NUS"],
-      subtitle: ["Professor"],
-      personalLink: "https://www.linkedin.com/in/adamchee/?originalSubdomain=sg"
-    },
-    {
-      imgsrc: lim_wai_mun,
-      title: "Lim Wai Mun",
-      AreaOfFocus: "Health & Wellness",
-      company: ["Dr Anywhere"],
-      subtitle: ["Founder & CEO"],
-      personalLink: "https://www.linkedin.com/in/wai-mun-lim-141347163/"
-    }
-  ],
-  "Sustainability": [
-    {
-      imgsrc: natasha_syed,
-      title: "Natasha Syed",
-      AreaOfFocus: "Sustainability",
-      company: ["SkilledinGreen"],
-      subtitle: ["Founder"],
-      personalLink: "https://www.linkedin.com/in/natasha-syed?originalSubdomain=sg"
-    },
-    {
-      imgsrc: douglas_peris,
-      title: "Douglas Peris (Doug)",
-      AreaOfFocus: "Sustainability",
-      company: ["Founders Bridge"],
-      subtitle: [
-        "Founding Partner @ Founders Bridge, Executive Director @ B-Lab, Start-up founder mentor"
-      ],
-      personalLink: "https://www.linkedin.com/in/douglasperis/?originalSubdomain=sg"
-    }
-  ]
-};
+export const judges = [
+  {
+    id: 0,
+    imgsrc: edward_tay, // Assuming edward_tay is defined elsewhere
+    title: "Edward Tay",
+    AreaOfFocus: "Data Tech",
+    company: ["NUS"],
+    subtitle: ["Professor"],
+    personalLink:
+      "https://www.linkedin.com/in/edwardtayweemeng/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  },
+  {
+    id: 1,
+    imgsrc: vinod_vasnani, // Assuming vinod_vasnani is defined elsewhere
+    title: "Vinod Vasnani",
+    AreaOfFocus: "Data Tech",
+    company: ["Qryptal"],
+    subtitle: ["Co-Founder, Adjunct Professor"],
+    personalLink: "https://www.linkedin.com/in/vinodvasnani/"
+  },
+  {
+    id: 2,
+    imgsrc: paul_kan, // Assuming paul_kan is defined elsewhere
+    title: "Paul Kan",
+    AreaOfFocus: "Finance",
+    company: ["UOB"],
+    subtitle: ["Country Head, Business Banking, Singapore"],
+    personalLink: "https://www.linkedin.com/in/paul-kan-ngee-fei/?originalSubdomain=sg"
+  },
+  {
+    id: 7,
+    imgsrc: kelvin_liew, // Assuming paul_kan is defined elsewhere
+    title: "Kelvin Liew",
+    AreaOfFocus: "Finance",
+    company: ["Revolut"],
+    subtitle: ["Head of Wealth & Trading"],
+    personalLink: "https://www.linkedin.com/in/kelvinliewns"
+  },
+  {
+    id: 3,
+    imgsrc: adam_chee, // Assuming adam_chee is defined elsewhere
+    title: "Adam Chee",
+    AreaOfFocus: "Health & Wellness",
+    company: ["NUS"],
+    subtitle: ["Professor"],
+    personalLink: "https://www.linkedin.com/in/adamchee/?originalSubdomain=sg"
+  },
+  {
+    id: 4,
+    imgsrc: lim_wai_mun, // Assuming lim_wai_mun is defined elsewhere
+    title: "Lim Wai Mun",
+    AreaOfFocus: "Health & Wellness",
+    company: ["Dr Anywhere"],
+    subtitle: ["Founder & CEO"],
+    personalLink: "https://www.linkedin.com/in/wai-mun-lim-141347163/"
+  },
+  {
+    id: 5,
+    imgsrc: natasha_syed, // Assuming natasha_syed is defined elsewhere
+    title: "Natasha Syed",
+    AreaOfFocus: "Sustainability",
+    company: ["SkilledinGreen"],
+    subtitle: ["Founder"],
+    personalLink: "https://www.linkedin.com/in/natasha-syed?originalSubdomain=sg"
+  },
+  {
+    id: 6,
+    imgsrc: douglas_peris, // Assuming douglas_peris is defined elsewhere
+    title: "Douglas Peris (Doug)",
+    AreaOfFocus: "Sustainability",
+    company: ["Founders Bridge"],
+    subtitle: [
+      "Founding Partner @ Founders Bridge, Executive Director @ B-Lab, Start-up founder mentor"
+    ],
+    personalLink: "https://www.linkedin.com/in/douglasperis/?originalSubdomain=sg"
+  }
+];
 
 
 // Date for Start of Ground Zero. Edit here to change
-export const groundZeroStartDate = "2025-05-01T00:09:00+08:00";
+export const groundZeroStartDate = "2025-05-13T00:09:00+08:00";
 
 // Date for Releasing Problem Statements. Edit here to change
-export const statementReleaseDate = "May 13, 2025 00:09:00 GMT+0800";
+export const statementReleaseDate = "2025-05-13T13:00:00+08:00";
 
 // Edit this to change the content of paras in About Page
 export const aboutUs = [
@@ -781,17 +801,16 @@ export const WeekSchedule = [{
       dayText: {
         text: "Day 1",
         date: new Date("2025-05-13"),
-        details: "Location: TBC"
+        details: "Location: UTown Auditorium 2"
       },
       scheduleData: [
-        { time: "9:30 - 9:45 AM", name: "Registration", details: "Participants will register upon arrival." },
-        { time: "9:55 - 11:00 AM", name: "Opening Ceremony", details: "A welcome briefing, a keynote opening speech, and a group photo session will take place." },
-        { time: "10:35 - 11:05 AM", name: "Sponsors Talk Session", details: "A presentation will be delivered by our sponsors, NUS Enterprise and Suntec, as part of the Ground Zero 2025 program." },
-        { time: "11:15 - 12:15 PM", name: "Panel Discussions 1 & 2", details: "Two concurrent panel discussions will be conducted in separate venues." },
-        { time: "12:15 PM", name: "Problem Statements Release", details: "The challenge problem statements will be released online and formally announced to all participants." },
-        { time: "12:15 - 1:15 PM", name: "Lunch Break", details: "Participants will enjoy a lunch break." },
-        { time: "1:15 - 2:15 PM", name: "Panel Discussions 3 & 4", details: "Two concurrent panel discussions will be held in separate venues." },
-        { time: "2:30 - 4:30 PM", name: "Mentor-Mentee Networking", details: "Participants will have the opportunity to connect with mentors for guidance during the ideation phase." }
+        { time: "10:00 - 10:30 AM", name: "Registration", details: "Participants will register upon arrival." },
+        { time: "10:30 - 11:30 AM", name: "Opening Ceremony", details: "A welcome briefing, a wellcome address by NUS Enterprise, and a group photo session will take place." },
+        { time: "11:15 - 12:30 PM", name: "Panel Discussions 1 & 2", details: "Panel Discussion for Fianance is conducted in Audi 2; Panel Discussion for Sustainability is conducted in LT50." },
+        { time: "12:30 - 1:30 PM", name: "Lunch Break", details: "Participants will enjoy a lunch break." },
+        { time: "1:00 PM", name: "Problem Statements Release", details: "The challenge problem statements will be released online and formally announced to all participants." },
+        { time: "1:30 - 2:30 PM", name: "Panel Discussions 3 & 4", details: "Panel Discussion for Data Tech is conducted in Audi 2; Panel Discussion for Health & Wellness is conducted in LT50." },
+        { time: "2:30 - 5:00 PM", name: "Mentor-Mentee Networking", details: "Participants will have the opportunity to connect with mentors for guidance during the ideation phase." }
       ]
     },
   {
@@ -830,7 +849,7 @@ export const WeekSchedule = [{
         details: "‎"
       },
       scheduleData: [
-        { time: "TBD", name: "Semi-Finals Judging", details: "Judging for the semi-finals will take place, with 12 finalist teams advancing to the Grand Finals on Day 7." }
+        { time: "All Day", name: "Judging", details: "Judging for the submissions will take place, with 12 finalist teams advancing to the Grand Finals on Day 7." }
       ]
     },
     {
@@ -848,59 +867,70 @@ export const WeekSchedule = [{
       dayText: {
         text: "Day 7",
         date: new Date("2025-05-19"),
-        details: "Location: TBC"
+        details: "Location: UTown Auditorium 2"
       },
       scheduleData: [
         { 
-          time: "1:30 - 1:45 PM", name: "Registration", details: "Participants will register upon arrival." 
+          time: "1:30 - 1:40 PM", name: "Registration", details: "Participants will register upon arrival." 
         },
         { 
-          time: "1:45 - 1:55 PM", name: "Briefing", details: "A briefing will present an overview of the day's agenda and provide a formal introduction of the judging panel." 
+          time: "1:40 - 2:00 PM", name: "Intro & Keynote Speaker", details: "Introduction of judges and a keynote speech to be delievered our diamond sponsor, UOB." 
         },
         { 
-          time: "1:55 - 2:05 PM", name: "Keynote Speaker", details: "A keynote speech will be delivered by our diamond sponsor, UOB." 
-        },
-        { 
-          time: "2:05 - 3:35 PM", 
+          time: "2:00 - 3:30 PM", 
           name: "First Round Pitching", 
-          details: "Six teams will present their final pitch, with each team allocated 5 minutes for the presentation and 10 minutes for a Q&A session." 
+          details: "First six teams will present their final pitch, with each team allocated 5 minutes for the presentation and 10 minutes for a Q&A session." 
         },
         { 
-          time: "3:00 - 6:30 PM", 
-          name: "Exhibition", 
-          details: "Ground Zero’s 12 finalists will have the option to set up a booth to showcase their ideas to the public, and networking activities will be held concurrently." 
-        },
-        { 
-          time: "3:45 - 4:00 PM", 
+          time: "3:30 - 3:40 PM", 
           name: "Break", 
-          details: "A short break will be provided, during which refreshments will be available." 
+          details: "A short break will be provided for the finalists, during which refreshments will be available." 
         },
         { 
-          time: "4:00 - 5:30 PM", 
+          time: "3:40 - 5:15 PM", 
           name: "Second Round Pitching", 
           details: "The remaining six teams will present their final pitch, with each team receiving 5 minutes for the presentation and 10 minutes for a Q&A session." 
         },
         { 
-          time: "5:30 - 6:30 PM", 
-          name: "Open Mic Session", 
-          details: "Non-winning teams will have the opportunity to pitch to a venture capitalist, thereby securing funding for their ideas or competing for other prizes offered by Ground." 
+          time: "2:00 - 5:30 PM", 
+          name: "Open Mic Session",
+          details: "Non-winning teams will have the opportunity to pitch to a VC, possibly securing funding for their ideas and competing for other prizes offered by Ground Zero." 
         },
         { 
-          time: "5:40 - 6:40 PM", 
+          time: "4:00 - 6:50 PM", 
+          name: "Exhibition", 
+          details: "Visit booths conducted by our finalists, startups, and our sponsors. Network with others and enjoy some freebies!" 
+        },
+        { 
+          time: "5:15 - 6:10 PM", 
           name: "Dinner", 
           details: "Dinner will be served while judging deliberations take place." 
         },
         { 
-          time: "6:50 - 7:00 PM", 
+          time: "6:10 - 6:20 PM", 
           name: "GOH’s Closing Speech", 
-          details: "Our Guest of Honor, Dr. Mohamad Maliki Osman, Second Minister for Education, will deliver the closing speech." 
+          details: "Our Guest of Honor—GE Independent Candidate, Investor and Founder Jeremy Tan—will deliver the closing speech." 
         },
         { 
-          time: "7:00 - 7:30 PM", 
-          name: "Prize Presentation", 
+          time: "6:20 - 6:50 PM", 
+          name: "Prize Presentation & Appreciation Ceremony", 
           details: "An award ceremony will feature the announcement of winners, a lucky draw, and acknowledgments for both judges and sponsors." 
         }
       ]
     }
   ]
 }];
+
+export const phaseZeroCollagePhotos = [
+  { id: 1, src: phase_zero_1,  width: '100%',height: '60%' },
+  { id: 2, src: phase_zero_2,  width: '100%', height: '100%'},
+  { id: 3, src: phase_zero_6,  width: '100%',height: '100%' },
+  { id: 4, src: phase_zero_4,  width: '100%',height: '100%' },
+  { id: 5, src: phase_zero_5,  width: '100%', height: '100%'},
+  { id: 6, src: phase_zero_3,  width: '100%', height: '100%'},
+  { id: 7, src: phase_zero_7,  width: '100%', height: '100%'},
+  { id: 8, src: phase_zero_8,  width: '100%', height: '100%'},
+  { id: 9, src: phase_zero_9,  width: '100%', height: '100%'},
+  { id: 10, src:phase_zero_10, width: '100%', height: '100%'},
+  { id: 11, src:phase_zero_11, width: '100%', height: '100%'},
+];

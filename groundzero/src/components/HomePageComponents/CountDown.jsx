@@ -31,7 +31,7 @@ const CountdownTimer = ({ eventDate, eventName = "Ground Zero 2025" }) => {
       if (remainingTime <= 0) {
         remainingTime = 0;
         clearInterval(countdownInterval);
-        alert("Countdown complete!");
+        // alert("Countdown complete!");
       }
 
       setTimeRemaining(remainingTime);
@@ -73,7 +73,8 @@ const CountdownTimer = ({ eventDate, eventName = "Ground Zero 2025" }) => {
       {timeRemaining > 0 ? (
         formatTime(timeRemaining)
       ) : (
-        <p className="${styles.heading4}">The event has launched!</p>
+        // <p className="${styles.heading4}">The event has launched!</p>
+        formatTime(timeRemaining)
       )}
     </div>
   );

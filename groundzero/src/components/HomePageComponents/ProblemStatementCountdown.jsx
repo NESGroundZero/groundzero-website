@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import styles from "../../style";
 import { statementReleaseDate } from "../../constants";
 import { DisplayButton, SectionDivider } from "../index";
+import { ProblemStatement } from "../index";
 
 const msInSecond = 1000;
 const secondInMinute = msInSecond * 60;
@@ -13,6 +14,7 @@ const ProblemStatementCountdown = () => {
   const [hours, setHours] = useState("00");
   const [minutes, setMinutes] = useState("00");
   const [seconds, setSeconds] = useState("00");
+  const [countdownEnded, setCountdownEnded] = useState(false);
 
   let interval = useRef();
 
@@ -31,6 +33,7 @@ const ProblemStatementCountdown = () => {
       if (difference < 0) {
         // stop timer
         clearInterval(interval.current);
+        setCountdownEnded(true);
       } else {
         // update states
         setDays(days);
@@ -53,18 +56,24 @@ const ProblemStatementCountdown = () => {
       <div
         className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
       >
-        <h2 className={styles.heading7 + " z-10 relative pb-14"}>PROBLEM STATEMENTS</h2>
+        <h2 className={styles.heading7 + " z-10 relative pb-8 md:pb-14"}>PROBLEM STATEMENTS</h2>
   
-        <h2 className="text-white font-poppins font-lighter text-center pb-20 md:text-2xl text-xl xs:px-16 lg:px-40 z-10">
-        Problem statements will be released on 13 May 2025 - the first day of Ground Zero.
+        <h2 className="text-white font-poppins font-lighter text-center pb-5 md:text-2xl text-sm xs:px-16 lg:px-40 z-10">
+        Problem statements are released on 13 May 2025 - the first day of Ground Zero.
         </h2>
 
         <div className={`${styles.flexCenter} w-full text-white`}>
-          <div className="countdown-timer-box">
+
+          {countdownEnded ? (
+          <div id = "problem-statement">
+            <ProblemStatement/>
+          </div>
+          ) : (
+          <div className={`countdown-timer-box mt-8 md:mt-12`}>
             <div
-              className={`font-lexendDeca font-semibold lg:text-[40px] md:text-[30px] text-[22px] text-white md:leading-[40px] md:mb-12 mb-4 mt-3 opacity-80`}
+              className={`font-lexendDeca font-semibold lg:text-[32px] md:text-[30px] text-[22px] text-white md:leading-[40px] md:mb-12 mb-4 mt-3 opacity-80`}
             >
-              Statements will be released in
+              Statements will be released soon!
             </div>
             <div className="countdown-timer">
               <div className="countdown-timer-days">
@@ -85,6 +94,7 @@ const ProblemStatementCountdown = () => {
               </div>
             </div>
           </div>
+          )}
         </div>
       </div>
       <SectionDivider spacing={1.0} />

@@ -6,6 +6,8 @@ import {
   FaHeartbeat, 
   FaLeaf 
 } from 'react-icons/fa';
+import { getCategoryColor, lightenColor } from '../StakeholdersPageUtils';
+
 
 const MentorBox = ({ stakeholder, hoverColor = "#0077B5" }) => {
   // Helper function to get the appropriate area icon div
@@ -45,12 +47,13 @@ const MentorBox = ({ stakeholder, hoverColor = "#0077B5" }) => {
       {/* Stakeholder Image */}
       <img 
         src={stakeholder.imgsrc}
-        className="object-fit w-30 h-30 sm:w-80 sm:h-80 md:w-64 md:h-64 lg:w-60 lg:h-60"
+        className="object-cover w-30 h-30 sm:w-80 sm:h-80 md:w-64 md:h-64 lg:w-60 lg:h-60"
         alt={stakeholder.title}
+        loading='lazy'
       />
 
       {/* Description Overlay */}
-      <div className="w-full h-full md:opacity-0 md:hover:opacity-100 z-10 transition ease-in-out text-white">
+      <div className="w-full h-full opacity-0 hover:opacity-100 z-10 transition ease-in-out text-white">
         <div className="flex flex-col">
           {/* Bottom gradient overlay with hex color */}
           <div 
@@ -74,7 +77,7 @@ const MentorBox = ({ stakeholder, hoverColor = "#0077B5" }) => {
           
           {/* Top gradient for icons with hex color */}
           <div 
-            className="w-full h-1/3 sm:h-1/4 absolute text-left top-0 right-0"
+            className="w-full h-1/4 sm:h-1/4 absolute text-left top-0 right-0"
             style={{ 
               background: `linear-gradient(to bottom, ${hoverColor} 0%, transparent 70%)` 
             }}

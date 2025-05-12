@@ -55,8 +55,8 @@ const NotificationBar = ({ text, link }) => {
 };
 
 NotificationBar.defaultProps = {
-  text: "Registration for Ground Zero 2025 is open! Sign up ",
-  link: { href: "https://www.eventbrite.sg/e/ground-zero-2025-tickets-1126561468679?aff=oddtdtcreator", text: "here!" }
+  text: "Registration for Ground Zero 2025 is closed!",
+  link: { href: "https://www.eventbrite.sg/e/ground-zero-2025-tickets-1305678281889?aff=oddtdtcreator", text: "" }
 };
 
 export default NotificationBar;

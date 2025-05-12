@@ -72,7 +72,7 @@ const PastEvents = () => {
       {pastEvents.map((pastEvent) => (
         <SwiperSlide key={pastEvent.id} className="mb-10">
           <div class="past-event-container">
-            <img src={pastEvent.content} className="past-event-image" />
+            <img src={pastEvent.content} className="past-event-image" loading="lazy"/>
             {/* <div class="past-event-image-title">{pastEvent.title}</div> */}
           </div>
         </SwiperSlide>

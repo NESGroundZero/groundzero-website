@@ -59,7 +59,7 @@ const HomePageVideo = () => {
                 <div className="grid place-items-center text-white relative" style={{ zIndex: 1 }}>
                     <br /><br />
                     <div className="font-light text-xl text-justify mt-16">
-                        Sign up for May 2025 is open!
+                        Get Ready for Ground Zero!
                     </div>
                     <img
                         src={groundzeroHome}
@@ -69,14 +69,14 @@ const HomePageVideo = () => {
                     <br />
                     <DisplayButton
                         isExternal={false}
-                        link="/sponsors"
+                        link="/partners"
                         text="Become a Sponsor"
                     />
                     <br />
                     <DisplayButton
                         isExternal={true}
-                        link="https://www.eventbrite.sg/e/ground-zero-2025-tickets-1126561468679?aff=oddtdtcreator"
-                        text="Register Now"
+                        link="https://www.canva.com/design/DAGmyjPk6Y0/ALhlWsTB2bA9eT2I0Yejcg/view?utm_content=DAGmyjPk6Y0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdfecb5a539"
+                        text="View Programme"
                         variant="primary"
                     />
                     <div className={`text-white font-bold ${config.sloganFontSize} text-center pt-8 pb-3`}>

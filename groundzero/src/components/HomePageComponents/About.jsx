@@ -15,9 +15,9 @@ const About = () => {
           <div className={`flex-col relative`}>
             <div className="grid place-items-center text-white xs:px-0 lg:px-30 xl:px-40 relative z-20">
               <div className="heading">
-                <h2 className={styles.heading7 + " pb-14 z-10 relative"}>WHY GROUND ZERO</h2>
+                <h3 className={styles.heading7 + " pb-14 z-10 relative"}>WHY GROUND ZERO</h3>
                 {aboutUs.map((aboutUs) => (
-                  <div key={aboutUs.id} className="font-lighter font-inter md:text-2xl text-[16px] pb-9 z-20">
+                  <div key={aboutUs.id} className="font-lighter font-inter md:text-2xl text-sm pb-9 z-20">
                     <p style={{ textAlign: 'justify', margin: 0, textIndent: '0', paddingLeft: '0'}}>
                       {aboutUs.content}
                     </p>

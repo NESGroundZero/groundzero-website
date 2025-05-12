@@ -528,7 +528,7 @@ This file contains styling customization for fonts and colors.
   text-decoration: none;
   height: 100%;
   display: flex;
-  padding: 0.2rem;
+  padding: 0.1rem;
 }
 
 #nav-register-button {
@@ -607,17 +607,16 @@ This file contains styling customization for fonts and colors.
   align-content: flex-end;
   width: 100%;
   font: Poppins;
-  font-size: 20px;
   font-weight: lighter;
-  margin-top: 15px;
+  margin-top: 5px;
   color: white;
 }
 
 .underline {
   width: 100%;
-  height: 0.15rem;
+  height: 0.25rem;
   background: var(--gh-blue-2);
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .column-container {
   display: flex;
@@ -1531,4 +1530,42 @@ li {
     width: 3.5rem; 
     height: 3.5rem; 
   }
+}
+
+.center-carousel .slick-slide {
+  /* Default state for non-center slides */
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transform: scale(0.85); /* Make non-centered slides smaller */
+  opacity: 0.7;          /* Make non-centered slides faded */
+}
+
+.center-carousel .slick-center {
+  /* Override for the centered slide */
+  transform: scale(1);   /* Full size */
+  opacity: 1;            /* Full opacity */
+  z-index: 1; /* Ensure center slide is slightly above others if overlapping */
+}
+
+/* Style for the INACTIVE dots */
+.slick-dots li button::before {
+  font-size: 10px; /* Adjust size if needed */
+  color: white !important;
+  opacity: 0.5;
+}
+
+/* Style for the ACTIVE dot */
+.slick-dots li.slick-active button::before {
+  color: white !important;
+  opacity: 1;
+}
+
+/* Optional: Adjust hover state if needed */
+.slick-dots li:hover button::before {
+   opacity: 0.8;
+}
+
+.slick-slide.slick-active.slick-current {
+  display: flex !important; /* Make the slide container a flex container */
+  align-items: center !important; /* Vertically center the content (your WorkshopCard) */
+  justify-content: center !important; /* Horizontally center the content (your WorkshopCard) */
 }

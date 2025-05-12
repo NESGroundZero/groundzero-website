@@ -43,8 +43,8 @@ const AreaOfFocus = () => {
   return (
     <div id="area-of-focus" className="w-full relative">
     <div className={`${styles.paddingY} px-30`}>
-      <h2 className={`${styles.heading7} pb-14`}>AREAS OF FOCUS</h2>
-      <h2 className="text-white font-poppins font-lighter text-center pb-20 md:text-2xl text-xl xs:px-16 lg:px-40 z-10">
+      <h2 className={`${styles.heading7} pb-6 md:pb-14`}>AREAS OF FOCUS</h2>
+      <h2 className="text-white font-poppins font-lighter text-center pb-8 md:pb-12 md:pb-20 md:text-2xl text-sm xs:px-16 lg:px-40 z-10">
         This year, Ground Zero 2025 spotlights four transformative focus areas shaping the future: Data Tech, Finance, Health & Wellness, and Sustainability.
       </h2>
       <div className="max-w-[100%] md:max-w-[50rem] xl:max-w-[100%] mx-auto">

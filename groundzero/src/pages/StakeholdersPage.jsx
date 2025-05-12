@@ -6,6 +6,7 @@ import {
   NavigationBar,
   MentorGrid,
   Footer,
+  MentorsByCategorySection,
   ScreenSizeIndicator,
   SectionDivider,
   Workshops,
@@ -48,7 +49,7 @@ const StakeholdersPage = () => {
             {/* Our Judges */}
             <div id="judges" className={styles.paddingY}>
               <div id="judges" className={`${styles.heading7} relative text-white pb-14`}>
-                OUR PANELISTS
+                OUR JUDGES
               </div>
 
               <div className="grid place-items-center">
@@ -75,9 +76,10 @@ const StakeholdersPage = () => {
               <div id="mentors" className={styles.heading7 + " relative text-white pb-14"}>
                 OUR MENTORS
               </div>
-              <div className="grid place-items-center">
+              {/* <div className="grid place-items-center">
                 <MentorGrid list={mentors} />
-              </div>
+              </div> */}
+      <MentorsByCategorySection mentors={mentors} />
 
             </div>
           </div>

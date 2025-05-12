@@ -2,9 +2,8 @@
 This file contains styling customization for sizes, paddings, layouts, etc.
 */
 
-const styles = {
-    boxWidth: "xl:max-w-[1600px] w-full",
-  
+export const styles = {
+    boxWidth: "xl:max-w-[1600px] w-full mx-auto",
     // Is this part even used?
     heading2: "font-lexendDeca font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
     heading3: "font-lexendDeca font-semibold xs:text-[40px] text-[32px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
@@ -12,7 +11,7 @@ const styles = {
     heading5: "font-lexendDeca font-bold xs:text-[24px] text-[16px] text-white xs:leading-[76.8px] leading-[66.8px] w-full text-center",
     heading6: "font-lexendDeca font-bold xs:text-[18px] text-[16px] text-white xs:leading-[59.8px] leading-[49.8px] w-full text-center",
     
-    heading7: "md:text-6xl text-5xl font-poppins font-light text-white text-center",
+    heading7: "md:text-5xl text-4xl font-poppins font-light text-white text-center",
 
     paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
@@ -39,4 +38,4 @@ const styles = {
     sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
   };
   
-  export default styles;
+export default styles;

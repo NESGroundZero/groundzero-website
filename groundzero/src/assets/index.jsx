@@ -71,10 +71,11 @@ import homebackgroundasteroidhittingearthvideo_poster from "./background_videos/
 import scape from "./sponsors/scape.webp";
 import uob from "./sponsors/uob.webp";
 import lumos from "./sponsors/lumos.webp";
-import block_71 from "./sponsors/block_71.webp";
+import block_71 from "./sponsors/block_71_new.jpg";
 import auralo from "./sponsors/auralo.webp";
 import boulder_planet from "./sponsors/boulder_planet.webp";
 import embedded from "./sponsors/embedded.webp";
+import exs_capital from "./sponsors/exs_capital.webp";
 import novotel from "./sponsors/novotel.webp";
 import nus_enterprise from "./sponsors/nus_enterprise.webp";
 import suntec_singapore from "./sponsors/suntec_singapore.webp";
@@ -123,8 +124,54 @@ import adam_chee from "./judge_pics/adam_chee.jpg";
 import lim_wai_mun from "./judge_pics/lim_wai_mun.jpg";
 import natasha_syed from "./judge_pics/natasha_syed.jpg";
 import douglas_peris from "./judge_pics/douglas_peris.jpg";
+import phase_zero_1 from "./phase_zero_photos/shortlisted/converted-images/1.webp";
+import phase_zero_2 from "./phase_zero_photos/shortlisted/converted-images/2.webp";
+import phase_zero_3 from "./phase_zero_photos/shortlisted/converted-images/3.webp";
+import phase_zero_4 from "./phase_zero_photos/shortlisted/converted-images/4.webp";
+import phase_zero_5 from "./phase_zero_photos/shortlisted/converted-images/5.webp";
+import phase_zero_6 from "./phase_zero_photos/shortlisted/converted-images/6.webp";
+import phase_zero_7 from "./phase_zero_photos/shortlisted/converted-images/7.webp";
+import phase_zero_8 from "./phase_zero_photos/shortlisted/converted-images/8.webp";
+import phase_zero_9 from "./phase_zero_photos/shortlisted/converted-images/9.webp";
+import phase_zero_10 from "./phase_zero_photos/shortlisted/converted-images/10.webp";
+import phase_zero_11 from "./phase_zero_photos/shortlisted/converted-images/11.webp";
+import phase_zero_12 from "./phase_zero_photos/shortlisted/converted-images/12.webp";
+import phase_zero_13 from "./phase_zero_photos/shortlisted/converted-images/13.webp";
+import phase_zero_14 from "./phase_zero_photos/shortlisted/converted-images/14.webp";
+import greg_lewis from "./panelist_pics/greg_lewis.webp";
+import joep_uijttewaal from "./panelist_pics/joep_uijttewaal.webp";
+import eric from "./panelist_pics/eric.webp";
+import steve_ng from "./panelist_pics/steve_ng.webp";
+import meghna_saxena from "./mentor_pics/meghna_saxena.jpg";
+import deeshana_basnayake from "./mentor_pics/deeshana_basnayake.jpg";
+import kelvin_liew from "./judge_pics/kelvin_liew.jpg";
+import ntu_i_e from "./sponsors/ntu_i_e.jpg";
+import antler from "./sponsors/antler.webp";
+import ncs from "./sponsors/ncs.jpg";
+import mobio from "./sponsors/mobio.jpg";
+import nanyang_xpress from "./sponsors/nanyang_xpress.jpg";
+import jian_dan from "./sponsors/jian_dan.jpg";
+import letao from "./sponsors/letao.jpg";
+import aaron_hallmark from "./panelist_pics/aaron_hallmark.webp";
+import droston_tang from "./mentor_pics/droston_tang.jpeg";
+import dorothy_seet from "./mentor_pics/dorothy_seet.jpeg";
+import janus_eu from "./mentor_pics/janus_eu.jpeg";
+import unknown from "./mentor_pics/rebecca_yip.png";
 
 export {
+  janus_eu,
+  unknown,
+  dorothy_seet,
+  droston_tang,
+  aaron_hallmark,
+  letao,
+  jian_dan,
+  nanyang_xpress,
+  mobio,
+  ncs,
+  meghna_saxena,
+  deeshana_basnayake,
+  kelvin_liew,
   david_z_wang,
   dr_ferdin_joe,
   jeffrey_chua,
@@ -135,7 +182,7 @@ export {
   embedded,
   novotel,
   nus_enterprise,
-  suntec_singapore,
+  suntec_singapore, ntu_i_e, antler,
   albert_ng, amrith_dhananjayan, ankit_maheshwari, chris_liao, damien_cheong, darren_lee, emile_dumont, gyorgy_lajtai, homam_alghorani, jeffrey_yu, jensen_lim, jialu_zhong, jon_ng, junus_eu, lim_wei_liang, marcus_wong, monika_mehta, nathaniel_yim, pantha_roy, patrick_hizon, pek_yun_ning, rebecca_yip, sakura_seet, somsubhra_ganchoudhuri, steffan_fung, tan_mei_ping, thibaut_briere,
   vinod_vasnani, paul_kan, adam_chee, lim_wai_mun, natasha_syed, douglas_peris,
   groundzero,
@@ -184,6 +231,7 @@ export {
   mercure_stevens,
   river_venture_studio,
   lumos,
+  exs_capital,
   data_tech,
   finance,
   health_and_wellness,
@@ -214,4 +262,19 @@ export {
   ruslan_enikeev,
   russ_neu,
   shaw_bee_chung,
+  phase_zero_1,
+  phase_zero_2,
+  phase_zero_3,
+  phase_zero_4,
+  phase_zero_5,
+  phase_zero_6,
+  phase_zero_7,
+  phase_zero_8,
+  phase_zero_9,
+  phase_zero_10,
+  phase_zero_11,
+  phase_zero_12,
+  phase_zero_13,
+  phase_zero_14,
+  greg_lewis, joep_uijttewaal, eric, steve_ng,
 };

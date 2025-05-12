@@ -12,6 +12,7 @@ import DisplayIcon from "./UnusedComponents/DisplayIcon";
 import Faq from "./HomePageComponents/Faq";
 import Footer from "./Utility/Footer";
 import MentorGrid from "./StakeholdersPageComponents/MentorGridComponents.jsx/MentorGrid.jsx";
+import MentorsByCategorySection from "./StakeholdersPageComponents/MentorGridComponents.jsx/MentorsByCategorySection.jsx";
 import NavigationBar from "./Utility/NavigationBar";
 import StakeholdersPage from "../pages/StakeholdersPage";
 import PastEvents from "./SponsorsPageComponents/PastEvents";
@@ -37,8 +38,10 @@ import HomePage from "../pages/HomePage.jsx";
 import SponsorsTier from "./SponsorsPageComponents/SponsorsTier.jsx";
 import Panelists from "./StakeholdersPageComponents/PanelistsComponents.jsx/Panelists.jsx";
 import StakeholderBox from "./StakeholdersPageComponents/MentorGridComponents.jsx/MentorBox.jsx";
+import ProblemStatement from "./HomePageComponents/ProblemStatement.jsx";
 
 export {
+    MentorsByCategorySection,
     About,
     HomePageVideo,
     ContactUs,
@@ -73,4 +76,5 @@ export {
     SponsorsTier,
     Panelists,
     StakeholderBox,
+    ProblemStatement,
 };

@@ -22,7 +22,7 @@ export const Accordion = ({ section }) => {
 export const ExpendableColumn = ({ question, isOpen, toggle }) => {
   return (
     <div className="column-container" onClick={toggle}>
-      <div className="column-text">{question}</div>
+      <div className="column-text text-md md:text-xl">{question}</div>
       <button className="expendable-button">
         <span
           className = "material-symbols-outlined"
@@ -41,7 +41,7 @@ export const ExpendableColumn = ({ question, isOpen, toggle }) => {
 export const TextSection = ({ text }) => {
   return (
     <div className="text-container">
-      <div>{text}</div>
+      <div className = "text-sm md:text-xl">{text}</div>
     </div>
   );
 };

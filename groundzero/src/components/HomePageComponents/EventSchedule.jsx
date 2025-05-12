@@ -9,11 +9,11 @@ function EventSchedule() {
   return (
     <div id="phases" className="w-full relative">
       <div className={`${styles.paddingX} ${styles.paddingY} text-center justify-center flex flex-col items-center`}>
-        <h2 className={styles.heading7 + " pb-14"}>SCHEDULE</h2>
-        <h2 className="text-white font-poppins font-lighter md:text-2xl text-xl xs:px-16 lg:px-40 z-10">
+        <h2 className={styles.heading7 + " pb-8 md:pb-14"}>SCHEDULE</h2>
+        <h2 className="text-white font-poppins font-lighter md:text-2xl text-sm xs:px-16 lg:px-40 z-10">
           Ground Zero takes place from 13 May to 19 May. However, only Day 1 and Day 7 are mandatory for participants.
         </h2>
-        <div className="mt-14"></div>
+        <div className="mt-8 md:mt-14"></div>
         {/* Mobile view: Tabs (show on default, hide on md and above) */}
         <div className="block xl:hidden w-full">
           <EventScheduleTabs />

@@ -45,18 +45,18 @@ const Phases = () => {
     {
       image: beyondZeroImage,
       backgroundImage: pastEvent14,
-      description: "In collaboration with The Hanger, Ground Zero can provide support for your winning idea and make it into a reality!",
+      description: "In collaboration with Beyond Ground Zero partners, Ground Zero can provide support for your winning idea and make it into a reality!",
     },
   ];
 
   return (
     <div id="phases" className="w-full relative">
     <div className={`${styles.paddingX} ${styles.paddingY} text-center justify-center flex flex-col items-center`}>
-      <h2 className={styles.heading7 + " pb-14"}>PHASES</h2>
-      <h2 className="text-white font-poppins font-lighter md:text-2xl text-xl xs:px-16 lg:px-40 z-10">
+      <h2 className={styles.heading7 + " pb-8 md:pb-14"}>PHASES</h2>
+      <h2 className="text-white font-poppins font-lighter md:text-2xl text-sm xs:px-16 lg:px-40 z-10">
         Expanding our trajectory beyond the conventional Starthaton, we introduce our unique extensions to Ground Zero: Phase Zero and Beyond Zero.
       </h2>
-      <br></br><br></br><br></br>
+      <br></br><br></br><br className="hidden md:block"></br>
       <div className="flex flex-wrap justify-center">
         {phaseInfo.map((phase, index) => (
           <Phase 

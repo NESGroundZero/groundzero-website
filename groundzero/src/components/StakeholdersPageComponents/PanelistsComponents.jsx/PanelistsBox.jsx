@@ -7,8 +7,9 @@ const PanelistsBox = ({ stakeholder, hoverColor = "#0077B5" }) => {
       {/* Stakeholder Image */}
       <img 
         src={stakeholder.imgsrc}
-        className="object-fit w-60 h-60 ss:w-60 ss:h-60 sm:w-80 sm:h-80 md:w-64 md:h-64 lg:w-60 lg:h-60"
+        className="object-cover w-60 h-60 ss:w-60 ss:h-60 sm:w-80 sm:h-80 md:w-64 md:h-64 lg:w-60 lg:h-60"
         alt={stakeholder.title}
+        loading='lazy'
       />
 
       {/* Description Overlay */}
@@ -36,13 +37,13 @@ const PanelistsBox = ({ stakeholder, hoverColor = "#0077B5" }) => {
           
           {/* Top gradient for LinkedIn icon with hex color */}
           <div 
-            className="w-full h-1/3 absolute text-left top-0 right-0"
+            className="w-full h-1/4 absolute text-left top-0 right-0"
             style={{ 
-              background: `linear-gradient(to bottom, ${hoverColor} 0%, transparent 60%)` 
+              // background: `linear-gradient(to bottom, ${hoverColor} 0%, transparent 100%)` 
             }}
           >
             <a href={stakeholder.personalLink} target="_blank" rel="noopener noreferrer" className="absolute p-4 top-0 right-0 hover:scale-110 transition ease-in-out delay-75">
-              <img src={linkedin} className="h-[25px]" alt="LinkedIn" />
+              <img src={linkedin} className="h-[20px] md:h-[25px]" alt="LinkedIn" />
             </a>
           </div>
         </div>

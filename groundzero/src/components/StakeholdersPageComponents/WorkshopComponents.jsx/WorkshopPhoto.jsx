@@ -14,7 +14,7 @@ const WorkshopPhoto = ({ photo, name, link }) => {
           alt={name} 
           className="w-full h-full object-cover object-center rounded-lg transform transition-transform duration-300 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-blue1/30 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+        <div className="absolute inset-0 bg-blue1/30 opacity-0 hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
         </div>
       </a>
     </div>

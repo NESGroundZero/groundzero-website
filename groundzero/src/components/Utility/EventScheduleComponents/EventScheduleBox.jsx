@@ -13,7 +13,7 @@ const EventScheduleBox = ({ timeText, eventName, details }) => {
 
     return (
         <div
-            className={`relative w-full max-w-xs bg-white p-4 border-4 transition-all duration-500 ease-in-out
+            className={`relative w-full max-w-2xs md:max-w-xs bg-white p-3 md:p-4 border-4 transition-all duration-500 ease-in-out
                 ${isHovered ? 'border-blue1 shadow-2xl shadow-blue1/50' : 'border-gray-400'}
                 cursor-pointer touch-manipulation`} 
                 onMouseEnter={() => setIsHovered(true)}
@@ -24,8 +24,8 @@ const EventScheduleBox = ({ timeText, eventName, details }) => {
             tabIndex={0}
         >            
         <div className="flex flex-col space-y-2">
-                <span className="text-sm text-gray-900">{timeText}</span>
-                <h3 className="text-lg font-semibold text-blue2">{eventName}</h3>
+                <span className="text-xs md:text-sm text-gray-900">{timeText}</span>
+                <h3 className="text-sm md:text-lg font-semibold text-blue2">{eventName}</h3>
                 
                 {/* Details section that appears on hover */}
                 <div 
@@ -33,7 +33,7 @@ const EventScheduleBox = ({ timeText, eventName, details }) => {
                         isHovered ? 'max-h-40' : 'max-h-0'
                     }`}
                 >
-                    <p className="text-sm text-gray-600">{details}</p>
+                    <p className="text-xs md:text-sm text-gray-600">{details}</p>
                 </div>
             </div>
 
